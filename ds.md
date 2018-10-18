@@ -46,11 +46,16 @@ Create an Interactive Session
 ----
 
 * Data collection : all inof about product A
+
 * Feature Extraction: choose features realted to the ouput t (reduce time, cost ...)
+
 * Cleaning & Integration: 
   * keep/ measure/ delete missing data
   * remove outliers
   * if there is more than one dataset 
+
+  ---
+
 
 | TD   | -                                   |
 | ---- | ----------------------------------- |

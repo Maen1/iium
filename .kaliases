@@ -1,0 +1,18 @@
+# ====git==== #
+alias ga="git add ."
+alias gc="git commit -m "
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gs="git status"
+
+# ===folders=== #
+alias mlu="cd ~/code/machine_learning/udacity"
+alias mls="cd ~/code/machine_learning/sentdex"
+alias mlc="cd ~/code/machine_learning/coursera"
+
+
+
+
+alias gc_ins="ssh -i .ssh/id_rsa mk.maen93@35.187.248.4"
+alias gc_cnn="ssh -i .ssh/id_rsa mk.maen93@35.201.31.249"

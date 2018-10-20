@@ -1,7 +1,8 @@
-\documentclass[12pt]{report}  
+\documentclass[12pt]{report}
+    \usepackage{url}
+    \usepackage{caption}
     \usepackage{mathptmx} 
     \usepackage{graphicx}
-    \usepackage{caption}
     \usepackage{subcaption}
     \usepackage[a4paper, total={6in, 8in}]{geometry}
     \geometry{margin=1in}
@@ -67,7 +68,7 @@
             to have sufficient computation efficiency and memory requirement.
             According to the paper the accuracy achieved was 97.1\% in the images with simple backgrounds
             and 85.3\% in the images with complex backgrounds.
-            However the main disadvantage of of the proposed algorithm
+            However, the main disadvantage of of the proposed algorithm
             is the training set which only includes 7 different gestures,
             and it tends to have bad accuracy with complex backgrounds.
              
@@ -84,5 +85,18 @@
                 \end{figure}
                 \newpage
                 \paragraph{}
-                
+                G.Anantha Rao, K.Syamala , P.V.V.Kishore, A.S.C.S.Sastry, (2018)
+                proposed a CNN architecture for classifying selfie sign language gestures. 
+                The CNN architecture is designed with four convolutional layers. Each convolutional 
+                layer with different filtering window sizes as shown in figure \ref{fig:selfie}  
+                They had a dataset with five different subjects performing 200 signs in 5 different viewing angles 
+                under various background environments. Each sign occupied for 60 frames or images in a video.
+                The proposed model performed training on 3 batches to test the robustness of different training mode 
+                using caffe deep learning framework. However, the result accuracy was 92.88\% need more training and improvements. 
+    
+                    \begin{figure}
+                        \centering
+                        \includegraphics[width=\textwidth]{./images/selfie.png}
+                        \caption{Proposed Deep CNN architecture}\label{fig:selfie}
+                    \end{figure}
     \end{document}

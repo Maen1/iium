@@ -62,22 +62,27 @@
             (2017) proposed a Deep convolutional neural network algorithm for hand-gesture recognition
             without hand localisation, since the hands only occupy about 10\% of the image.
             They used a combination of 9 convolution layers, 3 fully connected layers, interlaced with ReLU 
-            (Rectified Linear Unit) and dropout layers.
+            (Rectified Linear Unit) and dropout layers as shown in figure ~\ref{fig:tiny_architecture}.
+            alongside this architecture the apply some image processing techniques
+            to have sufficient computation efficiency and memory requirement.
+            According to the paper the accuracy achieved was 97.1\% in the images with simple backgrounds
+            and 85.3\% in the images with complex backgrounds.
+            However the main disadvantage of of the proposed algorithm
+            is the training set which only includes 7 different gestures,
+            and it tends to have bad accuracy with complex backgrounds.
+             
             
                 \begin{figure}
                     \centering
-                    \begin{minipage}{.5\textwidth}
-                      \centering
-                      \includegraphics[width=.4\linewidth]{./images/tiny_a.png}
-                      \captionof{figure}{A figure}
-                      \label{fig:test1}
-                    \end{minipage}%
-                    \begin{minipage}{.5\textwidth}
-                      \centering
-                      \includegraphics[width=.4\linewidth]{./images/tiny_b.png}
-                      \captionof{figure}{Another figure}
-                      \label{fig:test2}
-                    \end{minipage}
+                    \begin{subfigure}[a]{0.5\textwidth}
+                    \includegraphics[width=\textwidth]{./images/tiny_a.png}
+                    \end{subfigure}
+                    \begin{subfigure}[b]{0.3\textwidth}
+                    \includegraphics[width=\textwidth]{./images/tiny_b.png}
+                    \end{subfigure}
+                    \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
                 \end{figure}
-
+                \newpage
+                \paragraph{}
+                
     \end{document}

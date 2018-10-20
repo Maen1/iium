@@ -1,5 +1,8 @@
 \documentclass[12pt]{report}  
     \usepackage{mathptmx} 
+    \usepackage{graphicx}
+    \usepackage{caption}
+    \usepackage{subcaption}
     \usepackage[a4paper, total={6in, 8in}]{geometry}
     \geometry{margin=1in}
     \parindent0pt  
@@ -55,6 +58,26 @@
             to achieve the project's objectives. 
         \section{Previous works}
             \paragraph{}
+            Peijun Bao, Ana I. Maqueda, Carlos R. del-Blanco, and Narciso Garcia, 
+            (2017) proposed a Deep convolutional neural network algorithm for hand-gesture recognition
+            without hand localisation, since the hands only occupy about 10\% of the image.
+            They used a combination of 9 convolution layers, 3 fully connected layers, interlaced with ReLU 
+            (Rectified Linear Unit) and dropout layers.
             
+                \begin{figure}
+                    \centering
+                    \begin{minipage}{.5\textwidth}
+                      \centering
+                      \includegraphics[width=.4\linewidth]{./images/tiny_a.png}
+                      \captionof{figure}{A figure}
+                      \label{fig:test1}
+                    \end{minipage}%
+                    \begin{minipage}{.5\textwidth}
+                      \centering
+                      \includegraphics[width=.4\linewidth]{./images/tiny_b.png}
+                      \captionof{figure}{Another figure}
+                      \label{fig:test2}
+                    \end{minipage}
+                \end{figure}
 
     \end{document}

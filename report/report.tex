@@ -39,7 +39,7 @@
         In this study, the focus will be on hand gestures detection and live tracking. 
         \section{Problem Statement}
         \paragraph{}
-        The communication between disabled and other people is
+        The communication between hearing-impaired and other people is
         a really huge gab need to be filled up.
         In order to overcome this challenge many researches and products have been developed to solve these problem, 
         but there is a lot to be enhanced.
@@ -53,38 +53,39 @@
     \chapter{Literature review}
         \section{Introduction}
             \paragraph{}
-            This chapter includes reviews of other previous researcher
-            and their proposed methods they used in implementing deep learning
-            to recognize hand gestures. These researches will help to grasp the knowledge
-            to achieve the project's objectives. 
+                This chapter includes reviews of other previous researcher
+                and their proposed methods they used in implementing deep learning
+                to recognize hand gestures. These researches will help to grasp the knowledge
+                to achieve the project's objectives. 
+                
         \section{Previous works}
             \paragraph{}
-            Peijun Bao, Ana I. Maqueda, Carlos R. del-Blanco, and Narciso Garcia, 
-            (2017) proposed a Deep convolutional neural network algorithm for hand-gesture 
-            recognition without hand localisation, since the hands only occupy about 10\% of 
-            the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
-            interlaced with ReLU(Rectified Linear Unit) and dropout layers as shown in 
-            figure \ref{fig:tiny_architecture}. Alongside this architecture the apply some image 
-            processing techniques to have sufficient computation efficiency and memory requirement.
-            According to the paper the accuracy achieved was 97.1\% in the images with simple backgrounds
-            and 85.3\% in the images with complex backgrounds.However, the main disadvantage of of 
-            the proposed algorithm is the training set which only includes 7 different gestures,
-            and it tends to have bad accuracy with complex backgrounds.
+                Peijun Bao, Ana I. Maqueda, Carlos R. del-Blanco, and Narciso Garcia, 
+                (2017) proposed a Deep convolutional neural network algorithm for hand-gesture 
+                recognition without hand localisation, since the hands only occupy about 10\% of 
+                the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
+                interlaced with ReLU(Rectified Linear Unit) and dropout layers as shown in 
+                figure \ref{fig:tiny_architecture}. Alongside this architecture the apply some image 
+                processing techniques to have sufficient computation efficiency and memory requirement.
+                According to the paper the accuracy achieved was 97.1\% in the images with simple backgrounds
+                and 85.3\% in the images with complex backgrounds.However, the main disadvantage of of 
+                the proposed algorithm is the training set which only includes 7 different gestures,
+                and it tends to have bad accuracy with complex backgrounds.
              
-                \begin{figure}
-                    \centering
-                    \begin{subfigure}[a]{0.5\textwidth}
-                    \includegraphics[width=\textwidth]{./images/tiny_a.png}
-                    \end{subfigure}
-                    \begin{subfigure}[b]{0.3\textwidth}
-                    \includegraphics[width=\textwidth]{./images/tiny_b.png}
-                    \end{subfigure}
-                    \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
-                \end{figure}
+                    \begin{figure}
+                        \centering
+                        \begin{subfigure}[a]{0.5\textwidth}
+                          \includegraphics[width=\textwidth]{./images/tiny_a.png}
+                        \end{subfigure}
+                        \begin{subfigure}[b]{0.3\textwidth}
+                            \includegraphics[width=\textwidth]{./images/tiny_b.png}
+                        \end{subfigure}
+                        \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
+                    \end{figure}
 
                 \newpage
 
-                \paragraph{}
+            \paragraph{}
                 G.Anantha Rao, K.Syamala , P.V.V.Kishore, A.S.C.S.Sastry, (2018)
                 proposed a CNN architecture for classifying selfie sign language gestures. 
                 The CNN architecture is designed with four convolutional layers. Each convolutional 
@@ -100,9 +101,10 @@
                         \caption{Proposed Deep CNN architecture}
                         \label{fig:selfie}
                     \end{figure}
-                    \newpage
+
+                 \newpage
             
-                \paragraph{}
+            \paragraph{}
                 Soeb Hussain, Rupal Saxena Xie Han, Jameel Ahmed Khan, Prof. Hyunchul Shin, (2018)
                 introduced a CNN based classifier  trained through the process of transfer learning
                 over a pretrained convolutional neural network which is trained on a large dataset.
@@ -115,15 +117,41 @@
                     \begin{figure}[h]
                         \centering
                         \includegraphics[width=\textwidth]{images/vgg16.png}
-                        \caption{VGG16 architecture}
+                        \caption{VGG16 architecture. Retrieved from www.cs.toronto.edu}
                         \label{fig:vgg16}
                     \end{figure}
                     \begin{figure}[h]
                         \centering
                         \includegraphics[width=\textwidth]{images/alexnet.png}
-                        \caption{VGG16 architecture}
+                        \caption{VGG16 architecture. Retrieved from www.saagie.com}
                         \label{fig:alexnet}
                     \end{figure}
+
+                \newpage
+
+            \section{Summary}
+                \paragraph{}
+                    This chapter illustrates some works have been done previously on
+                    hand gesture and sign language recognition using deep learning.
+                    Table \ref{table:summary} the Summary of the literature review.
+                    
+                    \begin{center}
+                        \begin{table}[h]
+                            \caption{Summary of the literature review}
+                            \begin{tabular}{ |p{7cm}|p{2cm}|p{2cm}|p{3cm}| }
+                                \hline
+                                Title & Year & Accuracy & Software\\
+                                \hline
+                                Tiny Hand Gesture Recognition without Localization via a Deep Convolutional Network & 2017 & 97.1\%& CNN \\
+                                \hline
+                                Deep Convolutional Neural Networks for Sign Language Recognition & 2018 & 92.88\% & CNN \\
+                                \hline
+                                Hand Gesture Recognition Using Deep Learning & 2017 & 93.09\% & CNN VGG16 \\
+                                \hline
+                            \end{tabular}
+                            \label{table:summary}
+                        \end{table}
+                    \end{center}
                     
                 
     \end{document}

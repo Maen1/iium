@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  20 OCT 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  21 OCT 2018 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,12 +294,12 @@ Chapter 2.
 <./images/tiny_a.png, id=18, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
-Package pdftex.def Info: ./images/tiny_a.png  used on input line 79.
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 77.
 (pdftex.def)             Requested size: 226.48395pt x 281.73296pt.
 <./images/tiny_b.png, id=20, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 82.
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 80.
 (pdftex.def)             Requested size: 135.89174pt x 136.66747pt.
 [3
 
@@ -309,20 +309,31 @@ File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
 Package pdftex.def Info: ./images/selfie.png  used on input line 99.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
- [4 <./images/tiny_a.png> <./images/tiny_b.png> <./images/selfie.png>] (./report.aux) ) 
+ [4 <./images/tiny_a.png> <./images/tiny_b.png> <./images/selfie.png>]
+<images/vgg16.png, id=31, 471.7625pt x 277.035pt>
+File: images/vgg16.png Graphic file (type png)
+<use images/vgg16.png>
+Package pdftex.def Info: images/vgg16.png  used on input line 117.
+(pdftex.def)             Requested size: 452.9679pt x 266.0013pt.
+<images/alexnet.png, id=32, 123.3408pt x 50.95035pt>
+File: images/alexnet.png Graphic file (type png)
+<use images/alexnet.png>
+Package pdftex.def Info: images/alexnet.png  used on input line 123.
+(pdftex.def)             Requested size: 452.9679pt x 187.15665pt.
+ [5 <./images/vgg16.png (PNG copy)> <./images/alexnet.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3313 strings out of 492649
- 52426 string characters out of 6129622
- 113124 words of memory out of 5000000
- 7151 multiletter control sequences out of 15000+600000
+ 3326 strings out of 492649
+ 52651 string characters out of 6129622
+ 113144 words of memory out of 5000000
+ 7161 multiletter control sequences out of 15000+600000
  30583 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,39p,301b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (6 pages, 860263 bytes).
+Output written on report.pdf (7 pages, 972594 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

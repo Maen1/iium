@@ -60,19 +60,17 @@
         \section{Previous works}
             \paragraph{}
             Peijun Bao, Ana I. Maqueda, Carlos R. del-Blanco, and Narciso Garcia, 
-            (2017) proposed a Deep convolutional neural network algorithm for hand-gesture recognition
-            without hand localisation, since the hands only occupy about 10\% of the image.
-            They used a combination of 9 convolution layers, 3 fully connected layers, interlaced with ReLU 
-            (Rectified Linear Unit) and dropout layers as shown in figure ~\ref{fig:tiny_architecture}.
-            alongside this architecture the apply some image processing techniques
-            to have sufficient computation efficiency and memory requirement.
+            (2017) proposed a Deep convolutional neural network algorithm for hand-gesture 
+            recognition without hand localisation, since the hands only occupy about 10\% of 
+            the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
+            interlaced with ReLU(Rectified Linear Unit) and dropout layers as shown in 
+            figure \ref{fig:tiny_architecture}. Alongside this architecture the apply some image 
+            processing techniques to have sufficient computation efficiency and memory requirement.
             According to the paper the accuracy achieved was 97.1\% in the images with simple backgrounds
-            and 85.3\% in the images with complex backgrounds.
-            However, the main disadvantage of of the proposed algorithm
-            is the training set which only includes 7 different gestures,
+            and 85.3\% in the images with complex backgrounds.However, the main disadvantage of of 
+            the proposed algorithm is the training set which only includes 7 different gestures,
             and it tends to have bad accuracy with complex backgrounds.
              
-            
                 \begin{figure}
                     \centering
                     \begin{subfigure}[a]{0.5\textwidth}
@@ -83,7 +81,9 @@
                     \end{subfigure}
                     \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
                 \end{figure}
+
                 \newpage
+
                 \paragraph{}
                 G.Anantha Rao, K.Syamala , P.V.V.Kishore, A.S.C.S.Sastry, (2018)
                 proposed a CNN architecture for classifying selfie sign language gestures. 
@@ -94,9 +94,36 @@
                 The proposed model performed training on 3 batches to test the robustness of different training mode 
                 using caffe deep learning framework. However, the result accuracy was 92.88\% need more training and improvements. 
     
-                    \begin{figure}
+                    \begin{figure}[h]
                         \centering
                         \includegraphics[width=\textwidth]{./images/selfie.png}
-                        \caption{Proposed Deep CNN architecture}\label{fig:selfie}
+                        \caption{Proposed Deep CNN architecture}
+                        \label{fig:selfie}
                     \end{figure}
+                    \newpage
+            
+                \paragraph{}
+                Soeb Hussain, Rupal Saxena Xie Han, Jameel Ahmed Khan, Prof. Hyunchul Shin, (2018)
+                introduced a CNN based classifier  trained through the process of transfer learning
+                over a pretrained convolutional neural network which is trained on a large dataset.
+                We are using VGG16 figure \ref{fig:vgg16} as the pretrained model.
+                The According to the paper the accuracy was 93.09\%,while using AlexNet 
+                figure \ref{fig:alexnet} was 76.96\%. the same problem here with the other papers 
+                which is the small number of sign that begin trained on 7 signs, and the accuracy
+                need to be improved as well.
+
+                    \begin{figure}[h]
+                        \centering
+                        \includegraphics[width=\textwidth]{images/vgg16.png}
+                        \caption{VGG16 architecture}
+                        \label{fig:vgg16}
+                    \end{figure}
+                    \begin{figure}[h]
+                        \centering
+                        \includegraphics[width=\textwidth]{images/alexnet.png}
+                        \caption{VGG16 architecture}
+                        \label{fig:alexnet}
+                    \end{figure}
+                    
+                
     \end{document}

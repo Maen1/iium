@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1540030684 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1540030685
-  "/Users/Maen/iium/report/report.tex" 1540030684 5587 459cd9e3b3b2f3ae87907a9e5a55ec5b ""
+["pdflatex"] 1540096763 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1540096764
+  "/Users/Maen/iium/report/report.tex" 1540096763 6977 dafbe79c9a706265da8dc4a371894424 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -58,14 +58,16 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1538658665 4220280 52035f3301fd477b2437b86544268e5b ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "images/alexnet.png" 1540096595 71679 bc87ebdade4fabf777fff9d3913aa99d ""
   "images/selfie.png" 1540028009 367638 b35e6b0c79b9b40d297fd95eafc55406 ""
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
-  "report.aux" 1540030685 1320 c355373a4725eed4e84cb6f85fe54e40 ""
-  "report.tex" 1540030684 5587 459cd9e3b3b2f3ae87907a9e5a55ec5b ""
-  "report.toc" 1540030685 565 c4fcf1330bc512ba083db755ea5b2304 ""
+  "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
+  "report.aux" 1540096764 1641 bbf843b6800ba41391521c9ec632cdd9 ""
+  "report.tex" 1540096763 6977 dafbe79c9a706265da8dc4a371894424 ""
+  "report.toc" 1540096764 596 84d2cd05e00a6cc3c0bfb27c88e6525e ""
   (generated)
-  "report.aux"
   "report.toc"
-  "report.log"
+  "report.aux"
   "report.pdf"
+  "report.log"

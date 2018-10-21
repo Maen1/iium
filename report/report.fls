@@ -149,6 +149,12 @@ INPUT ./images/tiny_b.png
 INPUT ./images/selfie.png
 INPUT ./images/selfie.png
 INPUT ./images/selfie.png
+INPUT images/vgg16.png
+INPUT ./images/vgg16.png
+INPUT ./images/vgg16.png
+INPUT images/alexnet.png
+INPUT ./images/alexnet.png
+INPUT ./images/alexnet.png
 INPUT report.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

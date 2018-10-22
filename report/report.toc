@@ -3,7 +3,7 @@
 \contentsline {paragraph}{}{1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{1}
 \contentsline {paragraph}{}{1}
-\contentsline {section}{\numberline {1.3}Objectives}{1}
+\contentsline {section}{\numberline {1.3}Objectives}{2}
 \contentsline {section}{\numberline {1.4}Scope}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {section}{\numberline {1.5}Significance}{2}

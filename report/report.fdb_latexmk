@@ -1,6 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1540174565 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1540174567
-  "/Users/Maen/iium/report/report.tex" 1540174565 10222 de46424bda80250f0351d4fd539eb1d0 ""
+["bibtex report"] 1540177678 "report.aux" "report.bbl" "report" 1540177679
+  "/usr/local/texlive/2018/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "report.aux" 1540177679 2417 c1788280726e0a838fb6726696a8201a ""
+  "scope.bib" 1540176683 288 ea89059a3ae22cf54ce4a8b51c01d348 ""
+  (generated)
+  "report.bbl"
+  "report.blg"
+["pdflatex"] 1540177678 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1540177679
+  "/Users/Maen/iium/report/report.tex" 1540177674 11345 4b0c70e5039e40af558930d9d929ce26 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -8,6 +15,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1480098689 2124 2601a75482e9426d33db523edf23570a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1480098689 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1480098689 2288 f478fc8fed18759effb59f3dad7f3084 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1480098689 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm" 1480098689 2232 db256afffc8202da192b4641df14d602 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm" 1480098689 2172 1d00c2a0d10f23031be62329457a870c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm" 1480098689 1032 20febbd0f0c9a48eb78616f897008286 ""
@@ -17,8 +25,10 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1480098746 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1480098746 46026 6dab18b61c907687b520c72847215a68 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1480098746 45458 a3faba884469519614ca56ba5f6b1de1 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1480098758 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1480098758 1380 0ea3a3370054be6da6acd929ec569f06 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1480098758 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1480098815 7612 729a8cc22a1ee0029997c7f74717ae05 ""
@@ -138,11 +148,12 @@
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1540174566 2330 f5bc62a2a886b5706dff5520097abeca ""
-  "report.tex" 1540174565 10222 de46424bda80250f0351d4fd539eb1d0 ""
-  "report.toc" 1540174566 905 04fed8a0ea710e1fa50e197b0f44c6a8 ""
+  "report.aux" 1540177679 2417 c1788280726e0a838fb6726696a8201a ""
+  "report.bbl" 1540177678 243 3314f1fb3e7ac548b24f6a4941404bd9 "bibtex report"
+  "report.tex" 1540177674 11345 4b0c70e5039e40af558930d9d929ce26 ""
+  "report.toc" 1540177679 905 462ec6d48522c0da993f605010217e6a ""
   (generated)
-  "report.toc"
+  "report.log"
   "report.pdf"
   "report.aux"
-  "report.log"
+  "report.toc"

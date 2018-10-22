@@ -16,3 +16,9 @@
 * Construct the new state output.
 * Delete the ones who has no connections with the root.
 * BTW you should write the new state with mostach brackets {🐸}.
+
+## Regular Expression
+
+* $ + $ => U
+* . => .
+* nothing concatinating with anything is nothing 🧐 

@@ -22,3 +22,13 @@
 * $ + $ => U
 * . => .
 * nothing concatinating with anything is nothing 🧐 
+
+## Regular Grammers
+
+* right just go baby.
+* S -> abA empty state between S and A
+* left is sucks:
+  * S -> Aa => A -> a // we delete S I have to idea why? 
+  * B -> A => B -> A
+  * B -> Aa => A -> aB
+  * A -> a => S -> aA // S came again 🤦🏻‍♂️

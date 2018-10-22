@@ -6,6 +6,8 @@
     \usepackage{mathptmx} 
     \usepackage{graphicx}
     \usepackage{subcaption}
+    \usepackage[nottoc,notlof,notlot]{tocbibind} 
+    \renewcommand\bibname{References}            
     \usepackage[a4paper, total={6in, 8in}]{geometry}
    
     \definecolor{tail}{RGB}{26, 188, 156}
@@ -208,6 +210,6 @@
         \newpage
         
                     
-        \bibliographystyle{plain}
-        \bibliography{scope.bib}            
+        \bibliographystyle{abbrv}
+        \bibliography{scope.bib}
     \end{document}

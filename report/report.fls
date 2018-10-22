@@ -147,6 +147,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty

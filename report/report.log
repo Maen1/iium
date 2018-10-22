@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  21 OCT 2018 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  22 OCT 2018 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,12 +513,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 55.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
  [1
 
 ] [2]
@@ -526,12 +526,12 @@ Chapter 2.
 <./images/tiny_a.png, id=21, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
-Package pdftex.def Info: ./images/tiny_a.png  used on input line 109.
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 114.
 (pdftex.def)             Requested size: 226.48395pt x 281.73296pt.
 <./images/tiny_b.png, id=23, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 112.
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 117.
 (pdftex.def)             Requested size: 135.89174pt x 136.66747pt.
 [3
 
@@ -539,18 +539,18 @@ Package pdftex.def Info: ./images/tiny_b.png  used on input line 112.
 <./images/selfie.png, id=27, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
-Package pdftex.def Info: ./images/selfie.png  used on input line 131.
+Package pdftex.def Info: ./images/selfie.png  used on input line 136.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
  [4 <./images/tiny_a.png> <./images/tiny_b.png> <./images/selfie.png>]
 <images/vgg16.png, id=34, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
-Package pdftex.def Info: images/vgg16.png  used on input line 150.
+Package pdftex.def Info: images/vgg16.png  used on input line 155.
 (pdftex.def)             Requested size: 452.9679pt x 266.0013pt.
 <images/alexnet.png, id=35, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
-Package pdftex.def Info: images/alexnet.png  used on input line 156.
+Package pdftex.def Info: images/alexnet.png  used on input line 161.
 (pdftex.def)             Requested size: 452.9679pt x 187.15665pt.
  [5 <./images/vgg16.png (PNG copy)> <./images/alexnet.png>] [6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
@@ -562,7 +562,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,454b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (8 pages, 977202 bytes).
+Output written on report.pdf (8 pages, 977300 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream

@@ -1,18 +1,33 @@
-# ====git==== #
+# === git === #
 alias ga="git add ."
 alias gc="git commit -m "
 alias gp="git push"
-alias gl="git pull"
+alias gpl="git pull"
 alias gd="git diff"
 alias gs="git status"
+alias nah="git reset --hard && git clean -df"
 
-# ===folders=== #
+# === phpunit === #
+alias pu="vendor/bin/phpunit"
+alias pf="vendor/bin/phpunit --filter "
+
+
+
+# === folders === #
 alias mlu="cd ~/code/machine_learning/udacity"
 alias mls="cd ~/code/machine_learning/sentdex"
 alias mlc="cd ~/code/machine_learning/coursera"
 
 
-
+# === apps === #
+alias typora="open -a typora"
 
 alias gc_ins="ssh -i .ssh/id_rsa mk.maen93@35.187.248.4"
-alias gc_cnn="ssh -i .ssh/id_rsa mk.maen93@35.201.31.249"
+alias gc_cnn="ssh -i .ssh/id_rsa mk.maen93@35.189.47.145"
+
+# === google drive === #
+function gdrive_download () {
+  CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=$1" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')
+  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
+  rm -rf /tmp/cookies.txt
+}

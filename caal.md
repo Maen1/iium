@@ -46,7 +46,9 @@ Computer Architecture and Assembly Language
 
 ### Performance equation 1
 
-​	CPU execution time for a program = CPU clock time  x clock cycle time
+​	CPU execution time for a program = CPU clock time  x clock cycle time 
+
+or   CPU execution time for a program = CPU clock time  / clock cycle rate 
 
 ### To imporve performance	
 
@@ -62,9 +64,11 @@ Computer Architecture and Assembly Language
 
 CPI  = CPU Clock Cycles / Instruction Count
 
+CPU Clock Cycles = CPI * I
+
 ### Performance equation 2
 
-​	CPU execution time for a program = Instuction count for a program x average (CPI) x clock cycle time
+​	CPU execution time  = Instuction count  x average (CPI) x clock cycle time
 
 ​	$ \frac{P_A}{P_B}= \frac{EX_B}{EX_A} $	; EX : excution time 
 
@@ -76,7 +80,9 @@ $CPU \text{ Clock Cycles} = \sum_{i=1}^{n} CPI_i * C_i$ ; Ci number of instructi
 
 > MIPS: A measurement of program excution speed based on the number of million instuctions.
 >
-> $ MIPS = \frac{\text{Instruction cont}}{\text{Excution time x } 10^6}$
+> $ MIPS = \frac{\text{Instruction cont}}{\text{Excution time x } 10^6} = \frac{\text{clock rate}}{\text{CPI x} 10^6}$
+>
+>  
 
 ----
 

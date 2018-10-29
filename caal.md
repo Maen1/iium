@@ -289,6 +289,128 @@ $ 6 * 10^3 * 4 * 10^2  = $
 > Multiply the dividend by the inverse
 > of the divisor
 
+## Leaf Procedure
+
+```c
+int leaf_example (int g, h, i, j)
+{ int f;
+ f = (g + h) - (i + j);
+ return f;
+} 
+```
+
+```assembly
+leaf_example:
+	# Save $s0 on stack
+	addi $sp, $sp, -4 
+	sw $s0, 0($sp) 
+	
+	# Procedure body
+	add $t0, $a0, $a1
+	add $t1, $a2, $a3
+ 	sub $s0, $t0, $t1
+ 	
+ 	# Result
+ 	add $v0, $s0, $zero
+ 	
+ 	# Restore $s0
+ 	lw $s0, 0($sp) 
+ 	addi $sp, $sp, 4
+ 	
+ 	# Return 
+ 	jr $ra
+ 	
+```
+
+
+
+## Non leaf Procedure
+
+```c
+int fact (int n)
+{
+ if (n < 1) return f;
+ else return n * fact(n - 1);
+} 
+```
+
+```assembly
+fact: 
+	addi $sp, $sp, -8 # adjust stack for 2 items
+ 	sw $ra, 4($sp) # save return address
+ 	sw $a0, 0($sp) # save argument 
+ 	
+ 	slti $t0, $a0, 1 # test for n < 1
+	beq $t0, $zero, L1 
+	
+	addi $v0, $zero, 1 # if so, result is 1
+ 	addi $sp, $sp, 8 # pop 2 items from stack
+	jr $ra # and return 
+	
+	L1: addi $a0, $a0, -1 # else decrement n
+ 	jal fact # recursive call 
+ 	
+ 	lw $a0, 0($sp) # restore original n
+ 	lw $ra, 4($sp) # and return address
+ 	addi $sp, $sp, 8 # pop 2 items from stack 
+ 	
+ 	mul $v0, $a0, $v0 # multiply to get result 
+ 	 
+ 	jr $ra # and return 
+```
+
+
+
+## String copy
+
+```c
+void strcpy (char x[], char y[])
+{ int i;
+ i = 0;
+ 	while ((x[i]=y[i])!='\0')
+ 		i += 1;
+} 
+```
+
+```assembly
+strcpy: 
+    addi $sp, $sp, -4 # adjust stack for 1 item
+    sw $s0, 0($sp) # save $s0 
+
+	add $s0, $zero, $zero # i = 0
+
+L1: add $t1, $s0, $a1 # addr of y[i] in $t1
+ 	lbu $t2, 0($t1) # $t2 = y[i] 
+ 	
+ 	add $t3, $s0, $a0 # addr of x[i] in $t3
+	sb $t2, 0($t3) # x[i] = y[i] 
+	
+	beq $t2, $zero, L2 # exit loop if y[i] == 0 
+	
+	addi $s0, $s0, 1 # i = i + 1
+ 	j L1 # next iteration of loop 
+ 	
+L2: lw $s0, 0($sp) # restore saved $s0
+ 	addi $sp, $sp, 4 # pop 1 item from stack 
+ 	
+ 	jr $ra 
+```
+
+
+
+## Synchronization in MIPS 
+
+```assembly
+ 
+ add $t0,$zero,$s4 ;copy exchange value
+ ll $t1,0($s1) ;load linked
+ sc $t0,0($s1) ;store conditional
+ beq $t0,$zero,try ;branch store fails
+ add $s4,$zero,$t1 ;put load value in $s4
+```
+
+
+
 ---
 
 ---

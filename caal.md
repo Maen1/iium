@@ -346,5 +346,79 @@ MIPS code:
 * byte 0 at the leftmost(most significant) to byte 3 at the rightmost(least significant), called big-endian.
 * byte 3 at the leftmost(most significant) to byte 0 at the rightmost(least significant), called little-endian.
 
+## Instruction Format
 
+* Register (R-Type)
+  * Register-to-register instructions.
+  * Op: opeartion code specifies the format of the instruction.
+* Immediate (J-Type)
+  * 16-bits immediate constant is part in the instruction.
+* Jump(J-Type)
+  * Used by jump instructions.
+
+
+
+## Instruction Categories
+
+* Integer Arithmetic
+  * Arithmetic, logical, and shift instructions.
+* Data Transfer
+  * LOAD and STORE instructions that access memory
+  * Data Movement and conversions
+* Jump and Brach
+  * Flow-control instructions that alter the sequential sequence
+* Floating Point Arithmetic
+  * Instructions that operate on floating-point registers.
+* Miscellaneous
+  * Instructions that transfer control to/from exception handlers.
+  * Memory management instructions.
+
+## R-Type Instruction
+
+
+
+| OP        | RS                                      | Rt                                      | Rd                                              | shmt         | f                                   |
+| --------- | --------------------------------------- | --------------------------------------- | ----------------------------------------------- | ------------ | ----------------------------------- |
+| 6-bits    | 5                                       | 5                                       | 5                                               | 5            | 6                                   |
+| operation | rigester file address   of first source | rigester file address  of second source | rigester file address  of result 's destination | shift amount | function code augmenting the opcode |
+
+> addu & subu same operation as add&sub but overflow is ignored
+
+add `$t0, $t1, $t2`
+
+0000 0001 0010 1010 0100 0000 0010 0000 =0x012A4020
+
+## Logical Bitwise Instruction
+
+` and , or , xor , nor`
+
+## Shift Operations
+
+* `sll/srl`: shift left/right logical by a xonstant amount(shmt)
+
+* ` sra` shift right arithmetic by a constant amount: the sign-bit rather than 0  is shifted from the left 
+* `sllv, srl,srav` : v is for the shift amount
+
+## Binary multiplication
+
+* `sll` shift-left instruction can perform mulitplication.
+
+  `sll $t0, $s1, 2 ;  $t0 = $s1 * 4` shifted twice
+
+ex:
+
+```assembly
+#Multiply $1 by 26 (2+8+16)
+sll $t0, $s1, 1 
+sll $t1, $s1, 3 
+addu $s2, $t0, $t1 
+sll $t0, $s1, 4 
+addu $s2, $s2, $t0
+//operations
+$t0 = $s1 * 2
+$t1 = $s1 * 8 
+$s2 = $s1 * 10 
+$t0 = $s1 * 16 
+$s2 = $s1 * 26
+```
 

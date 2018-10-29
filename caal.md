@@ -422,3 +422,43 @@ $t0 = $s1 * 16
 $s2 = $s1 * 26
 ```
 
+
+
+## I-Type
+
+`addi ,andi ....`
+
+using constant 
+
+`addi $t0, $s1, 8`
+
+* `lui` (load upper immediate)if we want to load 32-bit constant into register.
+  * `lui (Rt, constant)`
+  * copies 16-bit constant ot left 16 bits of rt
+  * clear right 16 bitsof rt to 0
+    * `lui $s1,0xAC51 `
+    * `ori $s1, $s1, 0x65D9`
+
+
+
+## Load and Store Instruction
+
+```assembly
+# load word instruction (word = 4 bytes)
+lw Rt, imm^16(Rs)  # Rt <- Memory[Rs + imm^16]
+
+# store word instruction
+sw Rt, imm^16(Rs)  # Rt -> Memory[Rs + imm^16]
+```
+
+
+
+## Load and Store Byte and owrd 
+
+```assembly
+Byte
+lb, lbu (unsigned byte),sb
+Halfword
+lh, lhu, sh
+```
+

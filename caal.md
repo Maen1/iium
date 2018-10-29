@@ -281,3 +281,70 @@ $ 6 * 10^3 * 4 * 10^2  = $
 
 > Multiply the dividend by the inverse
 > of the divisor
+
+---
+
+---
+
+# Computer Language
+
+> MIPS: Microcomputer without Interlocked Pipeline Stage
+>
+> Design goal: maximize performance, minimze cost and reduce design time.
+
+*  Emulator: hardware of software or both the duplicates (emulate) the functions of computer system to another one.
+* MARS: MIPS Assembler and Runtime Simulator.
+
+## MIPS Arithmetic
+
+> operand must be in registers - only 32 registers provided(which require 5 bits to select one register)
+
+| Name    | Reg No. | Usage                                        |
+| ------- | ------- | -------------------------------------------- |
+| $zero   | 0       | the constant of 0                            |
+| $v0 -v1 | 2-3     | values for results an dexpression evaluation |
+| $a0-a3  | 4-7     | arguments                                    |
+| $t0-t7  | 8-15    | temporaries                                  |
+| $s0-s7  | 16-23   | saved                                        |
+| $t8-t9  | 24-25   | more temporaries                             |
+| $gp     | 28      | global pointer                               |
+| $sp     | 29      | stack pointer                                |
+| $fp     | 30      | frame pointer                                |
+| $ra     | 31      | return address                               |
+| $k0-k1  | 26-27   | reserved for the operating system            |
+
+### Design Principle
+
+> Smaller is faster
+
+* With more data use memory.
+* Memory viewed as large single-dimension array with access by address.
+* MIPS use word (32 bits)
+* $2^{32} $ bytes with byte address form 0 to $2^{32}-1$
+* $2^{30} $ words with byte address form 0, 4, 8, ... , $2^{32} -4$.
+
+## Load and Store Instruction
+
+> words msut be first moved from memory to registers using loads before they can operand on;
+>
+> then result can be stopred back to momory.
+
+```assembly
+C code:
+	A = h + A[8];
+////
+MIPS code:
+	load: 		lw $t0, 32($s3)
+	arithmetic: add $t0, $s2, $t0
+	sotre:      sw s$t0, 32($s3)
+```
+
+
+
+## Byte Order
+
+* byte 0 at the leftmost(most significant) to byte 3 at the rightmost(least significant), called big-endian.
+* byte 3 at the leftmost(most significant) to byte 0 at the rightmost(least significant), called little-endian.
+
+
+

@@ -5,14 +5,9 @@ Computer Architecture and Assembly Language
 ## Computer performance
 
 * Response time(elapse time, latency)
-  * How long deos it take ?
-    * for  job to run
-    * to excute (start to finish) job
-    * waiting database query
+  * How long deos it take How long it takes to do a task.
 * Throughput 
-  * How many jobs can machine run at once ?
-  * What is the average execution rate ?
-  * How much work is getting done ?
+  * Total work done per unit time 
 
 ## Execution time
 
@@ -83,6 +78,18 @@ $CPU \text{ Clock Cycles} = \sum_{i=1}^{n} CPI_i * C_i$ ; Ci number of instructi
 > $ MIPS = \frac{\text{Instruction cont}}{\text{Excution time x } 10^6} = \frac{\text{clock rate}}{\text{CPI x} 10^6}$
 >
 >  
+
+## Power Trends:
+
+> Power = Capacitive load x $Voltage^2$ x Frequency 
+
+* Power Wall
+  * We can't reduce voltage further.
+  * We can't remove more heat
+
+## Pitfall
+
+$ T_{improved} = \frac{T_{affected}}{improved factor} + T_{unaffected}$
 
 ----
 

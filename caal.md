@@ -515,3 +515,55 @@ bgt, bgtu # branch if greater than
 bge, bgeu # branch if greater or equal
 ```
 
+
+
+## Procedure
+
+* Allows the programmer to focus on just one task at a time 
+
+* Allows code to be reused.
+* Procedure Call and Return 
+  * Put parameters in a place where procedure can access(`$a0, $a3`x).
+  * Transfer control to the procedure and save return address, jump and link instruction jal( Return address saved in $ra).
+  * Perform the desired task.
+  * Put results in a place where the calling procedure can access: Two value registers to return result `$v0, $v`
+  * Return to calling procedure: jr $ra (jump to return address).
+
+
+
+## Instruction for Procedure
+
+* JAL (jump and link): used as the call instruction
+
+  * save return address $ra = PC + 4 and jump to procedure.
+  * Register `$ra = 31` is used by JAL the return address.
+
+* JR(Jump Register): used to return from a procedure
+
+  * Jump to instruction whose address is in register Rs (PC = Rs).
+
+* JALR (Jump and link Register)
+
+  * Save return address in Rd = PC+4 
+  * Jump to procedure whose address is in register Rs ( PC = Rs)
+  * Can be used to call methods ( address known only at run time)
+
+  ```assembly
+  main:
+  	addi $a1, $zero , 50
+  	addi $a2, $zero, 100
+  	jal addNumbers
+  	
+  	##
+  	li $v0, 1
+  	addi $a0, $v1, 0
+  	syscall
+  	
+  	# Tell the system that the program is done 
+  	li $v0, 10
+  	syscall
+  addNumbers:
+  	add $v1, $a1, $a2
+  	jr $ra
+  	
+  ```

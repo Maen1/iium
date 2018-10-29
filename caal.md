@@ -453,12 +453,65 @@ sw Rt, imm^16(Rs)  # Rt -> Memory[Rs + imm^16]
 
 
 
-## Load and Store Byte and owrd 
+###Load and Store Byte and owrd 
 
 ```assembly
 Byte
 lb, lbu (unsigned byte),sb
 Halfword
 lh, lhu, sh
+```
+
+
+
+## J-Type Instruction
+
+> J-Type format is used for uncoditional jump instruction.
+>
+> 26-bit immediate value is stored in instruction to specifies address of target instruction
+
+* PC(program counter): upper 4 most significant bits(unchanged) and last 2 least significant of immediate instruction.
+
+
+
+## Conditional Branch Instruction
+
+```assembly
+beq Rs, Rt, label # branch to label if (Rs == Rt)
+bne Rs, Rt, label# branch to label if (Rs != Rt)
+
+## Compare to zero
+bltz Rs, label # barnch to label if (Rs < 0)
+bgtz Rs, label # barnch to label if (Rs > 0)
+blez Rs, label # barnch to label if (Rs <= 0)
+bgez Rs, label # barnch to label if (Rs >= 0)
+```
+
+
+
+## Set on Less Than Instruction
+
+ ```assembly
+# Less than
+slt rd, rs, rt # if (rs < rt) rd =1 else rd =0
+sltu rd ,rs, rt # unsigned < 
+slti rt, rs, im^16 # if(rs < im^16) rt =1 esle rt = 0
+sltiu rt, rs, im^16 # unsigned <
+## Ex 
+# $s0 =1 , $s1 = -1
+slt $t0,$s0,$s1 # results in $t0 = 0
+sltu $t0,$s0,$s1 # results in $t0 = 1
+
+
+ ```
+
+### Extra Branch Instruction
+
+```assembly
+
+blt, bltu # branch if less than 
+ble, bleu # branch if less or equal 
+bgt, bgtu # branch if greater than 
+bge, bgeu # branch if greater or equal
 ```
 

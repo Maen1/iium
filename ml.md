@@ -1,5 +1,455 @@
 
 
+# Introduction to machine learning with r
+
+## data frame
+
+it's table of data represented with r
+
+```R
+table <- data.frame(f1 = c('atr','atr1' ),f2....., label= c('atr', 'atr1'))
+dim(table) # Observations, features
+str(table) # Structured Overview
+summary(table) # Distribution Measures min ,1st qu, median, mean, 3rd qu, max
+
+predict(model,data.frame('some attribute'))
+
+
+```
+
+## ML problems:
+
+- Classification: predict ==category== of new observation (Medical Diagnosis, Animal Recognition)
+  - Qualitative output
+  - Predefined classes
+- Regression: predict the ==value==  (Payments -> Credit Scores, Time -> Subscriptions)
+  - Fitting a linear function (predictor : weight, Response: height, Coefficient) ` lm(response ~ predictor)`
+  - Quantitative output 
+  - Previous input-ouput observations
+- Clustering: grouping objects in clusters.
+  - Similar within cluster
+  - Dissimilar between clusters 
+  - No labels
+  - No  right or wrong
+  - plenty possible clusterings
+
+### Exercise
+
+```R
+# Apply the classifier to the avg_capital_seq column: spam_pred
+spam_pred <- spam_classifier(emails$avg_capital_seq)
+
+# Compare spam_pred to emails$spam. Use ==
+spam_pred == emails$spam
+
+# Create the days vector
+days <- c(1:21)
+# or we can use seq()
+seq(from = 1, to = 1, by = ((to - from)/(length.out - 1)),
+    length.out = NULL, along.with = NULL, …)
+
+
+# the hole exercise :)
+# linkedin is already available in your workspace
+
+# Create the days vector
+days <- c(1:21)
+days
+# Fit a linear model called on the linkedin views per day: linkedin_lm
+
+linkedin_lm <- lm(linkedin ~ days)
+
+# Predict the number of views for the next three days: linkedin_pred
+future_days <- data.frame(days = 22:24)
+linkedin_pred <- predict(linkedin_lm,future_days)
+
+# Plot historical data and predictions
+plot(linkedin ~ days, xlim = c(1, 24))
+points(22:24, linkedin_pred, col = "green")
+
+#clustering 
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Chop up iris in my_iris and species
+my_iris <- iris[-5]
+species <- iris$Species
+
+# Perform k-means clustering on my_iris: kmeans_iris
+kmeans_iris <- kmeans(my_iris,3)
+
+# Compare the actual Species to the clustering using table()
+table(species,kmeans_iris$cluster)
+# Plot Petal.Width against Petal.Length, coloring by cluster
+plot(Petal.Length ~ Petal.Width, data = my_iris, col = kmeans_iris$cluster)
+```
+
+
+
+## Supervised vs. Unsupervised 
+
+- Supervised (classification and regression)
+  - Compare real label with predicted labels
+  - Predictions should be similar to real labels
+- Unsupervised (clustering)
+  - No real Labels to compare
+- Semi-Supervised 
+  - A lot of unlabeled observations
+  - A few labeled
+  - Group similar observation using clustering
+  - Using clustering information and classes of labeled observations to assign a class to unlabeled observation
+  - More labeled observations for supervised learning
+
+```R
+# Exercise1
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Take a look at the iris dataset
+str(iris)
+summary(iris)
+
+
+# A decision tree model has been built for you
+tree <- rpart(Species ~ Sepal.Length + Sepal.Width + Petal.Length + Petal.Width,
+              data = iris, method = "class")
+
+# A dataframe containing unseen observations
+unseen <- data.frame(Sepal.Length = c(5.3, 7.2),
+                     Sepal.Width = c(2.9, 3.9),
+                     Petal.Length = c(1.7, 5.4),
+                     Petal.Width = c(0.8, 2.3))
+
+# Predict the label of the unseen observations. Print out the result.
+result <- predict(tree, unseen, type="class")
+print(result)
+
+# Exercise 2
+# The cars data frame is pre-loaded
+
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Explore the cars dataset
+str(cars)
+summary(cars)
+
+# Group the dataset into two clusters: km_cars
+km_cars <- kmeans(cars, 2)
+
+# Print out the contents of each cluster
+print(km_cars$cluster)
+
+# Exercise 3
+# The cars data frame is pre-loaded
+
+# Set random seed. Don't remove this line
+set.seed(1)
+
+# Group the dataset into two clusters: km_cars
+km_cars <- kmeans(cars, 2)
+
+# Add code: color the points in the plot based on the clusters
+plot(cars,col=km_cars$cluster)
+
+# Print out the cluster centroids
+centroids <- km_cars$centers
+print(centroids)
+
+# Replace the ___ part: add the centroids to the plot
+points(centroids, pch = 22, bg = c(1, 2), cex = 2)
+
+```
+
+
+
+## Measuring model performance or error
+
+context pf task
+
+- Accuracy
+- Computation  time
+- Interpretable
+
+Ratio in the confusion matrix
+
+### Classification:
+
+| truth\prediction | P    | N    |
+| ---------------- | ---- | ---- |
+| P                | TP   | FN   |
+| N                | FP   | TN   |
+
+Accuracy = (TP+ TN)/ (TP+ TN + FP + FN )
+
+Precision = TP / (TP + FP)
+
+Recall = TP / (TP + FN)
+
+### Regression: 
+
+Root Mean Squared Error (RMSE)
+
+$ RMSE = \sqrt{1/n \sum_{i=1}^{n} (y_i - \check{y}_i )^2} $
+
+yi: actual outcome for obs. i
+
+yhati: predicted outcome for obs. i 
+
+N: numer of observations
+
+### Clustering
+
+- Similarity within each cluster :arrow_up:
+- Similarity between clusters :arrow_down:
+
+dunn's index = $ minmal inercluserdistance / maximal diameter$
+
+here we go
+
+```R
+# Exercise 1
+# The titanic dataset is already loaded into your workspace
+
+# Set random seed. Don't remove this line
+set.seed(1)
+
+# Have a look at the structure of titanic
+str(titanic)
+
+# A decision tree classification model is built on the data
+tree <- rpart(Survived ~ ., data = titanic, method = "class")
+
+# Use the predict() method to make predictions, assign to pred
+pred <- predict(tree, titanic, type="class")
+
+# Use the table() method to make the confusion matrix
+table(titanic$Survived, pred)
+
+# Exercise 2
+# The confusion matrix is available in your workspace as conf
+
+# Assign TP, FN, FP and TN using conf
+TP <- conf[1, 1] # this will be 212
+FN <- conf[1, 2] # this will be 78
+FP <- conf[2, 1]
+TN <- conf[2, 2]
+
+# Calculate and print the accuracy: acc
+acc <- (TP + TN)/(TP + TN + FP + FN)
+print(acc)
+
+# Calculate and print out the precision: prec
+
+prec <- TP / (TP + FP)
+print(prec)
+# Calculate and print out the recall: rec
+rec <- TP / (TP + FN)
+print(rec)
+
+# Exersice 3
+# The air dataset is already loaded into your workspace
+
+# Take a look at the structure of air
+str(air)
+
+# Inspect your colleague's code to build the model
+fit <- lm(dec ~ freq + angle + ch_length, data = air)
+
+# Use the model to predict for all values: pred
+pred <- predict(fit)
+
+# Use air$dec and pred to calculate the RMSE 
+rmse <- sqrt((1/nrow(air)) * sum( (air$dec - pred) ^ 2))
+
+# Print out rmse
+print(rmse)
+
+# Exercise 4
+# The seeds dataset is already loaded into your workspace
+
+# Set random seed. Don't remove this line
+set.seed(1)
+
+# Explore the structure of the dataset
+str(seeds)
+
+# Group the seeds in three clusters
+km_seeds <- kmeans(seeds, 3)
+
+# Color the points in the plot based on the clusters
+plot(length ~ compactness, data = seeds, col = km_seeds$cluster)
+
+# Print out the ratio of the WSS to the BSS
+
+ratio <- km_seeds$tot.withinss / km_seeds$betweenss
+ratio
+```
+
+
+
+### Training set and test set
+
+cross-validation: change the test set each time
+
+```R
+# Exercise 1
+# The titanic dataset is already loaded into your workspace
+
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Shuffle the dataset, call the result shuffled
+n <- nrow(titanic)
+shuffled <- titanic[sample(n),]
+
+# Split the data in train and test
+tr_i <- 1:round(0.7 * n)
+train <- shuffled[tr_i,]
+ts_i <- (round(0.7 * n)+1):n
+test <- shuffled[ts_i,]
+
+# Print the structure of train and test
+str(train)
+str(test)
+
+# Exercise 2
+# The titanic dataset is already loaded into your workspace
+
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Shuffle the dataset; build train and test
+n <- nrow(titanic)
+shuffled <- titanic[sample(n),]
+train <- shuffled[1:round(0.7 * n),]
+test <- shuffled[(round(0.7 * n) + 1):n,]
+
+# Fill in the model that has been learned.
+tree <- rpart(Survived ~ ., data = train, method = "class")
+
+# Predict the outcome on the test set with tree: pred
+pred <- predict(tree, test, type="class")
+
+# Calculate the confusion matrix: conf
+conf <- table(test$Survived, pred)
+
+# Print this confusion matrix
+conf
+
+# Exercise 3
+# The shuffled dataset is already loaded into your workspace
+
+# Set random seed. Don't remove this line.
+set.seed(1)
+
+# Initialize the accs vector
+accs <- rep(0,6)
+
+for (i in 1:6) {
+  # These indices indicate the interval of the test set
+  indices <- (((i-1) * round((1/6)*nrow(shuffled))) + 1):((i*round((1/6) * nrow(shuffled))))
+  
+  # Exclude them from the train set
+  train <- shuffled[-indices,]
+  
+  # Include them in the test set
+  test <- shuffled[indices,]
+  
+  # A model is learned using each training set
+  tree <- rpart(Survived ~ ., train, method = "class")
+  
+  # Make a prediction on the test set using tree
+  pred <- predict(tree, test, type="class")
+
+  
+  # Assign the confusion matrix to conf
+  conf <- table(test$Survived, pred)
+
+  
+  # Assign the accuracy of this model to the ith index in accs
+  accs[i] <- sum(diag(conf))/sum(conf)
+}
+
+# Print out the mean of accs
+mean(accs)
+
+
+```
+
+
+
+### Bias and Variance
+
+- Prediction error
+  - irreducible : noise
+  - reducible: error due to unfit model
+    - bias: wrong assumptions (under-fitting)
+      - Complexity of model
+      - More restrictions
+    - Variance: error due to the sampling of the training set(over-fitting)
+      - model with high variance fits training set closely
+
+```R
+# Exercise 1
+# The spam filter that has been 'learned' for you
+spam_classifier <- function(x){
+  prediction <- rep(NA, length(x)) # initialize prediction vector
+  prediction[x > 4] <- 1 
+  prediction[x >= 3 & x <= 4] <- 0
+  prediction[x >= 2.2 & x < 3] <- 1
+  prediction[x >= 1.4 & x < 2.2] <- 0
+  prediction[x > 1.25 & x < 1.4] <- 1
+  prediction[x <= 1.25] <- 0
+  return(factor(prediction, levels = c("1", "0"))) # prediction is either 0 or 1
+}
+
+# Apply spam_classifier to emails_full: pred_full
+pred_full <- spam_classifier(emails_full$avg_capital_seq)
+
+# Build confusion matrix for emails_full: conf_full
+conf_full <- table(emails_full$spam, pred_full)
+# Calculate the accuracy with conf_full: acc_full
+acc_full <- (sum(diag(conf_full))/sum(conf_full))
+
+# Print acc_full
+acc_full
+
+# Exercise 2
+# The all-knowing classifier that has been learned for you
+# You should change the code of the classifier, simplifying it
+spam_classifier <- function(x){
+  prediction <- rep(NA, length(x))
+  prediction[x > 4] <- 1
+  prediction[x >= 3 & x <= 4] <- 0
+  prediction[x >= 2.2 & x < 3] <- 0
+  prediction[x >= 1.4 & x < 2.2] <- 0
+  prediction[x > 1.25 & x < 1.4] <- 0
+  prediction[x <= 1.25] <- 0
+  return(factor(prediction, levels = c("1", "0")))
+}
+
+# conf_small and acc_small have been calculated for you
+conf_small <- table(emails_small$spam, spam_classifier(emails_small$avg_capital_seq))
+acc_small <- sum(diag(conf_small)) / sum(conf_small)
+acc_small
+
+# Apply spam_classifier to emails_full and calculate the confusion matrix: conf_full
+pred_full <- spam_classifier(emails_full$avg_capital_seq)
+conf_full <- table(emails_full$spam, pred_full)
+
+
+# Calculate acc_full
+acc_full <- (sum(diag(conf_full))/sum(conf_full))
+
+
+# Print acc_full
+acc_full
+
+```
+
+
+
 # Decision Trees
 
 Punning

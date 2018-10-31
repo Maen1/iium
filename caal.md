@@ -812,6 +812,47 @@ op  rs rt rd shamt funct
 
 
 
+## Instructions for Making Decisions
+
+```assembly
+  beq r1, r2, L # go to L if r1 equal to r2
+  bne r1, r2, L # go to L if r1 does not equal to r2
+  
+  # C
+  if (i == j) f = g + h; else f = g – h;
+  # Assembly
+  bne $s3,$s4,Else   # go to Else if i ≠ j
+  add $s0,$s1,$s2
+  
+ j Exit     # go to Exit
+  
+  Else:sub $s0,$s1,$s2  # f = g – h (skipped if i = j)
+  Exit:
+ 
+  
+```
+
+### Loops
+
+```assembly
+#C
+while (save[i] == k)
+i += 1;
+# Assembly
+
+# i => $s3, k => $s5, save => $s6
+
+Loop: sll $t1,$s3,2 # Temp reg $t1 = i * 4  because each index is word
+add $t1,$t1,$s6 # $t1 = address of save[i]
+lw $t0,0($t1) # Temp reg $t0 = save[i]
+bne $t0,$s5, Exit   # go to Exit if save[i] ≠ k
+addi $s3,$s3,1 # i = i + 1
+j     Loop
+Exit:
+```
+
+
+
 
 
 ---

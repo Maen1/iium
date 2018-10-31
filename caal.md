@@ -1,4 +1,4 @@
-Computer Architecture and Assembly Language 
+#Computer Architecture and Assembly Language 
 
 > If Boing had kept up with IBM we could fly from KL to NY in 10 minutes by 10 RM 
 
@@ -696,3 +696,138 @@ bge, bgeu # branch if greater or equal
   	jr $ra
   	
   ```
+
+---
+
+---
+
+
+
+#Instructions: Language of the Computer 
+
+
+
+## Operations of the Computer Hardware
+
+
+
+![](./images/mips.png)
+
+
+
+##### Compiling using Load and store
+
+```assembly
+ # each array indes is word (4 byte) so to access to any index we should multiply it by 4
+ A[12] = h + A[8];
+ lw   $t0,32($s3)  # Temporary reg $t0 gets A[8]
+ add  $t0,$s2,$t0  # Temporary reg $t0 gets h + A[8]
+ sw  $t0,48($s3)  # Stores h + A[8] back into A[12]
+```
+
+#### Constant or Immediate Operands
+
+```assembly
+addi    $s3,$s3,4            # $s3 = $s3 + 4
+```
+
+
+
+
+
+## Signed and Unsigned Numbers
+
+$(N)_r = d_{k-1} * r^{k-1} +  d_{k-2} * r^{k-2} + d_{0} * r^{0}$
+
+$(11011)_2 = 1×2^4 + 1×2^3 + 0×2^2 + 1×2^1 + 1 = 27$
+
+
+
+### Negation Shortcut
+
+>  Negating number is by inverting the bits and adding one
+
+```shell
+0010 = 2
+#negate
+1101
+   1+
+1110 = -2 (-2^3 + 2^2 + 2^1  )
+```
+
+
+
+> Two’s complement gets its name from the rule that the unsigned sum
+> of an n-bit number and its n-bit negative is 2n; hence, the negation or complement of a
+> number x is 2n 􏰀 x, or its “two’s complement.”
+
+
+
+## Representing Instructions in the Computer
+
+##### Binary to Hexadecimal and Back
+
+```assembly
+# convert one by one
+eca8 6420 = 1110 1100 1010 1000 0110 0100 0010 0000
+0001 0011 0101 0111 1001 1011 1101 1111 = 1357 9bdf
+
+```
+
+
+
+### MIPS Fields
+
+
+
+| OP        | RS                                      | Rt                                      | Rd                                              | shmt         | f                                   |
+| --------- | --------------------------------------- | --------------------------------------- | ----------------------------------------------- | ------------ | ----------------------------------- |
+| 6-bits    | 5                                       | 5                                       | 5                                               | 5            | 6                                   |
+| operation | rigester file address   of first source | rigester file address  of second source | rigester file address  of result 's destination | shift amount | function code augmenting the opcode |
+
+---
+
+---
+
+
+
+
+
+
+
+# Arithmetic For computers
+
+
+
+## Addition and Subtraction
+
+```shell
+# Addition add bite by bit
+	0111 
+  + 0110
+  = 1101
+
+# Subtraction add first number to two's compliment
+# to get two's complement change every bit to the left of the least significant one
+# 0110 => 1010
+	0111 
+  + 1010
+  = 0001
+	
+```
+
+### Detecting Overflow
+
+- No overflow when adding a positive and a negative number.
+
+- No overflow when subtracting numbers with the same sign
+
+  | Operation | Operand A | Operand B | Result Indicating Overflow |
+  | --------- | --------- | --------- | -------------------------- |
+  | A+ B      | ≥0        | ≥0        | <0                         |
+  | A+ B      | <0        | <0        | ≥0                         |
+  | A–B       | ≥0        | <0        | <0                         |
+  | A–B       | <0        | ≥0        | ≥0                         |
+
+* Add unsigned (addu), add immediate unsigned (addiu), and subtract
+  unsigned (subu) do not cause exceptions on overflow.

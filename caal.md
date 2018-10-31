@@ -119,19 +119,6 @@ $(11011)_2 = 1×2^4 + 1×2^3 + 0×2^2 + 1×2^1 + 1 = 27$
 
 
 
-### Binary Addition
-
-* Start with the least significant bit (rightmost bit).
-* Add each pair of bits.
-* Include the carry in the addition, if present
-
-| 0    | 1						 							 								0 | 1						 							 								1 | 1						 							 								1 | 1						 							 								0 | 1    | 1    | 0    |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- |
-| 0    | 0                                                            | 0                                                            | 1                                                            | 1                                                            | 1    | 0    | 1    |
-| 0    | 1                                                            | 0                                                            | 1                                                            | 0                                                            | 0    | 1    | 1    |
-
-
-
 ### Hexadecimal Addition
 
 * Start with the least significant hexadecimal digits.
@@ -283,137 +270,6 @@ $ 6 * 10^3 * 4 * 10^2  = $
 * Exponent of product:  2+1 = 3
 * Multiply the cofficients: 1.1 x 1.1 = 10.01
 * Normalize the result: 10.01 x $2^3$ =1.001 x $2^4$
-
-### FB Division
-
-> Multiply the dividend by the inverse
-> of the divisor
-
-## Leaf Procedure
-
-```c
-int leaf_example (int g, h, i, j)
-{ int f;
- f = (g + h) - (i + j);
- return f;
-} 
-```
-
-```assembly
-leaf_example:
-	# Save $s0 on stack
-	addi $sp, $sp, -4 
-	sw $s0, 0($sp) 
-	
-	# Procedure body
-	add $t0, $a0, $a1
-	add $t1, $a2, $a3
- 	sub $s0, $t0, $t1
- 	
- 	# Result
- 	add $v0, $s0, $zero
- 	
- 	# Restore $s0
- 	lw $s0, 0($sp) 
- 	addi $sp, $sp, 4
- 	
- 	# Return 
- 	jr $ra
- 	
-```
-
-
-
-## Non leaf Procedure
-
-```c
-int fact (int n)
-{
- if (n < 1) return f;
- else return n * fact(n - 1);
-} 
-```
-
-```assembly
-fact: 
-	addi $sp, $sp, -8 # adjust stack for 2 items
- 	sw $ra, 4($sp) # save return address
- 	sw $a0, 0($sp) # save argument 
- 	
- 	slti $t0, $a0, 1 # test for n < 1
-	beq $t0, $zero, L1 
-	
-	addi $v0, $zero, 1 # if so, result is 1
- 	addi $sp, $sp, 8 # pop 2 items from stack
-	jr $ra # and return 
-	
-	L1: addi $a0, $a0, -1 # else decrement n
- 	jal fact # recursive call 
- 	
- 	lw $a0, 0($sp) # restore original n
- 	lw $ra, 4($sp) # and return address
- 	addi $sp, $sp, 8 # pop 2 items from stack 
- 	
- 	mul $v0, $a0, $v0 # multiply to get result 
- 	 
- 	jr $ra # and return 
-```
-
-
-
-## String copy
-
-```c
-void strcpy (char x[], char y[])
-{ int i;
- i = 0;
- 	while ((x[i]=y[i])!='\0')
- 		i += 1;
-} 
-```
-
-```assembly
-strcpy: 
-    addi $sp, $sp, -4 # adjust stack for 1 item
-    sw $s0, 0($sp) # save $s0 
-
-	add $s0, $zero, $zero # i = 0
-
-L1: add $t1, $s0, $a1 # addr of y[i] in $t1
- 	lbu $t2, 0($t1) # $t2 = y[i] 
- 	
- 	add $t3, $s0, $a0 # addr of x[i] in $t3
-	sb $t2, 0($t3) # x[i] = y[i] 
-	
-	beq $t2, $zero, L2 # exit loop if y[i] == 0 
-	
-	addi $s0, $s0, 1 # i = i + 1
- 	j L1 # next iteration of loop 
- 	
-L2: lw $s0, 0($sp) # restore saved $s0
- 	addi $sp, $sp, 4 # pop 1 item from stack 
- 	
- 	jr $ra 
-```
-
-
-
-## Synchronization in MIPS 
-
-```assembly
- 
- add $t0,$zero,$s4 ;copy exchange value
- ll $t1,0($s1) ;load linked
- sc $t0,0($s1) ;store conditional
- beq $t0,$zero,try ;branch store fails
- add $s4,$zero,$t1 ;put load value in $s4
-```
-
-
-
----
-
----
 
 # Computer Language
 
@@ -842,20 +698,162 @@ i += 1;
 
 # i => $s3, k => $s5, save => $s6
 
-Loop: sll $t1,$s3,2 # Temp reg $t1 = i * 4  because each index is word
-add $t1,$t1,$s6 # $t1 = address of save[i]
-lw $t0,0($t1) # Temp reg $t0 = save[i]
-bne $t0,$s5, Exit   # go to Exit if save[i] ≠ k
-addi $s3,$s3,1 # i = i + 1
-j     Loop
+Loop: 
+    sll $t1,$s3,2 # Temp reg $t1 = i * 4  because each index is word
+    add $t1,$t1,$s6 # $t1 = address of save[i]
+    lw $t0,0($t1) # Temp reg $t0 = save[i]
+    bne $t0,$s5, Exit   # go to Exit if save[i] ≠ k
+    addi $s3,$s3,1 # i = i + 1
+    j     Loop
 Exit:
 ```
 
 
 
+## Leaf Procedure
+
+```c
+int leaf_example (int g, h, i, j)
+{ int f;
+ f = (g + h) - (i + j);
+ return f;
+} 
+```
+
+```assembly
+leaf_example:
+	# Save $s0 on stack
+	addi $sp, $sp, –12 	# adjust stack to make room for 3 items
+	sw $t1, 8($sp) 		# save register $t1 for use afterwards 
+	sw $t0, 4($sp) 
+	sw $s0, 0($sp)
+	
+	# Procedure body
+	add $t0, $a0, $a1	# register $t0 contains g + h
+	add $t1, $a2, $a3	# register $t1 contains i + j
+ 	sub $s0, $t0, $t1	# f = $t0 – $t1, which is (g + h)–(i + j)
+ 	
+ 	# Result
+ 	add $v0, $s0, $zero # returns f ($v0 = $s0 + 0)
+ 	
+ 	# Restore $s0
+ 	lw $s0, 0($sp)	 	# restore register $s0 for caller
+ 	lw $t0, 4($sp) 	 	# restore register $t0 for caller
+ 	lw $t1, 8($sp) 	 	# restore register $t1 for caller
+ 	addi $sp, $sp, 12	# adjust stack to delete 3 items
+ 	
+ 	# Return 
+ 	jr $ra  # jump back to calling routine
+ 	
+```
 
 
----
+
+## Non leaf Procedure
+
+```c
+int fact (int n)
+{
+ if (n < 1) return f;
+ else return n * fact(n - 1);
+} 
+```
+
+```assembly
+fact: 
+	addi $sp, $sp, -8 # adjust stack for 2 items
+ 	sw $ra, 4($sp) # save return address
+ 	sw $a0, 0($sp) # save argument 
+ 	
+ 	slti $t0, $a0, 1 # test for n < 1
+	beq $t0, $zero, L1 
+	
+	addi $v0, $zero, 1 # if so, result is 1
+ 	addi $sp, $sp, 8 # pop 2 items from stack
+	jr $ra # and return 
+	
+	L1: addi $a0, $a0, -1 # else decrement n
+ 	jal fact # recursive call 
+ 	
+ 	lw $a0, 0($sp) # restore original n
+ 	lw $ra, 4($sp) # and return address
+ 	addi $sp, $sp, 8 # pop 2 items from stack 
+ 	
+ 	mul $v0, $a0, $v0 # multiply to get result 
+ 	 
+ 	jr $ra # and return 
+```
+
+
+
+#### MIPS register convention
+
+| Name    | Reg No. | Usage                                        |
+| ------- | ------- | -------------------------------------------- |
+| $zero   | 0       | the constant of 0                            |
+| $v0 -v1 | 2-3     | values for results an dexpression evaluation |
+| $a0-a3  | 4-7     | arguments                                    |
+| $t0-t7  | 8-15    | temporaries                                  |
+| $s0-s7  | 16-23   | saved                                        |
+| $t8-t9  | 24-25   | more temporaries                             |
+| $gp     | 28      | global pointer                               |
+| $sp     | 29      | stack pointer                                |
+| $fp     | 30      | frame pointer                                |
+| $ra     | 31      | return address                               |
+| $k0-k1  | 26-27   | reserved for the operating system            |
+
+### 
+
+### Compiling a String Copy Procedure
+
+## String copy
+
+```c
+void strcpy (char x[], char y[])
+{ int i;
+ i = 0;
+ 	while ((x[i]=y[i])!='\0')
+ 		i += 1;
+} 
+```
+
+```assembly
+strcpy: 
+    addi $sp, $sp, -4 # adjust stack for 1 item
+    sw $s0, 0($sp) # save $s0 
+
+	add $s0, $zero, $zero # i = 0
+
+L1: add $t1, $s0, $a1 # addr of y[i] in $t1
+ 	lbu $t2, 0($t1) # $t2 = y[i] 
+ 	
+ 	add $t3, $s0, $a0 # addr of x[i] in $t3
+	sb $t2, 0($t3) # x[i] = y[i] 
+	
+	beq $t2, $zero, L2 # exit loop if y[i] == 0 
+	
+	addi $s0, $s0, 1 # i = i + 1
+ 	j L1 # next iteration of loop 
+ 	
+L2: lw $s0, 0($sp) # restore saved $s0
+ 	addi $sp, $sp, 4 # pop 1 item from stack 
+ 	
+ 	jr $ra 
+```
+
+
+
+## MIPS Addressing for 32-bit Immediates and Addresses 
+
+#### MIPS instruction formats.
+
+![](./images/mips_format.png)
+
+
+
+
+
+
 
 ---
 
@@ -903,3 +901,6 @@ Exit:
 
 * Add unsigned (addu), add immediate unsigned (addiu), and subtract
   unsigned (subu) do not cause exceptions on overflow.
+
+
+

@@ -193,84 +193,6 @@ $(11011)_2 = 1×2^4 + 1×2^3 + 0×2^2 + 1×2^1 + 1 = 27$
 
 
 
-### Floating Point Representation
-
-> the  representation order of floating is : SEF
-
-* Single Precision: 1-bit sign  + 8-bit Exponent + 23-bit Fraction
-* Double Precision: 1-bit sign  + 11-bit Exponent + 52-bit Fraction
-
-$N = (-1)^s * val(F) * 2^{val(E)}$
-
-* S: Sign bit.
-* E: Exponent Field
-* F: Fraction Field
-
-### Zero, Infinity, NAN
-
-* Zero: 
-  * Exponent field E = 0 and fraction F = 0.
-  * +0 and –0 are possible according to sign bit S.
-* Infinity:
-  * Infinity is a special value represented with maximum E and F = 0.
-    * For single precision with 8-bit exponent: maximum E = 255.
-    * For double precision with 11-bit exponent: maximum E = 2047.
-  * Infinity can result from overflow or division by zero.
-  * +∞ and –∞ are possible according to sign bit S.
-* NAN( Not a Number)
-  * Result from exceptional situations, such as 0/0 or sqrt(negative).
-  *  NaN is a special value represented with maximum E and F ≠ 0.
-  *  Operation on a NaN results is NaN: Op(X, NaN) = NaN.
-
-## Floating point addition
-
-> exponent should be equal 🧐
-
-To make exponents equal Shift the significand of the lesser exponent right by the different between them.
-
-### Guard, Round, Sticky bit
-
-> BBGRSSS
->
-> Addition produces a carry bit, result is NOT normalized
->
-> Normalize Result (shift right and increment exponent)
-
-*  Guard bit: guards against loss of a fraction bit
-* Round bit: appears just after the normalized result, after the last fraction bit(23) fro single precesion and (52)for double.
-* Sticky bit: appears after the round bit (OR of all additional bits) 
-
-## Rounding
-
-> Round to Nearest Even: default rounding mode
-
-#### RS cases
-
-* RS = 00 =>  nah 
-* RS = 01 => Truncate result by discarding RS.
-* RS = 11 => Increment (Add one to last  fraction bit)
-* RS = 10 => Tie Case (either truncate or increment result)
-  * last  fraction bit(0): truncate result to keep fraction even.
-  * last  fraction bit(1): increment result to make fraction even
-
-
-
-### Decimal FP Multiplication 
-
-$ 6 * 10^3 * 4 * 10^2  = $
-
-* Exponent of product: 3 + 2 = 5
-* Multiply the cofficients: 6 x 4 = 24
-* Normalize the result: $ 24 * 10^5 =2.4 * 10^6 $
-
-### Binary FB Multiplication
-
-1.1 x $2^2$ x 1.1 x $2^1$
-
-* Exponent of product:  2+1 = 3
-* Multiply the cofficients: 1.1 x 1.1 = 10.01
-* Normalize the result: 10.01 x $2^3$ =1.001 x $2^4$
-
 # Computer Language
 
 > MIPS: Microcomputer without Interlocked Pipeline Stage
@@ -902,5 +824,116 @@ L2: lw $s0, 0($sp) # restore saved $s0
 * Add unsigned (addu), add immediate unsigned (addiu), and subtract
   unsigned (subu) do not cause exceptions on overflow.
 
+## Multiplication
+
+```assembly
+Multiplicand : 1000
+Multiplier	 : 1001
+			1000
+		   0000
+		  0000
+		1000
+Result :1001000
+```
 
 
+
+### A Multiply Algorithm
+
+![](./images/multiply_algorithm.png)
+
+
+
+## Division
+
+![](./images/division.png)
+
+### A Divide Algorithm
+
+![](./images/divide_algorithm.png)
+
+
+
+# MIPS
+
+![](./images/mips_all.png)
+
+
+
+## Floating point
+
+> the  representation order of floating is : SEF
+
+- Single Precision: 1-bit sign  + 8-bit Exponent + 23-bit Fraction
+- Double Precision: 1-bit sign  + 11-bit Exponent + 52-bit Fraction
+
+$N = (-1)^s * val(F) * 2^{val(E)}$
+
+- S: Sign bit.
+- E: Exponent Field
+- F: Fraction Field
+
+### Zero, Infinity, NAN
+
+- Zero: 
+  - Exponent field E = 0 and fraction F = 0.
+  - +0 and –0 are possible according to sign bit S.
+- Infinity:
+  - Infinity is a special value represented with maximum E and F = 0.
+    - For single precision with 8-bit exponent: maximum E = 255.
+    - For double precision with 11-bit exponent: maximum E = 2047.
+  - Infinity can result from overflow or division by zero.
+  - +∞ and –∞ are possible according to sign bit S.
+- NAN( Not a Number)
+  - Result from exceptional situations, such as 0/0 or sqrt(negative).
+  - NaN is a special value represented with maximum E and F ≠ 0.
+  - Operation on a NaN results is NaN: Op(X, NaN) = NaN.
+
+## Floating point addition
+
+> exponent should be equal 🧐
+
+To make exponents equal Shift the significand of the lesser exponent right by the different between them.
+
+### Guard, Round, Sticky bit
+
+> BBGRSSS
+>
+> Addition produces a carry bit, result is NOT normalized
+>
+> Normalize Result (shift right and increment exponent)
+
+- Guard bit: guards against loss of a fraction bit
+- Round bit: appears just after the normalized result, after the last fraction bit(23) fro single precesion and (52)for double.
+- Sticky bit: appears after the round bit (OR of all additional bits) 
+
+## Rounding
+
+> Round to Nearest Even: default rounding mode
+
+#### RS cases
+
+- RS = 00 =>  nah 
+- RS = 01 => Truncate result by discarding RS.
+- RS = 11 => Increment (Add one to last  fraction bit)
+- RS = 10 => Tie Case (either truncate or increment result)
+  - last  fraction bit(0): truncate result to keep fraction even.
+  - last  fraction bit(1): increment result to make fraction even
+
+
+
+### Decimal FP Multiplication 
+
+$ 6 * 10^3 * 4 * 10^2  = $
+
+- Exponent of product: 3 + 2 = 5
+- Multiply the cofficients: 6 x 4 = 24
+- Normalize the result: $ 24 * 10^5 =2.4 * 10^6 $
+
+### Binary FB Multiplication
+
+1.1 x $2^2$ x 1.1 x $2^1$
+
+- Exponent of product:  2+1 = 3
+- Multiply the cofficients: 1.1 x 1.1 = 10.01
+- Normalize the result: 10.01 x $2^3$ =1.001 x $2^4$

@@ -778,16 +778,47 @@ eca8 6420 = 1110 1100 1010 1000 0110 0100 0010 0000
 
 ### MIPS Fields
 
-
+#### R-Type Instruction
 
 | OP        | RS                                      | Rt                                      | Rd                                              | shmt         | f                                   |
 | --------- | --------------------------------------- | --------------------------------------- | ----------------------------------------------- | ------------ | ----------------------------------- |
 | 6-bits    | 5                                       | 5                                       | 5                                               | 5            | 6                                   |
 | operation | rigester file address   of first source | rigester file address  of second source | rigester file address  of result 's destination | shift amount | function code augmenting the opcode |
 
+
+
+
+
+## Logical Operation
+
+> shift left is multiplication by 2 while right is division by 2
+>
+> logical operation and, or and not as usual 🐸
+
+![](./images/logical_operation.png)
+
+```assembly
+0000 1001 = 9
+<<4 => 9 * 2^4  
+1001 0000 = 144
+
+##
+
+sll  $t2,$s0,4  # reg $t2 = reg $s0 << 4 bits
+
+op  rs rt rd shamt funct
+0	0  16 10   4     0
+```
+
+
+
+
+
 ---
 
 ---
+
+
 
 
 

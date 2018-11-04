@@ -1,6 +1,7 @@
 \documentclass[12pt]{report}
     \usepackage{url}
     \usepackage{xcolor}
+    \usepackage{apacite}
     \usepackage{caption}
     \usepackage{pgfgantt}
     \usepackage{mathptmx} 
@@ -109,8 +110,7 @@
                 
         \section{Previous works}
             \paragraph{}
-                Peijun Bao, Ana I. Maqueda, Carlos R. del-Blanco, and Narciso Garcia, 
-                (2017) proposed a Deep convolutional neural network algorithm for hand-gesture 
+                \cite{Bao2017}, proposed a Deep convolutional neural network algorithm for hand-gesture 
                 recognition without hand localisation, since the hands only occupy about 10\% of 
                 the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
                 interlaced with ReLU(Rectified Linear Unit) and dropout layers as shown in 
@@ -135,8 +135,7 @@
                 \newpage
 
             \paragraph{}
-                G.Anantha Rao, K.Syamala , P.V.V.Kishore, A.S.C.S.Sastry, (2018)
-                proposed a CNN architecture for classifying selfie sign language gestures. 
+                \cite{Rao2018}, proposed a CNN architecture for classifying selfie sign language gestures. 
                 The CNN architecture is designed with four convolutional layers. Each convolutional 
                 layer with different filtering window sizes as shown in figure \ref{fig:selfie}  
                 They had a dataset with five different subjects performing 200 signs in 5 different viewing angles 
@@ -154,8 +153,7 @@
                  \newpage
             
             \paragraph{}
-                Soeb Hussain, Rupal Saxena Xie Han, Jameel Ahmed Khan, Prof. Hyunchul Shin, (2018)
-                introduced a CNN based classifier  trained through the process of transfer learning
+                \cite{Hussain2017}, introduced a CNN based classifier  trained through the process of transfer learning
                 over a pretrained convolutional neural network which is trained on a large dataset.
                 We are using VGG16 figure \ref{fig:vgg16} as the pretrained model.
                 The According to the paper the accuracy was 93.09\%,while using AlexNet 
@@ -204,6 +202,6 @@
         \newpage
         
                     
-        \bibliographystyle{abbrv}
+        \bibliographystyle{apacite}
         \bibliography{scope.bib}
     \end{document}

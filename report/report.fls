@@ -18,6 +18,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/apacite/apacite.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/apacite/apacite.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
@@ -187,6 +189,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd

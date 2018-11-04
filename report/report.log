@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  22 OCT 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  4 NOV 2018 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -476,34 +476,33 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 31.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 25.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 31.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 25.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 25.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 31.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 25.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
- [1]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
  (./report.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -520,45 +519,45 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 68.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
  [1
 
 ] [2]
 Chapter 2.
-<./images/tiny_a.png, id=24, 539.01375pt x 670.505pt>
+<./images/tiny_a.png, id=21, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
-Package pdftex.def Info: ./images/tiny_a.png  used on input line 133.
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 127.
 (pdftex.def)             Requested size: 226.48395pt x 281.73296pt.
-<./images/tiny_b.png, id=26, 439.14063pt x 441.65pt>
+<./images/tiny_b.png, id=23, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 136.
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 130.
 (pdftex.def)             Requested size: 135.89174pt x 136.66747pt.
 [3
 
 ]
-<./images/selfie.png, id=30, 1083.04625pt x 338.26375pt>
+<./images/selfie.png, id=27, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
-Package pdftex.def Info: ./images/selfie.png  used on input line 155.
+Package pdftex.def Info: ./images/selfie.png  used on input line 149.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
  [4 <./images/tiny_a.png> <./images/tiny_b.png> <./images/selfie.png>]
-<images/vgg16.png, id=38, 471.7625pt x 277.035pt>
+<images/vgg16.png, id=34, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
-Package pdftex.def Info: images/vgg16.png  used on input line 174.
+Package pdftex.def Info: images/vgg16.png  used on input line 168.
 (pdftex.def)             Requested size: 452.9679pt x 266.0013pt.
-<images/alexnet.png, id=39, 123.3408pt x 50.95035pt>
+<images/alexnet.png, id=35, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
-Package pdftex.def Info: images/alexnet.png  used on input line 180.
+Package pdftex.def Info: images/alexnet.png  used on input line 174.
 (pdftex.def)             Requested size: 452.9679pt x 187.15665pt.
  [5 <./images/vgg16.png (PNG copy)> <./images/alexnet.png>] [6] (./report.bbl) [7
 
@@ -572,10 +571,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,454b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (10 pages, 986551 bytes).
+Output written on report.pdf (9 pages, 985597 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

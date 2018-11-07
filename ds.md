@@ -151,3 +151,13 @@ well it is out of range :frog:
 
   $ z_i = \frac{x_i - \mu }{\sigma}$
 
+* Decimal scaling
+
+  ​	$X_{new} = \frac{X_{old}}{10^n}$
+
+### Gategorization
+
+* Equal interval binning: create bins with the same range.
+* Equal frequency binning: create bins with the same number of observation.
+
+ 

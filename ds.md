@@ -94,7 +94,11 @@ L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 
 
 
-## Machine learning
+
+
+## 2. Data Collection, Sampling and Pre-Processing
+
+
 
 > If we have data, let’s look at data. If all we have
 > are opinions, let’s go with mine.
@@ -160,4 +164,25 @@ well it is out of range :frog:
 * Equal interval binning: create bins with the same range.
 * Equal frequency binning: create bins with the same number of observation.
 
- 
+---
+
+---
+
+
+
+##  3. Machine learning
+
+> Artificial Intelligence, deep learning, machine
+> learning - whatever you’re doing if you don’t
+> understand it - learn it. Because otherwise
+> you’re going to be a dinosaur within 3 years. 
+
+#### Predict , Classify and Cluster
+
+Three Basic Algorithms
+
+* Linear Regression: 
+  * $ y = mx + b$
+  * Resiual Sum of squares : $\beta = \sum i(y_i - \beta x_i)^2$ 
+* K- Nearest Neighbors (clustering)
+* K-means(classification)

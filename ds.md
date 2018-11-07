@@ -105,3 +105,16 @@ L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 * Unstructured Data: Embedded in text documents(emails, web pages, files...) or multimedia content.
 * Qualitative / expert-based data: 
 * Publicly available data: Government data , Social data
+
+## Sampling
+
+## Types of Data Elements
+
+* Continuous : defined on an interval that can be limited or unlimited (sales, income ..)
+
+* Categorical:
+
+  * Nominal
+
+  * Ordinal
+  * Binary

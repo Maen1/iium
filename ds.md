@@ -92,3 +92,10 @@ $L(x->y) = \frac{S(XUY)}{S(X) * S(Y)}$
 
 L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 
+
+
+## Machine learning
+
+> If we have data, let’s look at data. If all we have
+> are opinions, let’s go with mine.
+

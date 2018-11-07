@@ -108,7 +108,7 @@ L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 
 ## Sampling
 
-## Types of Data Elements
+### Types of Data Elements
 
 * Continuous : defined on an interval that can be limited or unlimited (sales, income ..)
 
@@ -118,3 +118,19 @@ L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 
   * Ordinal
   * Binary
+
+### Visual Data Exploration
+
+Histogram , Ogives , Frequency polygon , Pie chart
+
+### Missing Values
+
+most popular schemes to deal with missing values
+
+* Replace 
+* Delete
+* Keep
+
+testing whether missing information is related to target variable (chi-squared test) 
+
+if yes keep it else delete or impute

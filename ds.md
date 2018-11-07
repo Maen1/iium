@@ -99,3 +99,9 @@ L([baby food, diapers],soda) = .3/(.5*.6) = 100%
 > If we have data, let’s look at data. If all we have
 > are opinions, let’s go with mine.
 
+### Types of Data source
+
+* Transaction data : it is usually stored in a massive on-line transaction processing (OLTP) relational databases.
+* Unstructured Data: Embedded in text documents(emails, web pages, files...) or multimedia content.
+* Qualitative / expert-based data: 
+* Publicly available data: Government data , Social data

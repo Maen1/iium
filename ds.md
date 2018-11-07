@@ -134,3 +134,20 @@ most popular schemes to deal with missing values
 testing whether missing information is related to target variable (chi-squared test) 
 
 if yes keep it else delete or impute
+
+### Outlier Detection and Treatment
+
+well it is out of range :frog:
+
+### Variable Selection
+
+### Standardizing Data
+
+* Min/max standardiztion
+
+  ​	$ X_{new} = \frac{X_{old} - min(X_{old})}{max(X_{old}) -  min(X_{old})} (\text{new max} - \text{new min}) + \text{new min}$
+
+* z-score
+
+  $ z_i = \frac{x_i - \mu }{\sigma}$
+

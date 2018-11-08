@@ -20,4 +20,5 @@
 \contentsline {paragraph}{}{7}
 \contentsline {chapter}{\numberline {3}Methodology}{8}
 \contentsline {section}{\numberline {3.1}Introduction}{8}
+\contentsline {paragraph}{}{8}
 \contentsline {chapter}{References}{9}

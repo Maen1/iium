@@ -279,6 +279,9 @@ INPUT ./images/vgg16.png
 INPUT images/alexnet.png
 INPUT ./images/alexnet.png
 INPUT ./images/alexnet.png
+INPUT ./images/system_diagram.png
+INPUT ./images/system_diagram.png
+INPUT ./images/system_diagram.png
 INPUT report.bbl
 INPUT report.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf

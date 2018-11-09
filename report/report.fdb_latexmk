@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1541682178 "report.aux" "report.bbl" "report" 1541748417
+["bibtex report"] 1541750839 "report.aux" "report.bbl" "report" 1541750841
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1541748417 3923 971a74d0b0261746850a619facd7b195 ""
+  "report.aux" 1541750840 4190 9297aec37d5db539779d79bec57c6a2a ""
   "scope.bib" 1541305721 1552 80cc95733687a4e0950a0654a73b5885 ""
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1541748415 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1541748417
-  "/Users/Maen/iium/report/report.tex" 1541748415 11613 74cb6654877fe878b6bbdb6ba924b047 ""
+["pdflatex"] 1541750839 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1541750841
+  "/Users/Maen/iium/report/report.tex" 1541750837 12674 2cc7b0c0084292ad497e1c3b8ab69d02 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -146,18 +146,19 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1538658665 4220280 52035f3301fd477b2437b86544268e5b ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "images/ai_ml_dl.png" 1541750459 76879 87438baf1176ad5f9a81947702f0db1e ""
   "images/alexnet.png" 1540096595 71679 bc87ebdade4fabf777fff9d3913aa99d ""
   "images/selfie.png" 1540028009 367638 b35e6b0c79b9b40d297fd95eafc55406 ""
   "images/system_diagram.png" 1541748203 60421 bcba1faf0fc9ecdb85b5413b8e25b34b ""
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1541748417 3923 971a74d0b0261746850a619facd7b195 ""
-  "report.bbl" 1541682179 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
-  "report.tex" 1541748415 11613 74cb6654877fe878b6bbdb6ba924b047 ""
-  "report.toc" 1541748417 1088 3d1dc4f8db3d67fb47b944b4af90a787 ""
+  "report.aux" 1541750840 4190 9297aec37d5db539779d79bec57c6a2a ""
+  "report.bbl" 1541750839 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
+  "report.tex" 1541750837 12674 2cc7b0c0084292ad497e1c3b8ab69d02 ""
+  "report.toc" 1541750840 1183 abd112870af3ff5eff0f922ab493c37b ""
   (generated)
-  "report.log"
   "report.toc"
-  "report.aux"
   "report.pdf"
+  "report.log"
+  "report.aux"

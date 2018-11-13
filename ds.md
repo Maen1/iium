@@ -186,3 +186,12 @@ Three Basic Algorithms
   * Resiual Sum of squares : $\beta = \sum i(y_i - \beta x_i)^2$ 
 * K- Nearest Neighbors (clustering)
 * K-means(classification)
+
+
+
+---
+
+
+
+## Data wrangling and munging
+

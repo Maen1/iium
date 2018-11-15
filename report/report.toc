@@ -23,4 +23,8 @@
 \contentsline {paragraph}{}{8}
 \contentsline {section}{\numberline {3.2}Image recognition}{8}
 \contentsline {paragraph}{}{8}
+\contentsline {section}{\numberline {3.3}Voice producing}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {section}{\numberline {3.4}Tools}{9}
+\contentsline {paragraph}{}{9}
 \contentsline {chapter}{References}{10}

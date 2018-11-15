@@ -195,3 +195,6 @@ Three Basic Algorithms
 
 ## Data wrangling and munging
 
+* data Enginer: work with big data
+
+* data scientest: use the data for prediction

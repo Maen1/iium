@@ -34,5 +34,27 @@ $OA^2=OB^2+AB^2$
 
 ##### The direction
 
- The **direction** of a vector $u(u1,u2)$ is the vector  $w(\frac{u1}{‖u‖},\frac{u2}{‖u‖})$; u1: x projection , u2 is for y 
+ The **direction** of a vector $u(u1,u2)$ is the vector  $w(\frac{u1}{‖u‖},\frac{u2}{‖u‖})$; u1: x projection , u2 is for y.
+
+​	$cos(θ)=\frac{u1}{‖u‖}$
+
+​	$cos(a)=\frac{u2}{‖u‖}$
+
+
+
+### The dot product
+
+​	$ x⋅y=‖x‖‖y‖cos(θ)$ 
+
+**the algebraic definition of the dot product** 
+
+​	$ x⋅y=x1y1+x2y2=\sum_{i=1} ^2=1(x_iy_i)$
+
+
+
+### The SVM hyperplane
+
+$ y = ax + b$ or $ w^Tx = 0$
+
+
 

@@ -441,3 +441,10 @@ resamples <- resamples(model_list)
 summary(resamples)
 ```
 
+### Plotting time 🐸
+
+```R
+# Create bwplot
+bwplot(resamples, metric = "ROC")
+```
+

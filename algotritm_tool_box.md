@@ -172,5 +172,14 @@ myControl <- trainControl(
   classProbs = TRUE, # IMPORTANT!
   verboseIter = TRUE
 )
+
+# Train glm with custom trainControl: model
+
+model <- train(Class ~ ., Sonar,
+  method="glm", trControl = myControl)
+
+# Print model to console
+model
+
 ```
 

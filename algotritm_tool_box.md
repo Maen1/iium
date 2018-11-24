@@ -33,3 +33,16 @@ diamonds <- diamonds[rows, ]
  
 ```
 
+### Split the data
+
+```R
+# Determine row to split on: split
+split <- round(nrow(diamonds) * .80)
+
+# Create train
+train <- diamonds[1: split, ]
+
+# Create test
+test <- diamonds[(split +1) : nrow(diamonds), ]
+```
+

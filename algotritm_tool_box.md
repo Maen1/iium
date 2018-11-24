@@ -428,3 +428,16 @@ model_rf <- train(
 plot(model_rf)
 ```
 
+### Comparing models
+
+```R
+# Create model_list
+model_list <- list(item1 = model_glmnet, item2 = model_rf)
+
+# Pass model_list to resamples(): resamples
+
+resamples <- resamples(model_list)
+# Summarize the results
+summary(resamples)
+```
+

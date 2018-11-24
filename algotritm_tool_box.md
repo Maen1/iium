@@ -46,3 +46,22 @@ train <- diamonds[1: split, ]
 test <- diamonds[(split +1) : nrow(diamonds), ]
 ```
 
+### Fit model
+
+```R
+# Fit lm model on train: model
+model <- lm(price~., train)
+
+# Predict on test: p
+
+p <- predict(model, test)
+
+# Compute errors: error
+error <- p - test$price
+
+# Calculate RMSE
+RMSE <- sqrt(mean(error^2))
+RMSE
+
+```
+

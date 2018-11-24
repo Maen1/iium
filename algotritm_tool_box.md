@@ -95,5 +95,8 @@ model <- train(
 
 # Print model to console
 model
+
+pred <- predict(model, Boston)
+pred
 ```
 

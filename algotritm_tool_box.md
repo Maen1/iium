@@ -451,3 +451,13 @@ bwplot(resamples, metric = "ROC")
 xyplot(resamples, metric = "ROC")
 ```
 
+### Ensembling models
+
+```R
+# Create ensemble model: stack
+stack <- caretStack(model_list, method = "glm")
+
+# Look at summary
+stack
+```
+

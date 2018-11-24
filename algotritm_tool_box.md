@@ -183,3 +183,38 @@ model
 
 ```
 
+## Tunning model parameters to imporve performance
+
+### Random forest
+
+```R
+# Fit random forest: model
+model <- train(
+  quality~.,
+  tuneLength = 1,
+  data = wine, method = "ranger",
+  trControl = trainControl(method = "cv", number = 5, verboseIter = TRUE)
+)
+
+# Print model to console
+model
+```
+
+### Tune length
+
+```R
+# Fit random forest: model
+model <- train(
+  quality~.,
+  tuneLength = 3,
+  data = wine, method = "ranger",
+  trControl = trainControl(method = "cv", number = 5, verboseIter = TRUE)
+)
+
+# Print model to console
+model
+
+# Plot model
+plot(model)	
+```
+

@@ -19,3 +19,17 @@ RMSE <- sqrt(mean(error^2))
 RMSE
 ```
 
+### Suffle the dataset
+
+```R
+# Set seed
+set.seed(42)
+
+# Shuffle row indices: rows
+rows <- sample(nrow(diamonds))
+
+# Randomly order data
+diamonds <- diamonds[rows, ]
+ 
+```
+

@@ -100,3 +100,29 @@ pred <- predict(model, Boston)
 pred
 ```
 
+---
+
+
+
+## Classification models: fitting them and evaluating their performance
+
+```R
+# Shuffle row indices: rows
+rows <- sample(nrow(Sonar))
+
+# Randomly order data: Sonar
+Sonar <- Sonar[rows, ]
+
+# Identify row to split on: split
+split <- round(nrow(Sonar) * .60)
+
+# Create train
+train <- Sonar[1: split,]
+
+# Create test
+
+test <- Sonar[(split +1): nrow(Sonar), ]
+```
+
+
+

@@ -326,3 +326,29 @@ model2 <- train(
 model2
 ```
 
+### Combining preprocessing methods
+
+```R
+# Fit glm with median imputation: model1
+model1 <- train(
+  x = breast_cancer_x, y = breast_cancer_y,
+  method = "glm",
+  trControl = myControl,
+  preProcess = "medianImpute"
+)
+
+# Print model1
+model1
+
+# Fit glm with median imputation and standardization: model2
+model2 <- train(
+  x = breast_cancer_x, y = breast_cancer_y,
+  method = "glm",
+  trControl = myControl,
+  preProcess = c("medianImpute", "center","scale")
+)
+
+# Print model2
+model2
+```
+

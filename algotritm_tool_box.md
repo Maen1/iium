@@ -446,5 +446,8 @@ summary(resamples)
 ```R
 # Create bwplot
 bwplot(resamples, metric = "ROC")
+
+# Create xyplot
+xyplot(resamples, metric = "ROC")
 ```
 

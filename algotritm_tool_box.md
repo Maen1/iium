@@ -124,5 +124,15 @@ train <- Sonar[1: split,]
 test <- Sonar[(split +1): nrow(Sonar), ]
 ```
 
+### logistic regression
 
+```R
+# Fit glm model: model
+model <- glm(Class~., family = "binomial", train)
+
+# Predict on test: p
+
+p <- predict(model, test, type = "response")
+p
+```
 

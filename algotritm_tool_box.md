@@ -366,3 +366,16 @@ all_cols <- names(bloodbrain_x)
 bloodbrain_x_small <- bloodbrain_x[ , setdiff(all_cols, remove_cols )]
 ```
 
+### Principal component analysis 
+
+```R
+# Fit glm model using PCA: model
+model <- train(
+  x = bloodbrain_x, y = bloodbrain_y,
+  method = "glm", preProcess = "pca"
+)
+
+# Print model to console
+model
+```
+

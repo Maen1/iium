@@ -150,3 +150,27 @@ confusionMatrix(p_class, test$Class)
 
 ```
 
+### ROC curve
+
+```R
+# Predict on test: p
+
+p <- predict(model, test, type = "response")
+
+# Make ROC curve
+colAUC(p, test$Class, plotROC = TRUE)
+```
+
+### Train control
+
+```R
+# Create trainControl object: myControl
+myControl <- trainControl(
+  method = "cv",
+  number = 10,
+  summaryFunction = twoClassSummary,
+  classProbs = TRUE, # IMPORTANT!
+  verboseIter = TRUE
+)
+```
+

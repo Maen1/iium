@@ -183,7 +183,7 @@ model
 
 ```
 
-## Tunning model parameters to imporve performance
+## Tuning model parameters to imporve performance
 
 ### Random forest
 
@@ -216,5 +216,34 @@ model
 
 # Plot model
 plot(model)	
+```
+
+
+
+### Tuning grid
+
+```R
+# Define the tuning grid: tuneGrid
+tuneGrid <- data.frame(
+  .mtry = c(2,3,7),
+  .splitrule = "variance",
+  .min.node.size = 5
+)
+
+# Fit random forest: model
+model <- train(
+  quality~.,
+  tuneGrid = tuneGrid,
+  data = wine, 
+  method = "ranger",
+  trControl = trainControl(method = "cv", number = 5, verboseIter = TRUE)
+)
+
+# Print model to console
+
+model
+# Plot model
+plot(model)
+
 ```
 

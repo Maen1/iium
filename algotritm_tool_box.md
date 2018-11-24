@@ -402,3 +402,29 @@ myControl <- trainControl(
 
 ```
 
+### Fit model glmnet
+
+```R
+# Fit glmnet model: model_glmnet
+model_glmnet <- train(
+  x = churn_x, y = churn_y,
+  metric = "ROC",
+  method = "glmnet",
+  trControl = myControl
+)
+```
+
+### Fit random forest
+
+```R
+# Fit random forest: model_rf
+model_rf <- train(
+  x = churn_x, y = churn_y,
+  metric = "ROC",
+  method = "ranger",
+  trControl = myControl
+)
+
+plot(model_rf)
+```
+

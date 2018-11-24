@@ -291,3 +291,23 @@ model
 max(model[["results"]][["ROC"]])
 ```
 
+---
+
+## Preprocessing data
+
+### Median Imputation
+
+```R
+# Apply median imputation: model
+model <- train(
+  x = breast_cancer_x, y = breast_cancer_y,
+  method = "glm",
+  trControl = myControl,
+  preProcess = "medianImpute"
+)
+
+# Print model to console
+model
+
+```
+

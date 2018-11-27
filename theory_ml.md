@@ -56,6 +56,18 @@ $OA^2=OB^2+AB^2$
 
 $ y = ax + b$ or $ w^Tx = 0$
 
+
+
+# Regression
+
+### Fromulas
+
+$b = (\sum{y}) (\sum{x^2}) - (\sum{x}) (\sum{x y}) / n(\sum{x^2} ) - (\sum{x})^2)  $
+
+$ b = \bar{y} - b \bar{x}$
+
+$ m = n(\sum{x y}) -(\sum{x})(\sum{y})  /  n(\sum{x^2}) - (\sum{x})^2 $ 
+
 # Boosting
 
 there is nothing interesting in slides 

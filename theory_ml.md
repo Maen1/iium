@@ -56,5 +56,6 @@ $OA^2=OB^2+AB^2$
 
 $ y = ax + b$ or $ w^Tx = 0$
 
+# Boosting
 
-
+there is nothing interesting in slides 

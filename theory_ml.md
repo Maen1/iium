@@ -58,3 +58,24 @@ $ y = ax + b$ or $ w^Tx = 0$
 
 
 
+# Regression
+
+### Formulas
+
+$a = (\sum{y}) (\sum{x^2}) - (\sum{x}) (\sum{x y}) / n(\sum{x^2} ) - (\sum{x})^2)  $
+
+$ a = \bar{y} - b \bar{x}$
+
+$ b = n(\sum{x y}) -(\sum{x})(\sum{y})  /  n(\sum{x^2}) - (\sum{x})^2 $
+
+$S_{x y} = \sum{x y} - \frac{\sum{x} \sum{y}}{n}$
+
+$ S_{x x} = \sum{x^2} - \frac{(\sum{x})^2}{n}$
+
+$ b = \frac{S_{x y}}{S_{x x}}​$
+
+$ RMSE = \sqrt{\sum{(y_i - f(x_i))^2}}$  
+
+# Boosting
+
+there is nothing interesting in slides 

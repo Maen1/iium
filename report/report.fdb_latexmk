@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1542995917 "report.aux" "report.bbl" "report" 1542995919
+["bibtex report"] 1543500474 "report.aux" "report.bbl" "report" 1543500741
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1542995919 4436 78b000204d72d156db56aa8dc2077ee6 ""
+  "report.aux" 1543500740 4485 7519dfedc871c35308b9770ed1ae62c5 ""
   "scope.bib" 1541305721 1552 80cc95733687a4e0950a0654a73b5885 ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1542995917 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1542995919
-  "/Users/Maen/iium/report/report.tex" 1542995911 12987 3f32b1ada71e4cbe65672ac1c62f4448 ""
+["pdflatex"] 1543500739 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1543500741
+  "/Users/Maen/iium/report/report.tex" 1543500738 14658 5cdcff40f0ed60e40dc60eddf825b4a5 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -139,6 +139,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd" 1480098837 329 c8cddcc90b6f567b28408eb374773c9c ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1480098837 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd" 1480098837 329 aee7226812ba4138ac67a018466b488d ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty" 1480098841 37387 afa86533e532701faf233f3f592c61e0 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty" 1480098841 8927 46f54e33fc9cef24f78ab3bc811cb63f ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty" 1480098842 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty" 1480098843 55589 34128738f682d033422ca125f82e5d62 ""
@@ -153,12 +154,14 @@
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1542995919 4436 78b000204d72d156db56aa8dc2077ee6 ""
-  "report.bbl" 1542995917 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
-  "report.tex" 1542995911 12987 3f32b1ada71e4cbe65672ac1c62f4448 ""
-  "report.toc" 1542995919 1357 ffa09a742515f82c1f1832511e18da22 ""
+  "report.aux" 1543500740 4485 7519dfedc871c35308b9770ed1ae62c5 ""
+  "report.bbl" 1543500474 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
+  "report.lof" 1543500740 670 5a8ce4022dedafa9cdf5be9117bb5af8 ""
+  "report.tex" 1543500738 14658 5cdcff40f0ed60e40dc60eddf825b4a5 ""
+  "report.toc" 1543500740 1388 653e3ff95973123ff4adacc582edc8c1 ""
   (generated)
-  "report.log"
-  "report.pdf"
-  "report.aux"
   "report.toc"
+  "report.lof"
+  "report.aux"
+  "report.pdf"
+  "report.log"

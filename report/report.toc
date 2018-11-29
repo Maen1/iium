@@ -27,5 +27,5 @@
 \contentsline {paragraph}{}{9}
 \contentsline {section}{\numberline {3.4}Tools}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {paragraph}{}{9}
-\contentsline {chapter}{References}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {chapter}{References}{11}

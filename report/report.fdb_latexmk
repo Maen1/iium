@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1543500941 "report.aux" "report.bbl" "report" 1543501142
+["bibtex report"] 1544359568 "report.aux" "report.bbl" "report" 1544360728
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1543501142 4486 7a8cb6b3ce25a7cb7ef8ff22bbdbcfa8 ""
+  "report.aux" 1544360727 4535 7810063c920442e8af92d7136275e549 ""
   "scope.bib" 1541305721 1552 80cc95733687a4e0950a0654a73b5885 ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1543501140 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1543501142
-  "/Users/Maen/iium/report/report.tex" 1543501141 14815 602eee8a1fc82d9b39f25c2cd3677f73 ""
+  "report.bbl"
+["pdflatex"] 1544360726 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544360728
+  "/Users/Maen/iium/report/report.tex" 1544360723 16678 92c5f91ef11182aedcb0fe38cc9aff57 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -154,14 +154,16 @@
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1543501142 4486 7a8cb6b3ce25a7cb7ef8ff22bbdbcfa8 ""
-  "report.bbl" 1543500941 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
-  "report.lof" 1543501142 670 5a8ce4022dedafa9cdf5be9117bb5af8 ""
-  "report.tex" 1543501141 14815 602eee8a1fc82d9b39f25c2cd3677f73 ""
-  "report.toc" 1543501142 1389 4ba1d1243b7b23627d8071c71bdafb80 ""
+  "report.aux" 1544360727 4535 7810063c920442e8af92d7136275e549 ""
+  "report.bbl" 1544359568 3215 0bc3295c901c02ddd78cc2e4f2eee615 "bibtex report"
+  "report.lof" 1544360727 670 5a8ce4022dedafa9cdf5be9117bb5af8 ""
+  "report.lot" 1544360727 159 9217d5484b7bc6bcb210b1c43edc8cdc ""
+  "report.tex" 1544360723 16678 92c5f91ef11182aedcb0fe38cc9aff57 ""
+  "report.toc" 1544360727 1420 0f889126aaa9b7e0bd17f2d0aea9a68c ""
   (generated)
+  "report.aux"
+  "report.lot"
   "report.pdf"
   "report.lof"
-  "report.toc"
   "report.log"
-  "report.aux"
+  "report.toc"

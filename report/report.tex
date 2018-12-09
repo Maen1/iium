@@ -283,15 +283,14 @@
                 \label{fig:ai_hierarchy}
             \end{figure} 
 
-            In order to recognize a sign from a frame it should be go through several steps:
-            \subsection{Hand detection}
+            \section{Hand detection}
             \paragraph{}
-                The problem of hand detection that hand occupied usually less than 25 percent of the image.
+                The problem of hand recognition that hand occupied usually less than 25 percent of the image.
                 To overcome this issue the model should be provided with high accurate detection algorithm,
                 Right now there are so many good algorithms for object detection which can be utilize to 
                 detect a human hand We are going to concentrate on the most three famous (Faster R-CNN, SSD and YOLO)
 
-                \subsubsection{Faster R-CNN}
+                \subsection{Faster R-CNN}
                 \paragraph{}
                 The Faster Region-based Convolutional Network (Faster R-CNN) is a combination between the Region Proposal Network(RPN) 
                 and the Fast R-CNN model.
@@ -303,7 +302,12 @@
                 A maximum of k regions is fixed thus the output of the box-regression 
                 layer has a size of 4k (coordinates of the boxes, their height and width) 
                 and the output of the box-classification layer a size of 2k (“objectness” scores to detect an object or not in the box). 
-                The k region proposals detected by the sliding window are called anchors. \cite{Ren2017a}
+                The k region proposals detected by the sliding window are called anchors.
+                When the anchor boxes are detected, they are selected by applying a threshold over 
+                the “objectness” score to keep only the relevant boxes. 
+                These anchor boxes and the feature maps computed by the initial CNN model feeds a Fast R-CNN model.
+                Faster R-CNN uses RPN to avoid the selective search method \footnote{}, it accelerates the training and testing 
+                processes, and improve the performances \cite{Ren2017a}
 
 
                 \subsubsection{You Only Look Once (YOLO)}

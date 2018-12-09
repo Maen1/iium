@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1544365736 "report.aux" "report.bbl" "report" 1544365738
+["bibtex report"] 1544397668 "report.aux" "report.bbl" "report" 1544397707
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1544365738 4868 d2a2f534101eeb5a4d1736862a344db9 ""
+  "report.aux" 1544397707 4879 555c5d23ea7c531c8a1fb4df28f9fffc ""
   "scope.bib" 1544364383 2552 6afdaabdad5b1b533365239e1d5c14d8 ""
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1544365736 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544365738
-  "/Users/Maen/iium/report/report.tex" 1544365732 18397 e9aed2a81e68b1fac01b404c27dd8039 ""
+["pdflatex"] 1544397705 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544397707
+  "/Users/Maen/iium/report/report.tex" 1544397705 18778 14adb8fea4ef46faafff4616b20323ed ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -154,16 +154,16 @@
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1544365738 4868 d2a2f534101eeb5a4d1736862a344db9 ""
-  "report.bbl" 1544365736 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
-  "report.lof" 1544365738 670 ed07815bfd89292a56980a8dfaa529b6 ""
-  "report.lot" 1544365738 159 2e58d735995c7991a282fcfa6bde4688 ""
-  "report.tex" 1544365732 18397 e9aed2a81e68b1fac01b404c27dd8039 ""
-  "report.toc" 1544365738 1653 bf7329aba03a4b3741588f0417956137 ""
+  "report.aux" 1544397707 4879 555c5d23ea7c531c8a1fb4df28f9fffc ""
+  "report.bbl" 1544397668 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
+  "report.lof" 1544397707 670 ed07815bfd89292a56980a8dfaa529b6 ""
+  "report.lot" 1544397707 159 2e58d735995c7991a282fcfa6bde4688 ""
+  "report.tex" 1544397705 18778 14adb8fea4ef46faafff4616b20323ed ""
+  "report.toc" 1544397707 1664 46197ce181ec4f6f73b68c632f88eaca ""
   (generated)
-  "report.aux"
-  "report.pdf"
-  "report.toc"
   "report.lof"
-  "report.lot"
+  "report.aux"
+  "report.toc"
   "report.log"
+  "report.pdf"
+  "report.lot"

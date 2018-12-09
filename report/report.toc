@@ -24,14 +24,14 @@
 \contentsline {paragraph}{}{7}
 \contentsline {section}{\numberline {3.2}Image recognition}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {subsection}{\numberline {3.2.1}Hand detection}{8}
+\contentsline {section}{\numberline {3.3}Hand detection}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsubsection}{Faster R-CNN}{8}
+\contentsline {subsection}{\numberline {3.3.1}Faster R-CNN}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {subsubsection}{You Only Look Once (YOLO)}{9}
-\contentsline {section}{\numberline {3.3}Voice producing}{9}
+\contentsline {section}{\numberline {3.4}Voice producing}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {section}{\numberline {3.4}Tools}{9}
+\contentsline {section}{\numberline {3.5}Tools}{9}
 \contentsline {paragraph}{}{9}
 \contentsline {paragraph}{}{9}
 \contentsline {chapter}{References}{10}

@@ -34,33 +34,6 @@ Bao, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Frajtag1%
-\ \BBA {} Jelinic2%
-}{%
-Frajtag1%
-\ \BBA {} Jelinic2%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-Frajtag12017}
-\APACinsertmetastar {%
-Frajtag12017}%
-\begin{APACrefauthors}%
-Frajtag1, J\BPBI B.%
-\BCBT {}\ \BBA {} Jelinic2, J\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Communication Problems and Quality of Life People with
-  Hearing Loss} {Communication problems and quality of life people with hearing
-  loss}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Glob J Otolaryngol}{}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hussain%
 , Saxena%
 , Han%
@@ -126,6 +99,39 @@ Rao, G\BPBI A.%
   communication engineering systems (spaces)}\ (\BPGS\ 194--197).
 \newblock
 \begin{APACrefDOI} \doi{10.1109/SPACES.2018.8316344} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ren%
+, He%
+, Girshick%
+\BCBL {}\ \BBA {} Sun%
+}{%
+Ren%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Ren2017a}
+\APACinsertmetastar {%
+Ren2017a}%
+\begin{APACrefauthors}%
+Ren, S.%
+, He, K.%
+, Girshick, R.%
+\BCBL {}\ \BBA {} Sun, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Faster R-{CNN}: Towards Real-Time Object Detection with
+  Region Proposal Networks} {Faster r-{CNN}: Towards real-time object detection
+  with region proposal networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}{39}{6}{1137--1149}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TPAMI.2016.2577031} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

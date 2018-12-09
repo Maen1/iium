@@ -275,13 +275,41 @@
             and convert it into a vectors of values then classify it using a machine learning algorithm such as support vector machine (SVM).
             In another way, deep learning is a subfield of machine learning, which is subfield of artificial intelligence (AI)
             totally different approach by stacking layers on top of each others that automatically more complicated, abstract 
-            and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI. 
+            and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI.
             \begin{figure}[h]
                 \centering
                 \includegraphics[width=0.5\textwidth]{./images/ai_ml_dl.png}
                 \caption{AI hierarchy}
                 \label{fig:ai_hierarchy}
-            \end{figure}
+            \end{figure} 
+
+            In order to recognize a sign from a frame it should be go through several steps:
+            \subsection{Hand detection}
+            \paragraph{}
+                The problem of hand detection that hand occupied usually less than 25 percent of the image.
+                To overcome this issue the model should be provided with high accurate detection algorithm,
+                Right now there are so many good algorithms for object detection which can be utilize to 
+                detect a human hand We are going to concentrate on the most three famous (Faster R-CNN, SSD and YOLO)
+
+                \subsubsection{Faster R-CNN}
+                \paragraph{}
+                The Faster Region-based Convolutional Network (Faster R-CNN) is a combination between the Region Proposal Network(RPN) 
+                and the Fast R-CNN model.
+                A CNN take the hole image and produces feature maps.
+                A window of size 3x3 slides all the feature maps and outputs 
+                a features vector linked to two fully-connected layers,
+                one for box-regression and one for box-classification.
+                Multiple region proposals are predicted by the fully-connected layers. 
+                A maximum of k regions is fixed thus the output of the box-regression 
+                layer has a size of 4k (coordinates of the boxes, their height and width) 
+                and the output of the box-classification layer a size of 2k (“objectness” scores to detect an object or not in the box). 
+                The k region proposals detected by the sliding window are called anchors. \cite{Ren2017a}
+
+
+                \subsubsection{You Only Look Once (YOLO)}
+
+
+
         \section{Voice producing}
         \paragraph{}
             After processing the image the CNN algorithm classify the gesture

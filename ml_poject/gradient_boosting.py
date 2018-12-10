@@ -11,25 +11,7 @@ from utils.misc import bar_widgets
 
 
 class GradientBoosting(object):
-    """Super class of GradientBoostingClassifier and GradientBoostinRegressor. 
-    Uses a collection of regression trees that trains on predicting the gradient
-    of the loss function. 
-    Parameters:
-    -----------
-    n_estimators: int
-        The number of classification trees that are used.
-    learning_rate: float
-        The step length that will be taken when following the negative gradient during
-        training.
-    min_samples_split: int
-        The minimum number of samples needed to make a split when building a tree.
-    min_impurity: float
-        The minimum impurity required to split the tree further. 
-    max_depth: int
-        The maximum depth of a tree.
-    regression: boolean
-        True or false depending on if we're doing regression or classification.
-    """
+   
     def __init__(self, n_estimators, learning_rate, min_samples_split,
                  min_impurity, max_depth, regression):
         self.n_estimators = n_estimators

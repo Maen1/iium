@@ -5,71 +5,46 @@ from utils import divide_on_feature, train_test_split, standardize, mean_squared
 from utils import calculate_entropy, accuracy_score, calculate_variance
 
 class DecisionNode():
-    """Class that represents a decision node or leaf in the decision tree
-    Parameters:
-    -----------
-    feature_i: int
-        Feature index which we want to use as the threshold measure.
-    threshold: float
-        The value that we will compare feature values at feature_i against to
-        determine the prediction.
-    value: float
-        The class prediction if classification tree, or float value if regression tree.
-    true_branch: DecisionNode
-        Next decision node for samples where features value met the threshold.
-    false_branch: DecisionNode
-        Next decision node for samples where features value did not meet the threshold.
-    """
     def __init__(self, feature_i=None, threshold=None,
                  value=None, true_branch=None, false_branch=None):
-        self.feature_i = feature_i          # Index for the feature that is tested
-        self.threshold = threshold          # Threshold value for feature
+        self.feature_i = feature_i          
+        self.threshold = threshold          
         self.value = value                  # Value if the node is a leaf in the tree
-        self.true_branch = true_branch      # 'Left' subtree
-        self.false_branch = false_branch    # 'Right' subtree
+        self.true_branch = true_branch      # left part
+        self.false_branch = false_branch    
 
 
 # Super class of RegressionTree and ClassificationTree
 class DecisionTree(object):
-    """Super class of RegressionTree and ClassificationTree.
-    Parameters:
-    -----------
-    min_samples_split: int
-        The minimum number of samples needed to make a split when building a tree.
-    min_impurity: float
-        The minimum impurity required to split the tree further.
-    max_depth: int
-        The maximum depth of a tree.
-    loss: function
-        Loss function that is used for Gradient Boosting models to calculate impurity.
-    """
+    
     def __init__(self, min_samples_split=2, min_impurity=1e-7,
                  max_depth=float("inf"), loss=None):
-        self.root = None  # Root node in dec. tree
-        # Minimum n of samples to justify split
+        self.root = None 
+
         self.min_samples_split = min_samples_split
-        # The minimum impurity to justify split
+
         self.min_impurity = min_impurity
-        # The maximum depth to grow the tree to
+
         self.max_depth = max_depth
-        # Function to calculate impurity (classif.=>info gain, regr=>variance reduct.)
+
         self._impurity_calculation = None
-        # Function to determine prediction of y at leaf
+
         self._leaf_value_calculation = None
-        # If y is one-hot encoded (multi-dim) or not (one-dim)
+
         self.one_dim = None
-        # If Gradient Boost
+
         self.loss = loss
 
+    # Build decision tree
     def fit(self, X, y, loss=None):
-        """ Build decision tree """
+        
         self.one_dim = len(np.shape(y)) == 1
         self.root = self._build_tree(X, y)
         self.loss=None
 
+    # build and split
     def _build_tree(self, X, y, current_depth=0):
-        """ Recursive method which builds out the decision tree and splits X and respective y
-        on the feature of X which (based on impurity) best separates the data"""
+    
 
         largest_impurity = 0
         best_criteria = None    # Feature index and threshold
@@ -131,10 +106,9 @@ class DecisionTree(object):
 
         return DecisionNode(value=leaf_value)
 
-
+    # search the tree 
     def predict_value(self, x, tree=None):
-        """ Do a recursive search down the tree and make a prediction of the data sample by the
-            value of the leaf that we end up at """
+        
 
         if tree is None:
             tree = self.root
@@ -158,12 +132,10 @@ class DecisionTree(object):
         return self.predict_value(x, branch)
 
     def predict(self, X):
-        """ Classify samples one by one and return the set of labels """
         y_pred = [self.predict_value(sample) for sample in X]
         return y_pred
 
     def print_tree(self, tree=None, indent=" "):
-        """ Recursively print the decision tree """
         if not tree:
             tree = self.root
 
@@ -186,8 +158,6 @@ class DecisionTree(object):
 class XGBoostRegressionTree(DecisionTree):
   
     def _split(self, y):
-        """ y contains y_true in left half of the middle column and
-        y_pred in the right half. Split and return the two matrices """
         col = int(np.shape(y)[1]/2)
         y, y_pred = y[:, :col], y[:, col:]
         return y, y_pred

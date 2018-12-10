@@ -28,10 +28,12 @@
 \contentsline {paragraph}{}{8}
 \contentsline {subsection}{\numberline {3.3.1}Faster R-CNN}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {3.3.2}You Only Look Once (YOLO)}{10}
+\contentsline {subsection}{\numberline {3.3.2}Single-Shot Detector (SSD)}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsection}{\numberline {3.3.3}You Only Look Once (YOLO)}{10}
 \contentsline {section}{\numberline {3.4}Voice producing}{10}
 \contentsline {paragraph}{}{10}
 \contentsline {section}{\numberline {3.5}Tools}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {chapter}{References}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {chapter}{References}{12}

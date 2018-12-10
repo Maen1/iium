@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1544401419 "report.aux" "report.bbl" "report" 1544401914
+["bibtex report"] 1544403451 "report.aux" "report.bbl" "report" 1544403463
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1544401913 5268 e81b3ec3d7bdd2d37abbdaf94f807276 ""
+  "report.aux" 1544403462 5414 b74fa48388d7bd3dec8a17fb6f3ab180 ""
   "scope.bib" 1544364383 2552 6afdaabdad5b1b533365239e1d5c14d8 ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1544401911 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544401914
-  "/Users/Maen/iium/report/report.tex" 1544401911 19615 d5d5ce8b7aedee1455ba43b36688f4a0 ""
+  "report.bbl"
+["pdflatex"] 1544403461 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544403463
+  "/Users/Maen/iium/report/report.tex" 1544403461 20708 f8a645ccaeaafb4e7170da188802d9bc ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -156,16 +156,16 @@
   "images/tiny_a.png" 1540018956 367715 649eb77c9ee87024f977591e939dba88 ""
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
-  "report.aux" 1544401913 5268 e81b3ec3d7bdd2d37abbdaf94f807276 ""
-  "report.bbl" 1544401419 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
-  "report.lof" 1544401913 939 1f69c4dd5c08c41eaf50ffd3f1a35b5f ""
-  "report.lot" 1544401913 159 2e58d735995c7991a282fcfa6bde4688 ""
-  "report.tex" 1544401911 19615 d5d5ce8b7aedee1455ba43b36688f4a0 ""
-  "report.toc" 1544401913 1686 e3ab22d01865179b71062035367ac1e3 ""
+  "report.aux" 1544403462 5414 b74fa48388d7bd3dec8a17fb6f3ab180 ""
+  "report.bbl" 1544403451 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
+  "report.lof" 1544403462 939 1f69c4dd5c08c41eaf50ffd3f1a35b5f ""
+  "report.lot" 1544403462 159 2e58d735995c7991a282fcfa6bde4688 ""
+  "report.tex" 1544403461 20708 f8a645ccaeaafb4e7170da188802d9bc ""
+  "report.toc" 1544403462 1796 123ac8f5784881369d315394367e0ffb ""
   (generated)
   "report.pdf"
   "report.log"
+  "report.aux"
   "report.toc"
   "report.lot"
   "report.lof"
-  "report.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  10 DEC 2018 08:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  10 DEC 2018 08:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,23 +540,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-)
+ [3
+
+])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [3
-
-] (./report.lof)
+ [4] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [4
+ [5
 
 ] (./report.lot)
 \tf@lot=\write6
 \openout6 = `report.lot'.
 
- [5
+ [6
 
 ]
 Chapter 1.
@@ -575,12 +575,12 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 ] [2]
 Chapter 2.
-<./images/tiny_a.png, id=37, 539.01375pt x 670.505pt>
+<./images/tiny_a.png, id=40, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
 Package pdftex.def Info: ./images/tiny_a.png  used on input line 180.
 (pdftex.def)             Requested size: 226.48395pt x 281.73296pt.
-<./images/tiny_b.png, id=39, 439.14063pt x 441.65pt>
+<./images/tiny_b.png, id=42, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
 Package pdftex.def Info: ./images/tiny_b.png  used on input line 183.
@@ -588,30 +588,30 @@ Package pdftex.def Info: ./images/tiny_b.png  used on input line 183.
 [3
 
 ]
-<./images/selfie.png, id=43, 1083.04625pt x 338.26375pt>
+<./images/selfie.png, id=46, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
 Package pdftex.def Info: ./images/selfie.png  used on input line 201.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
  [4 <./images/tiny_a.png> <./images/tiny_b.png> <./images/selfie.png>]
-<images/vgg16.png, id=50, 471.7625pt x 277.035pt>
+<images/vgg16.png, id=53, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
 Package pdftex.def Info: images/vgg16.png  used on input line 219.
 (pdftex.def)             Requested size: 452.9679pt x 266.0013pt.
-<images/alexnet.png, id=51, 123.3408pt x 50.95035pt>
+<images/alexnet.png, id=54, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
 Package pdftex.def Info: images/alexnet.png  used on input line 225.
 (pdftex.def)             Requested size: 452.9679pt x 187.15665pt.
  [5 <./images/vgg16.png (PNG copy)> <./images/alexnet.png>] [6]
 Chapter 3.
-<./images/system_diagram.png, id=59, 655.44875pt x 233.87375pt>
+<./images/system_diagram.png, id=62, 655.44875pt x 233.87375pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
 Package pdftex.def Info: ./images/system_diagram.png  used on input line 266.
 (pdftex.def)             Requested size: 452.9679pt x 161.62642pt.
-<./images/ai_ml_dl.png, id=60, 228.3732pt x 240.4182pt>
+<./images/ai_ml_dl.png, id=63, 228.3732pt x 240.4182pt>
 File: ./images/ai_ml_dl.png Graphic file (type png)
 <use ./images/ai_ml_dl.png>
 Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 281.
@@ -628,7 +628,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 296.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 296.
-<./images/cfm.png, id=65, 889.3225pt x 524.96124pt>
+<./images/cfm.png, id=68, 889.3225pt x 524.96124pt>
 File: ./images/cfm.png Graphic file (type png)
 <use ./images/cfm.png>
 Package pdftex.def Info: ./images/cfm.png  used on input line 306.
@@ -637,17 +637,17 @@ Package pdftex.def Info: ./images/cfm.png  used on input line 306.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/frcnn.png, id=66, 682.55pt x 589.20125pt>
+<./images/frcnn.png, id=69, 682.55pt x 589.20125pt>
 File: ./images/frcnn.png Graphic file (type png)
 <use ./images/frcnn.png>
 Package pdftex.def Info: ./images/frcnn.png  used on input line 320.
-(pdftex.def)             Requested size: 271.7835pt x 234.61543pt.
+(pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
 [8 <./images/ai_ml_dl.png>] [9 <./images/cfm.png (PNG copy)> <./images/frcnn.png (PNG copy)>]
-Underfull \hbox (badness 1342) in paragraph at lines 338--338
+Underfull \hbox (badness 1342) in paragraph at lines 355--355
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
-(./report.bbl [10]) [11
+[10] (./report.bbl [11]) [12
 
 ] (./report.aux)
 
@@ -666,10 +666,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,454b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (18 pages, 1358045 bytes).
+Output written on report.pdf (20 pages, 1359915 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

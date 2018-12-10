@@ -68,6 +68,36 @@ Hussain, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Liu%
+\ \protect \BOthers {.}}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Liu2016}
+\APACinsertmetastar {%
+Liu2016}%
+\begin{APACrefauthors}%
+Liu, W.%
+, Anguelov, D.%
+, Erhan, D.%
+, Szegedy, C.%
+, Reed, S.%
+, Fu, C\BHBI Y.%
+\BCBL {}\ \BBA {} Berg, A\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ssd: Single shot multibox detector} {Ssd: Single shot
+  multibox detector}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {European conference on computer vision} {European
+  conference on computer vision}\ (\BPGS\ 21--37).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rao%
 , Syamala%
 , Kishore%
@@ -99,6 +129,39 @@ Rao, G\BPBI A.%
   communication engineering systems (spaces)}\ (\BPGS\ 194--197).
 \newblock
 \begin{APACrefDOI} \doi{10.1109/SPACES.2018.8316344} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Redmon%
+, Divvala%
+, Girshick%
+\BCBL {}\ \BBA {} Farhadi%
+}{%
+Redmon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Redmon2016}
+\APACinsertmetastar {%
+Redmon2016}%
+\begin{APACrefauthors}%
+Redmon, J.%
+, Divvala, S.%
+, Girshick, R.%
+\BCBL {}\ \BBA {} Farhadi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {You Only Look Once: Unified, Real-Time Object Detection}
+  {You only look once: Unified, real-time object detection}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  (CVPR)} {Proc. ieee conf. computer vision and pattern recognition (cvpr)}\
+  (\BPGS\ 779--788).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/CVPR.2016.91} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -314,7 +314,7 @@
                 Faster R-CNN uses RPN to avoid the 
                 selective search method \footnote{ Region Proposal algorithm based on grouping of similar region based on color, size, texture and shape compatibility.}, 
                 it accelerates the training and testing 
-                processes, and improve the performances \cite{Ren2017a}
+                processes, and improve the performances. \cite{Ren2017a}
                     \begin{figure}[h]
                     \centering
                     \includegraphics[width=0.7\textwidth]{./images/frcnn.png}
@@ -344,7 +344,7 @@
                     First, non-maximum suppression:\footnote{Object detection methods often output multiple detections which fully or partly cover the same object in an image.}
                     to group overlapping boxes into one box by keeping the highest confidence
                     Then,hard negative mining: to balance classes during the training process; subset the negative examples 
-                    with the highest training loss with a 3:1 ratio of negatives for positives.
+                    with the highest training loss with a 3:1 ratio of negatives for positives.\cite{Liu2016}
 
                     \begin{figure}[h]
                     \centering
@@ -375,7 +375,7 @@
                     Similar to SSD, YOLO predicts so many bounding boxes without any object,
                     So it applies non-maximum suppression method at the end of the network,
                     to merge high overlapping bounding boxes of the same boxes into a single one.
-                    The author noticed that still some false positive detected.
+                    The author noticed that still some false positive detected.\cite{Redmon2016}
 
                     
                     \bigbreak

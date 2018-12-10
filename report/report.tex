@@ -335,9 +335,25 @@
                         \item Use a 3*3 convolutional filter to evaluate bounding boxes for each location of the feature maps.
                         \item predict bounding box of set and the class probability all together.
                         \item The best predicted box called as "positive" label, alongside with
-                        the boxes that have IoU\footnote{Intersection over Union } value >0.5 
-
+                        the boxes that have IoU \footnote{Intersection over Union } value $>$ 0.5 
                     \end{itemize}
+                    Sense SSD skip filtering step, it generates multiple bounding box with multiple shapes
+                    and most of them are negative example.
+
+                    To fix this issue, SSD does two extra methods.
+                    First, non-maximum suppression:\footnote{Object detection methods often output multiple detections which fully or partly cover the same object in an image.}
+                    to group overlapping boxes into one box by keeping the highest confidence
+                    Then,hard negative mining: to balance classes during the training process; subset the negative examples 
+                    with the highest training loss with a 3:1 ratio of negatives for positives.
+
+                    \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=.7\textwidth]{./images/ssd.png}
+                    \caption{SSD. Retrieved from https://www.semanticscholar.org}
+                    \label{fig:frcnn}
+                    \end{figure} 
+
+
 
                 \subsection{You Only Look Once (YOLO)}
 

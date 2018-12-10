@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1544409556 "report.aux" "report.bbl" "report" 1544409881
+["bibtex report"] 1544410427 "report.aux" "report.bbl" "report" 1544410465
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1544409880 5793 806a0a7427bdcb645a864cb2f0359250 ""
+  "report.aux" 1544410465 5793 9ffe1fc2db6b1712a75935a066cfd37d ""
   "scope.bib" 1544364383 2552 6afdaabdad5b1b533365239e1d5c14d8 ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1544409879 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544409881
-  "/Users/Maen/iium/report/report.tex" 1544409881 23459 70a746b67c5c42aaa127f418a47a7202 ""
+  "report.bbl"
+["pdflatex"] 1544410463 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544410465
+  "/Users/Maen/iium/report/report.tex" 1544410462 23750 73f8ea934bf4601897f966bd5372df1e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1480098689 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -162,16 +162,16 @@
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
   "images/yolo.png" 1544409453 57181 46a8a8e01bf4362afa90a7338538ffad ""
-  "report.aux" 1544409880 5793 806a0a7427bdcb645a864cb2f0359250 ""
-  "report.bbl" 1544409556 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
-  "report.lof" 1544409880 1168 1d6fb123a021e1cedd84c4a7139111ed ""
-  "report.lot" 1544409880 159 2e58d735995c7991a282fcfa6bde4688 ""
-  "report.tex" 1544409881 23459 70a746b67c5c42aaa127f418a47a7202 ""
-  "report.toc" 1544409880 1828 f1cedbf71754ffe6a23d654464774182 ""
+  "report.aux" 1544410465 5793 9ffe1fc2db6b1712a75935a066cfd37d ""
+  "report.bbl" 1544410427 3403 ff3e49c4eef7b208a2ff10c10c68a5c6 "bibtex report"
+  "report.lof" 1544410465 1168 1d6fb123a021e1cedd84c4a7139111ed ""
+  "report.lot" 1544410465 159 2e58d735995c7991a282fcfa6bde4688 ""
+  "report.tex" 1544410462 23750 73f8ea934bf4601897f966bd5372df1e ""
+  "report.toc" 1544410465 1828 5d6fef63fbc648a379b6dc7151d312b2 ""
   (generated)
+  "report.lot"
+  "report.aux"
+  "report.toc"
+  "report.log"
   "report.pdf"
   "report.lof"
-  "report.aux"
-  "report.lot"
-  "report.log"
-  "report.toc"

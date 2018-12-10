@@ -372,7 +372,7 @@
                     The final layer outputs a S*S*(C+B*5) tensor corresponding to the predictions for each cell of the grid.
                     C is the number of estimated probabilities for each class.
 
-                    similar to SSD, YOLO predicts so many bounding boxes without any object,
+                    Similar to SSD, YOLO predicts so many bounding boxes without any object,
                     So it applies non-maximum suppression method at the end of the network,
                     to merge high overlapping bounding boxes of the same boxes into a single one.
                     The author noticed that still some false positive detected.

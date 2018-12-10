@@ -356,8 +356,34 @@
 
 
                 \subsection{You Only Look Once (YOLO)}
+                \paragraph{}
+                    Like SSD YOLO directly predicts bounding boxes and class probabilities
+                    with a single evaluation. The simpleness of YOLO allows real time prediction.
+                    \begin{itemize}
+                        \item The model divide the input image into SxS grid.
+                        \item Each cell of the grid predict B bounding boxes with a confidence score.
+                        \item The score confidence is the probability of detected object multiply by the IoU between the prediction and the truth boxes.
+                    \end{itemize}
+                    The CNN has 24 convolutional layers followed by 2 connected layers.
+                    Reduction layers with 1x1 filters followed by 3x3 convolutional layers 
+                    replace the initial inception modules.
+                    The Fast YOLO model comes with 9  convolutional layers and less number of filters.
+                    The final layer outputs a S*S*(C+B*5) tensor corresponding to the predictions for each cell of the grid.
+                    C is the number of estimated probabilities for each class.
+
+                    similar to SSD, YOLO predicts so many bounding boxes without any object,
+                    So it applies non-maximum suppression method at the end of the network.
+                    
+                    \bigbreak
+                    \bigbreak
 
 
+                    \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=1\textwidth]{./images/yolo.png}
+                    \caption{YOLO. Retrieved from https://medium.com/}
+                    \label{fig:frcnn}
+                    \end{figure} 
 
         \section{Voice producing}
         \paragraph{}

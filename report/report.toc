@@ -31,9 +31,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Single-Shot Detector (SSD)}{10}
 \contentsline {paragraph}{}{10}
 \contentsline {subsection}{\numberline {3.3.3}You Only Look Once (YOLO)}{11}
+\contentsline {paragraph}{}{11}
 \contentsline {section}{\numberline {3.4}Voice producing}{11}
 \contentsline {paragraph}{}{11}
-\contentsline {section}{\numberline {3.5}Tools}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {chapter}{References}{12}
+\contentsline {section}{\numberline {3.5}Tools}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {chapter}{References}{13}

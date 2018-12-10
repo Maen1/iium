@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1544411439 "report.aux" "report.bbl" "report" 1544411442
+["bibtex report"] 1544445397 "report.aux" "report.bbl" "report" 1544445400
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1544411441 6284 914a0bb8976bccf842d04da57ed3e900 ""
+  "report.aux" 1544445400 6132 cccfbae5cbc60e5ce868ed98b116f489 ""
   "scope.bib" 1544411392 3714 ce971fc48f14546ad0aa95b6034bf6dc ""
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1544411439 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544411442
-  "/Users/Maen/iium/report/report.tex" 1544411433 23782 69efc8f53c9a4d28bb88dee71a83e2a0 ""
+  "report.bbl"
+["pdflatex"] 1544445397 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1544445400
+  "/Users/Maen/iium/report/report.tex" 1544445396 23720 e0499dc597e268e7363b20f1eb9ac44d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1480098689 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -162,16 +162,16 @@
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
   "images/yolo.png" 1544409453 57181 46a8a8e01bf4362afa90a7338538ffad ""
-  "report.aux" 1544411441 6284 914a0bb8976bccf842d04da57ed3e900 ""
-  "report.bbl" 1544411439 4926 5246c3439cc661c230a78e5e42fd0fc5 "bibtex report"
-  "report.lof" 1544411441 1168 1d6fb123a021e1cedd84c4a7139111ed ""
-  "report.lot" 1544411441 159 2e58d735995c7991a282fcfa6bde4688 ""
-  "report.tex" 1544411433 23782 69efc8f53c9a4d28bb88dee71a83e2a0 ""
-  "report.toc" 1544411441 1828 5d6fef63fbc648a379b6dc7151d312b2 ""
+  "report.aux" 1544445400 6132 cccfbae5cbc60e5ce868ed98b116f489 ""
+  "report.bbl" 1544445397 4926 5246c3439cc661c230a78e5e42fd0fc5 "bibtex report"
+  "report.lof" 1544445400 1168 1d6fb123a021e1cedd84c4a7139111ed ""
+  "report.lot" 1544445400 159 2e58d735995c7991a282fcfa6bde4688 ""
+  "report.tex" 1544445396 23720 e0499dc597e268e7363b20f1eb9ac44d ""
+  "report.toc" 1544445400 1712 317019eb5a9957912f31aec389e55f84 ""
   (generated)
-  "report.lof"
-  "report.lot"
   "report.log"
   "report.toc"
+  "report.lof"
   "report.aux"
+  "report.lot"
   "report.pdf"

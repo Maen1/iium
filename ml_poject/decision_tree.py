@@ -1,8 +1,8 @@
 from __future__ import division, print_function
 import numpy as np
-
 from utils import divide_on_feature, train_test_split, standardize, mean_squared_error
 from utils import calculate_entropy, accuracy_score, calculate_variance
+import pandas as pd
 
 class DecisionNode():
     def __init__(self, feature_i=None, threshold=None,
@@ -53,6 +53,7 @@ class DecisionTree(object):
         # Check if expansion of y is needed
         if len(np.shape(y)) == 1:
             y = np.expand_dims(y, axis=1)
+
 
         # Add y as last column of X
         Xy = np.concatenate((X, y), axis=1)

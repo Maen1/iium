@@ -101,7 +101,7 @@ def standardize(X):
     return X_std
 
 
-def train_test_split(X, y, test_size=0.5, shuffle=True, seed=None):
+def train_test_split(X, y, test_size=0.2, shuffle=True, seed=None):
     """ Split the data into train and test sets """
     if shuffle:
         X, y = shuffle_data(X, y, seed)

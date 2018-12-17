@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  17 DEC 2018 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  17 DEC 2018 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -570,9 +570,9 @@ Package pdftex.def Info: ./images/iium.png  used on input line 37.
 (pdftex.def)             Requested size: 426.79134pt x 106.85655pt.
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>] [2]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
  [1] [2] [3] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
@@ -633,23 +633,23 @@ Chapter 2.
 [4
 
 ]
-<./images/tiny_a.png, id=56, 539.01375pt x 670.505pt>
+<./images/tiny_a.png, id=53, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
 Package pdftex.def Info: ./images/tiny_a.png  used on input line 229.
 (pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
-<./images/tiny_b.png, id=57, 439.14063pt x 441.65pt>
+<./images/tiny_b.png, id=54, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
 Package pdftex.def Info: ./images/tiny_b.png  used on input line 234.
 (pdftex.def)             Requested size: 452.9679pt x 455.565pt.
  [5 <./images/tiny_a.png>] [6 <./images/tiny_b.png>]
-<./images/selfie.png, id=66, 1083.04625pt x 338.26375pt>
+<./images/selfie.png, id=63, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
 Package pdftex.def Info: ./images/selfie.png  used on input line 251.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
-<images/vgg16.png, id=67, 471.7625pt x 277.035pt>
+<images/vgg16.png, id=64, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
 Package pdftex.def Info: images/vgg16.png  used on input line 270.
@@ -658,7 +658,7 @@ Package pdftex.def Info: images/vgg16.png  used on input line 270.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/alexnet.png, id=68, 123.3408pt x 50.95035pt>
+<images/alexnet.png, id=65, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
 Package pdftex.def Info: images/alexnet.png  used on input line 276.
@@ -670,7 +670,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Chapter 3.
-<./images/system_diagram.png, id=80, 655.44875pt x 233.87375pt>
+<./images/system_diagram.png, id=76, 655.44875pt x 233.87375pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
 Package pdftex.def Info: ./images/system_diagram.png  used on input line 315.
@@ -678,7 +678,7 @@ Package pdftex.def Info: ./images/system_diagram.png  used on input line 315.
 [10
 
  <./images/system_diagram.png>]
-<./images/ai_ml_dl.png, id=85, 228.3732pt x 240.4182pt>
+<./images/ai_ml_dl.png, id=82, 228.3732pt x 240.4182pt>
 File: ./images/ai_ml_dl.png Graphic file (type png)
 <use ./images/ai_ml_dl.png>
 Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 332.
@@ -692,7 +692,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
-<./images/cfm.png, id=90, 889.3225pt x 524.96124pt>
+<./images/cfm.png, id=87, 889.3225pt x 524.96124pt>
 File: ./images/cfm.png Graphic file (type png)
 <use ./images/cfm.png>
 Package pdftex.def Info: ./images/cfm.png  used on input line 357.
@@ -701,13 +701,13 @@ Package pdftex.def Info: ./images/cfm.png  used on input line 357.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/frcnn.png, id=91, 682.55pt x 589.20125pt>
+<./images/frcnn.png, id=88, 682.55pt x 589.20125pt>
 File: ./images/frcnn.png Graphic file (type png)
 <use ./images/frcnn.png>
 Package pdftex.def Info: ./images/frcnn.png  used on input line 371.
 (pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
 [12] [13 <./images/cfm.png (PNG copy)> <./images/frcnn.png (PNG copy)>]
-<./images/ssd.png, id=98, 1427.3325pt x 1047.915pt>
+<./images/ssd.png, id=95, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
 Package pdftex.def Info: ./images/ssd.png  used on input line 402.
@@ -717,7 +717,7 @@ Package pdftex.def Info: ./images/ssd.png  used on input line 402.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15 <./images/ssd.png>]
-<./images/yolo.png, id=107, 1113.15875pt x 472.76625pt>
+<./images/yolo.png, id=103, 1113.15875pt x 472.76625pt>
 File: ./images/yolo.png Graphic file (type png)
 <use ./images/yolo.png>
 Package pdftex.def Info: ./images/yolo.png  used on input line 439.
@@ -743,10 +743,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,454b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (29 pages, 1925036 bytes).
+Output written on report.pdf (28 pages, 1924832 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

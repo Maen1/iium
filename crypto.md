@@ -38,3 +38,4 @@
 * Key-policy ABE (KP-ABE): In the KP-ABE, attribute sets are used to describe the encrypted texts and the private keys are associated to specified policy that users will have.
 * Fully homomorphic encryption (FHE): Fully homomorphic encryption allows computations on encrypted data, and also allows computing sum and product for the encrypted data without decryption.
 * Searchable encryption (SE): Searchable encryption is a cryptographic system which offer secure search functions over encrypted data. SE schemes can be classified into two categories: SE based on secret-key (or symmetric-key) cryptography, and SE based on public-key cryptography. In order to improve search efficiency, symmetric-key SE generally builds keyword indexes to answer user queries.
+

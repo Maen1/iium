@@ -12,47 +12,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: scope.bib
-Warning--I didn't find a database entry for "Frajtag12017"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 6 entries,
+You've used 7 entries,
             6951 wiz_defined-function locations,
-            1317 strings with 12056 characters,
-and the built_in function-call counts, 14820 in all, are:
-= -- 1867
-> -- 164
-< -- 646
-+ -- 729
-- -- 12
-* -- 914
-:= -- 2457
-add.period$ -- 32
-call.type$ -- 6
-change.case$ -- 116
+            1320 strings with 12189 characters,
+and the built_in function-call counts, 16754 in all, are:
+= -- 2114
+> -- 178
+< -- 741
++ -- 831
+- -- 14
+* -- 1034
+:= -- 2818
+add.period$ -- 36
+call.type$ -- 7
+change.case$ -- 133
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 450
-empty$ -- 544
-format.name$ -- 272
-if$ -- 2833
+cite$ -- 14
+duplicate$ -- 498
+empty$ -- 616
+format.name$ -- 296
+if$ -- 3203
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 183
-num.names$ -- 48
-pop$ -- 323
+newline$ -- 208
+num.names$ -- 56
+pop$ -- 351
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 38
 quote$ -- 0
-skip$ -- 941
+skip$ -- 1071
 stack$ -- 0
-substring$ -- 819
-swap$ -- 263
-text.length$ -- 44
+substring$ -- 932
+swap$ -- 287
+text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 736
+type$ -- 816
 warning$ -- 0
-while$ -- 105
+while$ -- 112
 width$ -- 0
-write$ -- 250
-(There was 1 warning)
+write$ -- 281

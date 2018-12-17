@@ -1,5 +1,7 @@
 \contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{ii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Background}{1}
 \contentsline {paragraph}{}{1}
@@ -10,30 +12,30 @@
 \contentsline {paragraph}{}{2}
 \contentsline {section}{\numberline {1.5}Significance}{2}
 \contentsline {paragraph}{}{2}
-\contentsline {section}{\numberline {1.6}Timeline}{2}
-\contentsline {chapter}{\numberline {2}Literature review}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {section}{\numberline {2.1}Previous works}{3}
-\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {1.6}Timeline}{3}
+\contentsline {chapter}{\numberline {2}Literature review}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {section}{\numberline {2.1}Previous works}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{5}
-\contentsline {section}{\numberline {2.2}Summary}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {chapter}{\numberline {3}Methodology}{7}
+\contentsline {section}{\numberline {2.2}Summary}{7}
 \contentsline {paragraph}{}{7}
-\contentsline {section}{\numberline {3.1}Image recognition}{7}
-\contentsline {paragraph}{}{7}
-\contentsline {section}{\numberline {3.2}Hand detection}{8}
+\contentsline {chapter}{\numberline {3}Methodology}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {3.2.1}Faster R-CNN}{8}
+\contentsline {section}{\numberline {3.1}Image recognition}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {subsection}{\numberline {3.2.2}Single-Shot Detector (SSD)}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {3.2.3}You Only Look Once (YOLO)}{11}
+\contentsline {section}{\numberline {3.2}Hand detection}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {3.2.1}Faster R-CNN}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {3.2.2}Single-Shot Detector (SSD)}{11}
 \contentsline {paragraph}{}{11}
-\contentsline {section}{\numberline {3.3}Voice producing}{12}
+\contentsline {subsection}{\numberline {3.2.3}You Only Look Once (YOLO)}{12}
 \contentsline {paragraph}{}{12}
-\contentsline {section}{\numberline {3.4}Tools}{12}
-\contentsline {paragraph}{}{12}
-\contentsline {paragraph}{}{12}
-\contentsline {chapter}{References}{13}
+\contentsline {section}{\numberline {3.3}Voice producing}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {section}{\numberline {3.4}Tools}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {chapter}{References}{14}

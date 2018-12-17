@@ -34,6 +34,33 @@ Bao, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Frajtag1%
+\ \BBA {} Jelinic2%
+}{%
+Frajtag1%
+\ \BBA {} Jelinic2%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+AFrajtag12017}
+\APACinsertmetastar {%
+AFrajtag12017}%
+\begin{APACrefauthors}%
+Frajtag1, J\BPBI B.%
+\BCBT {}\ \BBA {} Jelinic2, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Communication Problems and Quality of Life People with
+  Hearing Loss} {Communication problems and quality of life people with hearing
+  loss}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Glob J Otolaryngol}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hussain%
 , Saxena%
 , Han%

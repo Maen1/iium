@@ -20,6 +20,7 @@
 
     \definecolor{tail}{RGB}{26, 188, 156}
     \geometry{margin=1in}
+    \linespread{2}
     \parindent0pt  
     \parskip10pt             
     \raggedright
@@ -221,15 +222,16 @@
                 and 85.3\% in the images with complex backgrounds.However, the main disadvantage of of 
                 the proposed algorithm is the training set which only includes 7 different gestures,
                 and it tends to have bad accuracy with complex backgrounds.
-             
-                    \begin{figure}
+                \bigbreak
+
+                    \begin{figure}[h]
                         \centering
-                        \begin{subfigure}[a]{0.5\textwidth}
-                          \includegraphics[width=\textwidth]{./images/tiny_a.png}
-                        \end{subfigure}
-                        \begin{subfigure}[b]{0.3\textwidth}
-                            \includegraphics[width=\textwidth]{./images/tiny_b.png}
-                        \end{subfigure}
+                          \includegraphics[width=.8\textwidth]{./images/tiny_a.png}
+                    \end{figure}
+                        \bigbreak
+                     \begin{figure}
+                        \centering
+                        \includegraphics[width=\textwidth]{./images/tiny_b.png}
                         \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
                     \end{figure}
 
@@ -251,7 +253,7 @@
                         \label{fig:selfie}
                     \end{figure}
 
-                 \newpage
+            
             
             \paragraph{}
                 \cite{Hussain2017}, introduced a CNN based classifier  trained through the process of transfer learning
@@ -261,25 +263,25 @@
                 figure \ref{fig:alexnet} was 76.96\%. the same problem here with the other papers 
                 which is the small number of sign that begin trained on 7 signs, and the accuracy
                 need to be improved as well.
+                \bigbreak
 
                     \begin{figure}[h]
                         \centering
-                        \includegraphics[width=\textwidth]{images/vgg16.png}
+                        \includegraphics[width=.9\textwidth]{images/vgg16.png}
                         \caption{VGG16 architecture. Retrieved from www.cs.toronto.edu}
                         \label{fig:vgg16}
                     \end{figure}
                     \begin{figure}[h]
                         \centering
-                        \includegraphics[width=\textwidth]{images/alexnet.png}
-                        \caption{VGG16 architecture. Retrieved from www.saagie.com}
+                        \includegraphics[width=.8\textwidth]{images/alexnet.png}
+                        \caption{AlexNet architecture. Retrieved from www.saagie.com}
                         \label{fig:alexnet}
                     \end{figure}
 
-                \newpage
-
+            \clearpage
             \section{Summary}
                 \paragraph{}
-                    This chapter illustrates some works have been done previously on
+                    This chapter illustrated some works have been done previously on
                     hand gesture and sign language recognition using deep learning.
                     Table \ref{table:summary} the Summary of the literature review.
                     
@@ -323,9 +325,11 @@
             In another way, deep learning is a subfield of machine learning, which is subfield of artificial intelligence (AI)
             totally different approach by stacking layers on top of each others that automatically more complicated, abstract 
             and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI.
+            \bigbreak
+            \bigbreak
             \begin{figure}[h]
                 \centering
-                \includegraphics[width=0.5\textwidth]{./images/ai_ml_dl.png}
+                \includegraphics[width=0.7\textwidth]{./images/ai_ml_dl.png}
                 \caption{AI hierarchy}
                 \label{fig:ai_hierarchy}
             \end{figure} 
@@ -395,7 +399,7 @@
 
                     \begin{figure}[h]
                     \centering
-                    \includegraphics[width=.7\textwidth]{./images/ssd.png}
+                    \includegraphics[width=.8\textwidth]{./images/ssd.png}
                     \caption{SSD. Retrieved from https://www.semanticscholar.org}
                     \label{fig:frcnn}
                     \end{figure} 

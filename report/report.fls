@@ -307,6 +307,12 @@ INPUT ./images/vgg16.png
 INPUT images/alexnet.png
 INPUT ./images/alexnet.png
 INPUT ./images/alexnet.png
+INPUT images/depth_cnn.png
+INPUT ./images/depth_cnn.png
+INPUT ./images/depth_cnn.png
+INPUT images/m_cnn.png
+INPUT ./images/m_cnn.png
+INPUT ./images/m_cnn.png
 INPUT ./images/system_diagram.png
 INPUT ./images/system_diagram.png
 INPUT ./images/system_diagram.png

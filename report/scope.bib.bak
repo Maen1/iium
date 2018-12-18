@@ -55,16 +55,15 @@
 }
 
 @InProceedings{Redmon2016,
-  author        = {J. Redmon and S. Divvala and R. Girshick and A. Farhadi},
-  title         = {You Only Look Once: Unified, Real-Time Object Detection},
-  booktitle     = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
-  year          = {2016},
-  pages         = {779--788},
-  month         = jun,
-  __markedentry = {[Maen:]},
-  doi           = {10.1109/CVPR.2016.91},
-  issn          = {1063-6919},
-  keywords      = {image classification, image representation, neural nets, object detection, you only look once, unified real-time object detection, object classifiers, bounding boxes, class probabilities, neural network, detection pipeline, detection performance, YOLO model, object representation, DPM, R-CNN, natural images, Computer architecture, Microprocessors, Object detection, Training, Real-time systems, Neural networks, Pipelines},
+  author    = {J. Redmon and S. Divvala and R. Girshick and A. Farhadi},
+  title     = {You Only Look Once: Unified, Real-Time Object Detection},
+  booktitle = {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2016},
+  pages     = {779--788},
+  month     = jun,
+  doi       = {10.1109/CVPR.2016.91},
+  issn      = {1063-6919},
+  keywords  = {image classification, image representation, neural nets, object detection, you only look once, unified real-time object detection, object classifiers, bounding boxes, class probabilities, neural network, detection pipeline, detection performance, YOLO model, object representation, DPM, R-CNN, natural images, Computer architecture, Microprocessors, Object detection, Training, Real-time systems, Neural networks, Pipelines},
 }
 
 @InProceedings{Liu2016,
@@ -74,6 +73,16 @@
   year          = {2016},
   pages         = {21--37},
   organization  = {Springer},
+  __markedentry = {[Maen:]},
+}
+
+@InProceedings{Pyo2016,
+  author        = {Pyo, Jeongwon and Ji, Sanghoon and You, Sujeong and Kuc, Taeyoung},
+  title         = {Depth-based hand gesture recognition using convolutional neural networks},
+  booktitle     = {Ubiquitous Robots and Ambient Intelligence (URAI), 2016 13th International Conference on},
+  year          = {2016},
+  pages         = {225--227},
+  organization  = {IEEE},
   __markedentry = {[Maen:6]},
 }
 

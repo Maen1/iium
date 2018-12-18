@@ -34,6 +34,39 @@ Bao, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Devineau%
+, Moutarde%
+, Xi%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Devineau%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Devineau2018}
+\APACinsertmetastar {%
+Devineau2018}%
+\begin{APACrefauthors}%
+Devineau, G.%
+, Moutarde, F.%
+, Xi, W.%
+\BCBL {}\ \BBA {} Yang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep Learning for Hand Gesture Recognition on Skeletal
+  Data} {Deep learning for hand gesture recognition on skeletal data}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. 13th IEEE Int. Conf. Automatic Face Gesture
+  Recognition (FG 2018)} {Proc. 13th ieee int. conf. automatic face gesture
+  recognition (fg 2018)}\ (\BPGS\ 106--113).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/FG.2018.00025} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Frajtag1%
 \ \BBA {} Jelinic2%
 }{%

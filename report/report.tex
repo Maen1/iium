@@ -114,7 +114,7 @@ For the mentioned reason,
 the intention of the proposed research is to improve an ordinary model to translate the hand gestures of the sign language into voice.
 In that, Deep learning is remarkably serviceable for this mission, 
 firstly by identifying the hand in the video frame by using Convolutional
-neural network algorithm then states the sound that matches the sign.The accuracy achieved for detect hand gesture using initial CNN model 92 \text{\%} for MNIST
+Neural Network algorithm then states the sound that matches the sign.The accuracy achieved for detect hand gesture using initial CNN model 92 \text{\%} for MNIST
 dataset and 82\text{\%} for regular dataset.
 
 
@@ -282,12 +282,12 @@ need to be improved as well.
 
 \clearpage
 
-\cite{Pyo2016}, introduced a depth-based hand data with convolution
-neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D images in
-each of 12 labels. In all, there are approximately 60,000
-training images, 1S,000 validation images, and 12,000 training images.
-each time they were increasing the number of layers and testing the accuracy \ref{fig:depth_cnn}.
-They came with result that more number of layers, does not guarantee the increase of accuracy.
+    \cite{Pyo2016}, introduced a depth-based hand data with convolution
+    neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D images in
+    each of 12 labels. In all, there are approximately 60,000
+    training images, 1S,000 validation images, and 12,000 training images.
+    each time they were increasing the number of layers and testing the accuracy \ref{fig:depth_cnn}.
+    They came with result that more number of layers, does not guarantee the increase of accuracy.
 \bigbreak
 
 \begin{figure}[h]
@@ -298,7 +298,6 @@ They came with result that more number of layers, does not guarantee the increas
 \end{figure}
 
 \bigbreak
-
     \cite{Devineau2018}, introduced a 3D hand gesture recognition approach based on a deep learning model 
     using Convolutional Neural Network (CNN). The proposed model only uses hand-skeletal 
     data and no depth image.
@@ -320,8 +319,9 @@ They came with result that more number of layers, does not guarantee the increas
 \section{Summary}
 
 This chapter illustrated some works have been done previously on
-hand gesture and sign language recognition using deep learning.
-Table \ref{table:summary} the Summary of the literature review.
+hand gesture and sign language recognition using Machine Vision and
+deep learning (Convolutional Neural Network).
+Table \ref{table:summary} shows the summary of the literature review.
 
 \begin{center}
     \begin{table}[h]
@@ -352,6 +352,7 @@ Image recognition, voice producing, system design block diagram figure \ref{fig:
 and the flowchart of the research is presented in details alongside with the tools
 and algorithms in this chapter.
 
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{./images/system_diagram.png}
@@ -359,14 +360,52 @@ and algorithms in this chapter.
     \label{fig:system_diagram}
 \end{figure}
 
+\clearpage
+\section{Deep Learning}
+    Deep learning is a machine learning subfield that deals with algorithms based 
+    on the structure and function of the brain called artificial neural networks. 
+    In other words, it mirrors the brain's functioning.Deep learning algorithms are similar to the structure of 
+    the nervous system in which each neuron connects and passes information.
+    Deep learning models work in the layers and three layers of a typical model at least \ref{fig:deep_learining}. 
+    Each layer accepts and passes the information from the previous layer to the next layer.
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=\textwidth]{./images/deep_learning.png}
+        \caption{Typical deep learning model. Retrieved from www.medium.com}
+        \label{fig:deep_learining}
+    \end{figure}
+
+    Deep learning models tend to perform well with quantity of data while old machine 
+    learning models do not improve after a saturation.
+
+    One of differences between machine learning and deep learning model is on the feature extraction area. 
+    Feature extraction is done by human in machine learning whereas deep learning model figure out by itself.
+
+    \subsection{Activation Function}
+    Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
+    Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
+    The most well known activation functions are Sigmoid, Tanh and ReLU.
+
+    \subsubsection{Sigmoid Function:}
+    $$ A = \frac{1}{1+e^{-1}} $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.7\textwidth]{./images/sigmoid.png}
+        \caption{Sigmoid Function}
+        \label{fig:deep_learining}
+    \end{figure}
+
+
 \section{Image recognition}
 
-The ancient approach of developing machine learning and vision based algorithm
-is performing handcrafted features extraction algorithms such as histogram of oriented gradients (HOG) on an image
-and convert it into a vectors of values then classify it using a machine learning algorithm such as support vector machine (SVM).
-In another way, deep learning is a subfield of machine learning, which is subfield of artificial intelligence (AI)
-totally different approach by stacking layers on top of each others that automatically more complicated, abstract 
-and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI.
+    The ancient approach of developing machine learning and vision based algorithm
+    is performing handcrafted features extraction algorithms such as histogram of oriented gradients (HOG) on an image
+    and convert it into a vectors of values then classify it using a machine learning algorithm such as support vector machine (SVM).
+    In another way, deep learning is a subfield of machine learning, which is subfield of artificial intelligence (AI)
+    totally different approach by stacking layers on top of each others that automatically more complicated, abstract 
+    and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI.
 \bigbreak
 \bigbreak
 \begin{figure}[h]

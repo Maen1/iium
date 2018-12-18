@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  18 DEC 2018 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  18 DEC 2018 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,6 +484,9 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 (./report.aux
 
+LaTeX Warning: Label `fig:deep_learining' multiply defined.
+
+
 LaTeX Warning: Label `fig:frcnn' multiply defined.
 
 
@@ -718,15 +721,12 @@ File: images/depth_cnn.png Graphic file (type png)
 <use images/depth_cnn.png>
 Package pdftex.def Info: images/depth_cnn.png  used on input line 295.
 (pdftex.def)             Requested size: 452.9679pt x 172.2078pt.
-
-
-LaTeX Warning: Citation `Devineau2018' undefined on input line 302.
-
 <images/m_cnn.png, id=74, 804.00375pt x 398.48875pt>
 File: images/m_cnn.png Graphic file (type png)
 <use images/m_cnn.png>
-Package pdftex.def Info: images/m_cnn.png  used on input line 313.
+Package pdftex.def Info: images/m_cnn.png  used on input line 312.
 (pdftex.def)             Requested size: 452.9679pt x 224.50203pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -739,83 +739,94 @@ Chapter 3.
 <./images/system_diagram.png, id=87, 655.44875pt x 233.87375pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
-Package pdftex.def Info: ./images/system_diagram.png  used on input line 357.
+Package pdftex.def Info: ./images/system_diagram.png  used on input line 358.
 (pdftex.def)             Requested size: 452.9679pt x 161.62642pt.
 [12
 
  <./images/system_diagram.png>]
-<./images/ai_ml_dl.png, id=92, 228.3732pt x 240.4182pt>
+<./images/deep_learning.png, id=92, 516.93124pt x 397.485pt>
+File: ./images/deep_learning.png Graphic file (type png)
+<use ./images/deep_learning.png>
+Package pdftex.def Info: ./images/deep_learning.png  used on input line 374.
+(pdftex.def)             Requested size: 452.9679pt x 348.31406pt.
+ [13
+
+ <./images/deep_learning.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 385.
+<./images/sigmoid.png, id=96, 602.25pt x 401.5pt>
+File: ./images/sigmoid.png Graphic file (type png)
+<use ./images/sigmoid.png>
+Package pdftex.def Info: ./images/sigmoid.png  used on input line 395.
+(pdftex.def)             Requested size: 317.07614pt x 211.39104pt.
+ [14 <./images/sigmoid.png>]
+<./images/ai_ml_dl.png, id=103, 228.3732pt x 240.4182pt>
 File: ./images/ai_ml_dl.png Graphic file (type png)
 <use ./images/ai_ml_dl.png>
-Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 374.
+Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 413.
 (pdftex.def)             Requested size: 317.07614pt x 333.83914pt.
- [13 <./images/ai_ml_dl.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 386.
+ [15 <./images/ai_ml_dl.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 389.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 428.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 389.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 428.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 389.
-<./images/cfm.png, id=97, 889.3225pt x 524.96124pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 428.
+<./images/cfm.png, id=108, 889.3225pt x 524.96124pt>
 File: ./images/cfm.png Graphic file (type png)
 <use ./images/cfm.png>
-Package pdftex.def Info: ./images/cfm.png  used on input line 399.
+Package pdftex.def Info: ./images/cfm.png  used on input line 438.
 (pdftex.def)             Requested size: 271.7835pt x 160.42935pt.
-<./images/frcnn.png, id=98, 682.55pt x 589.20125pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/frcnn.png, id=109, 682.55pt x 589.20125pt>
 File: ./images/frcnn.png Graphic file (type png)
 <use ./images/frcnn.png>
-Package pdftex.def Info: ./images/frcnn.png  used on input line 413.
+Package pdftex.def Info: ./images/frcnn.png  used on input line 452.
 (pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
- [14 <./images/cfm.png (PNG copy)>] [15 <./images/frcnn.png (PNG copy)>]
-<./images/ssd.png, id=105, 1427.3325pt x 1047.915pt>
+[16] [17 <./images/cfm.png (PNG copy)> <./images/frcnn.png (PNG copy)>]
+<./images/ssd.png, id=117, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 444.
+Package pdftex.def Info: ./images/ssd.png  used on input line 483.
 (pdftex.def)             Requested size: 362.37569pt x 266.03954pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
-<./images/yolo.png, id=111, 1113.15875pt x 472.76625pt>
+[18] [19 <./images/ssd.png>]
+<./images/yolo.png, id=125, 1113.15875pt x 472.76625pt>
 File: ./images/yolo.png Graphic file (type png)
 <use ./images/yolo.png>
-Package pdftex.def Info: ./images/yolo.png  used on input line 481.
+Package pdftex.def Info: ./images/yolo.png  used on input line 520.
 (pdftex.def)             Requested size: 452.9679pt x 192.37822pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17 <./images/ssd.png>]
-Underfull \hbox (badness 1342) in paragraph at lines 498--498
+ [20 <./images/yolo.png (PNG copy)>]
+Underfull \hbox (badness 1342) in paragraph at lines 537--537
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
-[18 <./images/yolo.png (PNG copy)>] (./report.bbl [19] [20
+(./report.bbl [21] [22
 
-]) [21] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
+]) [23] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17441 strings out of 492649
- 349407 string characters out of 6129622
- 409741 words of memory out of 5000000
- 20936 multiletter control sequences out of 15000+600000
- 47880 words of font info for 86 fonts, out of 8000000 for 9000
+ 17461 strings out of 492649
+ 349766 string characters out of 6129622
+ 409883 words of memory out of 5000000
+ 20948 multiletter control sequences out of 15000+600000
+ 49562 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (30 pages, 2425662 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (32 pages, 2541771 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

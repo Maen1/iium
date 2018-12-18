@@ -10,11 +10,14 @@
 \contentsline {section}{\numberline {2.1}Previous works}{4}
 \contentsline {section}{\numberline {2.2}Summary}{11}
 \contentsline {chapter}{\numberline {3}Methodology}{12}
-\contentsline {section}{\numberline {3.1}Image recognition}{12}
-\contentsline {section}{\numberline {3.2}Hand detection}{13}
-\contentsline {subsection}{\numberline {3.2.1}Faster R-CNN}{14}
-\contentsline {subsection}{\numberline {3.2.2}Single-Shot Detector (SSD)}{15}
-\contentsline {subsection}{\numberline {3.2.3}You Only Look Once (YOLO)}{16}
-\contentsline {section}{\numberline {3.3}Voice producing}{18}
-\contentsline {section}{\numberline {3.4}Tools}{19}
-\contentsline {chapter}{References}{20}
+\contentsline {section}{\numberline {3.1}Deep Learning}{13}
+\contentsline {subsection}{\numberline {3.1.1}Activation Function}{14}
+\contentsline {subsubsection}{Sigmoid Function:}{14}
+\contentsline {section}{\numberline {3.2}Image recognition}{15}
+\contentsline {section}{\numberline {3.3}Hand detection}{16}
+\contentsline {subsection}{\numberline {3.3.1}Faster R-CNN}{16}
+\contentsline {subsection}{\numberline {3.3.2}Single-Shot Detector (SSD)}{18}
+\contentsline {subsection}{\numberline {3.3.3}You Only Look Once (YOLO)}{19}
+\contentsline {section}{\numberline {3.4}Voice producing}{21}
+\contentsline {section}{\numberline {3.5}Tools}{21}
+\contentsline {chapter}{References}{22}

@@ -17,4 +17,4 @@
 \contentsline {subsection}{\numberline {3.2.3}You Only Look Once (YOLO)}{14}
 \contentsline {section}{\numberline {3.3}Voice producing}{16}
 \contentsline {section}{\numberline {3.4}Tools}{17}
-\contentsline {chapter}{Bibliography}{18}
+\contentsline {chapter}{References}{18}

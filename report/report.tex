@@ -13,7 +13,6 @@
     \usepackage[english]{babel}
     \usepackage{ragged2e}
     \usepackage[nottoc,notlof,notlot]{tocbibind} 
-    \renewcommand\bibname{References}            
     \usepackage[a4paper, total={6in, 8in}]{geometry}
     \usepackage[explicit]{titlesec}
     \titleformat{\chapter}
@@ -28,8 +27,8 @@
 
     \justifying
     \setlength{\parindent}{2em}
+
     %\setlength{\parskip}{1em}
-    \renewcommand{\baselinestretch}{2.0}
     % \title{Sign language recognition using deep learning}
     % \author{ Name: MHD Khaled Maen\\
     %     Matric No: 1523592 \\ 
@@ -75,9 +74,9 @@
 
     \mbox{}
     \vfill
-    MHD KHALED MAEN (1523591) \\
+    MHD KHALED MAEN (1523591)
     \bigbreak
-    Signature: ................. \quad \quad \quad \quad Date: .................
+    Signature: .................\hspace{18em} Date: .................
     \bigbreak
 
     \newpage
@@ -91,11 +90,11 @@
         degree of bachelor of Computer Science (Honours).
     \mbox{}
     \vfill
-        Assoc. Prof. Dr. Amelia Ritahani (Supervisor)\\
+        Assoc. Prof. Dr. Amelia Ritahani (Supervisor)
     \bigbreak
-        Department of Computer Science.\\
+        Department of Computer Science
     \bigbreak
-        Kulliyyah of Information and Communication Technology\\
+        Kulliyyah of Information and Communication Technology
     \bigbreak
         International Islamic University Malaysia
     \bigbreak
@@ -113,10 +112,10 @@
         which wasn't enough to overcome this issue, even now with all technologies and tool still challenging problem to solve.
         For the mentioned reason, 
         the intention of the proposed research is to improve an ordinary model to translate the hand gestures of the sign language into voice.
-        
         In that, Deep learning is remarkably serviceable for this mission, 
         firstly by identifying the hand in the video frame by using Convolutional
-        neural network algorithm then states the sound that matches the sign.
+        neural network algorithm then states the sound that matches the sign.The accuracy achieved for detect hand gesture using initial CNN model 92 \text{\%} for MNIST
+        dataset and 82\text{\%} for regular dataset.
     
 
     \newpage
@@ -238,8 +237,7 @@
                         \caption{Architecture of the proposed deep CNN }\label{fig:tiny_architecture}
                     \end{figure}
 
-                \newpage
-
+                \clearpage
              
                 \cite{Rao2018}, proposed a CNN architecture for classifying selfie sign language gestures. 
                 The CNN architecture is designed with four convolutional layers. Each convolutional 
@@ -465,6 +463,6 @@
             The model is being trained by using Google Cloud Computing\footnote{Google Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. https://cloud.google.com/} service with Ubuntu as operating system.
         
          
-
+        \renewcommand\bibname{References}            
         \bibliography{scope.bib}
     \end{document}

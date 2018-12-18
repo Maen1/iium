@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  18 DEC 2018 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  18 DEC 2018 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,10 +388,51 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count139
 \c@subtable=\count140
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count141
+\U@D=\dimen168
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count142
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -409,29 +450,29 @@ Package ifvtex Info: VTeX not detected.
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count141
-\Gm@cntv=\count142
-\c@Gm@tempcnt=\count143
-\Gm@bindingoffset=\dimen168
-\Gm@wd@mp=\dimen169
-\Gm@odd@mp=\dimen170
-\Gm@even@mp=\dimen171
-\Gm@layoutwidth=\dimen172
-\Gm@layoutheight=\dimen173
-\Gm@layouthoffset=\dimen174
-\Gm@layoutvoffset=\dimen175
-\Gm@dimlist=\toks32
+\Gm@cnth=\count143
+\Gm@cntv=\count144
+\c@Gm@tempcnt=\count145
+\Gm@bindingoffset=\dimen169
+\Gm@wd@mp=\dimen170
+\Gm@odd@mp=\dimen171
+\Gm@even@mp=\dimen172
+\Gm@layoutwidth=\dimen173
+\Gm@layoutheight=\dimen174
+\Gm@layouthoffset=\dimen175
+\Gm@layoutvoffset=\dimen176
+\Gm@dimlist=\toks34
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box41
-\beforetitleunit=\skip51
-\aftertitleunit=\skip52
-\ttl@plus=\dimen176
-\ttl@minus=\dimen177
-\ttl@toksa=\toks33
-\titlewidth=\dimen178
-\titlewidthlast=\dimen179
-\titlewidthfirst=\dimen180
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen177
+\ttl@minus=\dimen178
+\ttl@toksa=\toks35
+\titlewidth=\dimen179
+\titlewidthlast=\dimen180
+\titlewidthfirst=\dimen181
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -454,34 +495,34 @@ LaTeX Warning: Label `fig:frcnn' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen181
+\scratchcounter=\count146
+\scratchdimen=\dimen182
 \scratchbox=\box42
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen182
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen183
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -520,7 +561,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@maskedRefs=\count150
+\c@maskedRefs=\count152
  (/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -528,7 +569,9 @@ LaTeX Info: Redefining \BHBI on input line 130.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 40.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -566,37 +609,56 @@ Package caption Info: End \AtBeginDocument code.
 <./images/iium.png, id=4, 642.7212pt x 160.9212pt>
 File: ./images/iium.png Graphic file (type png)
 <use ./images/iium.png>
-Package pdftex.def Info: ./images/iium.png  used on input line 37.
+Package pdftex.def Info: ./images/iium.png  used on input line 43.
 (pdftex.def)             Requested size: 426.79134pt x 106.85655pt.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[2] [3] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
- [1] [2] [3] [2]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
  (./report.toc
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 6.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 6.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 6.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
  [3
 
 ])
@@ -618,62 +680,66 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 172.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 177.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
  [2] [3]
 Chapter 2.
+<./images/tiny_a.png, id=49, 539.01375pt x 670.505pt>
+File: ./images/tiny_a.png Graphic file (type png)
+<use ./images/tiny_a.png>
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 232.
+(pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images/tiny_b.png, id=50, 439.14063pt x 441.65pt>
+File: ./images/tiny_b.png Graphic file (type png)
+<use ./images/tiny_b.png>
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 237.
+(pdftex.def)             Requested size: 452.9679pt x 455.565pt.
 [4
 
 ]
-<./images/tiny_a.png, id=53, 539.01375pt x 670.505pt>
-File: ./images/tiny_a.png Graphic file (type png)
-<use ./images/tiny_a.png>
-Package pdftex.def Info: ./images/tiny_a.png  used on input line 229.
-(pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
-<./images/tiny_b.png, id=54, 439.14063pt x 441.65pt>
-File: ./images/tiny_b.png Graphic file (type png)
-<use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 234.
-(pdftex.def)             Requested size: 452.9679pt x 455.565pt.
- [5 <./images/tiny_a.png>] [6 <./images/tiny_b.png>]
-<./images/selfie.png, id=63, 1083.04625pt x 338.26375pt>
+<./images/selfie.png, id=55, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
-Package pdftex.def Info: ./images/selfie.png  used on input line 251.
+Package pdftex.def Info: ./images/selfie.png  used on input line 254.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/tiny_a.png>] [6 <./images/tiny_b.png>]
 <images/vgg16.png, id=64, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
-Package pdftex.def Info: images/vgg16.png  used on input line 270.
+Package pdftex.def Info: images/vgg16.png  used on input line 273.
 (pdftex.def)             Requested size: 407.66833pt x 239.39948pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <images/alexnet.png, id=65, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
-Package pdftex.def Info: images/alexnet.png  used on input line 276.
+Package pdftex.def Info: images/alexnet.png  used on input line 279.
 (pdftex.def)             Requested size: 362.37569pt x 149.7261pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/selfie.png>] [8 <./images/vgg16.png (PNG copy)> <./images/alexnet.png>] [9
+[7 <./images/selfie.png> <./images/vgg16.png (PNG copy)>] [8 <./images/alexnet.png>] [9
 
 ]
 Chapter 3.
 <./images/system_diagram.png, id=76, 655.44875pt x 233.87375pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
-Package pdftex.def Info: ./images/system_diagram.png  used on input line 315.
+Package pdftex.def Info: ./images/system_diagram.png  used on input line 318.
 (pdftex.def)             Requested size: 452.9679pt x 161.62642pt.
 [10
 
@@ -681,53 +747,53 @@ Package pdftex.def Info: ./images/system_diagram.png  used on input line 315.
 <./images/ai_ml_dl.png, id=82, 228.3732pt x 240.4182pt>
 File: ./images/ai_ml_dl.png Graphic file (type png)
 <use ./images/ai_ml_dl.png>
-Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 332.
+Package pdftex.def Info: ./images/ai_ml_dl.png  used on input line 335.
 (pdftex.def)             Requested size: 317.07614pt x 333.83914pt.
  [11 <./images/ai_ml_dl.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 344.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 350.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 350.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 350.
 <./images/cfm.png, id=87, 889.3225pt x 524.96124pt>
 File: ./images/cfm.png Graphic file (type png)
 <use ./images/cfm.png>
-Package pdftex.def Info: ./images/cfm.png  used on input line 357.
+Package pdftex.def Info: ./images/cfm.png  used on input line 360.
 (pdftex.def)             Requested size: 271.7835pt x 160.42935pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <./images/frcnn.png, id=88, 682.55pt x 589.20125pt>
 File: ./images/frcnn.png Graphic file (type png)
 <use ./images/frcnn.png>
-Package pdftex.def Info: ./images/frcnn.png  used on input line 371.
+Package pdftex.def Info: ./images/frcnn.png  used on input line 374.
 (pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
-[12] [13 <./images/cfm.png (PNG copy)> <./images/frcnn.png (PNG copy)>]
+ [12 <./images/cfm.png (PNG copy)>] [13 <./images/frcnn.png (PNG copy)>]
 <./images/ssd.png, id=95, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 402.
+Package pdftex.def Info: ./images/ssd.png  used on input line 405.
 (pdftex.def)             Requested size: 362.37569pt x 266.03954pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15 <./images/ssd.png>]
-<./images/yolo.png, id=103, 1113.15875pt x 472.76625pt>
+[14]
+<./images/yolo.png, id=100, 1113.15875pt x 472.76625pt>
 File: ./images/yolo.png Graphic file (type png)
 <use ./images/yolo.png>
-Package pdftex.def Info: ./images/yolo.png  used on input line 439.
+Package pdftex.def Info: ./images/yolo.png  used on input line 442.
 (pdftex.def)             Requested size: 452.9679pt x 192.37822pt.
- [16 <./images/yolo.png (PNG copy)>]
-Underfull \hbox (badness 1342) in paragraph at lines 456--456
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./images/ssd.png>]
+Underfull \hbox (badness 1342) in paragraph at lines 459--459
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
-(./report.bbl [17] [18
+[16 <./images/yolo.png (PNG copy)>] (./report.bbl [17] [18
 
 ]) [19] (./report.aux)
 
@@ -735,15 +801,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16829 strings out of 492649
- 340236 string characters out of 6129622
- 394768 words of memory out of 5000000
- 20355 multiletter control sequences out of 15000+600000
+ 17424 strings out of 492649
+ 349119 string characters out of 6129622
+ 409622 words of memory out of 5000000
+ 20921 multiletter control sequences out of 15000+600000
  47880 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,66p,454b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,66p,454b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (28 pages, 1924790 bytes).
+Output written on report.pdf (28 pages, 1926604 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream

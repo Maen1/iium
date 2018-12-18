@@ -7,7 +7,11 @@
     \usepackage{pgfgantt}
     \usepackage{mathptmx} 
     \usepackage{graphicx}
+    \usepackage{indentfirst}
     \usepackage{subcaption}
+    \usepackage[utf8]{inputenc}
+    \usepackage[english]{babel}
+    \usepackage{ragged2e}
     \usepackage[nottoc,notlof,notlot]{tocbibind} 
     \renewcommand\bibname{References}            
     \usepackage[a4paper, total={6in, 8in}]{geometry}
@@ -21,16 +25,18 @@
     \definecolor{tail}{RGB}{26, 188, 156}
     \geometry{margin=1in}
     \linespread{2}
-    \parindent0pt  
-    \parskip10pt             
-    \raggedright
-    \title{Sign language recognition using deep learning}
-    \author{ Name: MHD Khaled Maen\\
-        Matric No: 1523592 \\ 
-        [1.5cm]
-        Supervised by\\
-        Assoc. Prof. Dr. Amelia Ritahani \\} 
-    \date{\today} 
+
+    \justifying
+    \setlength{\parindent}{2em}
+    %\setlength{\parskip}{1em}
+    \renewcommand{\baselinestretch}{2.0}
+    % \title{Sign language recognition using deep learning}
+    % \author{ Name: MHD Khaled Maen\\
+    %     Matric No: 1523592 \\ 
+    %     [1.5cm]
+    %     Supervised by\\
+    %     Assoc. Prof. Dr. Amelia Ritahani \\} 
+    % \date{\today} 
     \begin{document}
         \begin{titlepage}
             \center
@@ -60,8 +66,8 @@
    % \maketitle
     \begin{center}
         \LARGE DECLARATION
-    \end{center}        
-    \paragraph{}
+    \end{center}   
+
         I hear by declare that this report is the result of my own investigations,
         except where otherwise stated. I also clear that it 
         has not been previously or currently submitted as a whole for any other degree 
@@ -78,7 +84,7 @@
     \begin{center}
         \LARGE APPROVAL PAGE
     \end{center} 
-    \paragraph{} 
+
         I certified that I have supervise can read this study and that in my opinion,
         confirms to acceptable standards of scholarly presentation and is fully adequate,
         in scope and quality, as final year project paper a partial fulfilment for a 
@@ -99,7 +105,7 @@
      \begin{center}
         \LARGE ABSTRACT
     \end{center}
-    \paragraph{}
+
         Communication is an essential part of our life.
         Unfortunately, some of us were born in various types of disability such as deaf,
         since hearing impaired people can't listen they can't learn to speak so they developed 
@@ -117,7 +123,7 @@
     \begin{center}
         \LARGE ACKNOWLEDGEMENT
     \end{center} 
-    \paragraph{} 
+
         This project has been completed with support from my supervisor, Assoc. Prof. Dr. Amelia Ritahani, many thanks for her wonderful 
         collaboration and consultation sessions. Furthermore, 
         I would like to thank my coordinator, Asst. Prof. Dr. Hamwira Yaacob, for his 
@@ -133,8 +139,8 @@
 
     \pagenumbering{arabic}
     \chapter{Introduction} 
+
         \section{Background}
-            \paragraph{}
                 Communication is a process of sending and receiving data among individuals. 
                 People communicate with o with a considerable measure of ways yet the best way is eye to eye correspondence.
                 Numerous individuals trust that the significance of communication 
@@ -151,7 +157,6 @@
                 In this study, the attention will be on hand gestures detection and make an interpretation of them into voice.
 
         \section{Problem Statement}
-            \paragraph{}
                 Communication difficulties arising from damage to hearing
                 directly have an effect on the standard of life. Difficulties in communication could
                 end in deviations within the emotional and social development which
@@ -175,11 +180,9 @@
             \end{itemize}
         
         \section{Scope}
-            \paragraph{}
                 This research aims to develop a sign language recognition algorithm,
                 and converting it into voice.
         \section{Significance}
-            \paragraph{}
                 Help the hearing-impaired community to communicate with hearing ones, 
                 in order to make a strong connected community.
 
@@ -204,14 +207,14 @@
                 \end{ganttchart}
             \end{center}
     \chapter{Literature review}
-            \paragraph{}
+             
                 This chapter includes reviews of other previous researcher
                 and their proposed methods they used in implementing deep learning
                 to recognize hand gestures. These researches will help to grasp the knowledge
                 to achieve the project's objectives. 
                 
         \section{Previous works}
-            \paragraph{}
+             
                 \cite{Bao2017}, proposed a Deep convolutional neural network algorithm for hand-gesture 
                 recognition without hand localisation, since the hands only occupy about 10\% of 
                 the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
@@ -237,7 +240,7 @@
 
                 \newpage
 
-            \paragraph{}
+             
                 \cite{Rao2018}, proposed a CNN architecture for classifying selfie sign language gestures. 
                 The CNN architecture is designed with four convolutional layers. Each convolutional 
                 layer with different filtering window sizes as shown in figure \ref{fig:selfie}  
@@ -255,7 +258,7 @@
 
             
             
-            \paragraph{}
+             
                 \cite{Hussain2017}, introduced a CNN based classifier  trained through the process of transfer learning
                 over a pretrained convolutional neural network which is trained on a large dataset.
                 We are using VGG16 figure \ref{fig:vgg16} as the pretrained model.
@@ -280,7 +283,7 @@
 
             \clearpage
             \section{Summary}
-                \paragraph{}
+                 
                     This chapter illustrated some works have been done previously on
                     hand gesture and sign language recognition using deep learning.
                     Table \ref{table:summary} the Summary of the literature review.
@@ -305,7 +308,7 @@
         \newpage
 
     \chapter{Methodology}
-        \paragraph{}
+         
             Image recognition, voice producing, system design block diagram figure \ref{fig:system_diagram} 
             and the flowchart of the research is presented in details alongside with the tools
             and algorithms in this chapter.
@@ -318,7 +321,7 @@
             \end{figure}
         
         \section{Image recognition}
-        \paragraph{}
+         
             The ancient approach of developing machine learning and vision based algorithm
             is performing handcrafted features extraction algorithms such as histogram of oriented gradients (HOG) on an image
             and convert it into a vectors of values then classify it using a machine learning algorithm such as support vector machine (SVM).
@@ -335,14 +338,14 @@
             \end{figure} 
 
             \section{Hand detection}
-            \paragraph{}
+             
                 The problem of hand recognition that hand occupied usually less than 25 percent of the image.
                 To overcome this issue the model should be provided with high accurate detection algorithm,
                 Right now there are so many good algorithms for object detection which can be utilize to 
                 detect a human hand We are going to concentrate on the most three famous (Faster R-CNN, SSD and YOLO)
 
                 \subsection{Faster R-CNN}
-                \paragraph{}
+                 
                 The Faster Region-based Convolutional Network (Faster R-CNN) is a  mixture among  
                 the Region Proposal Network(RPN)\footnote{algorithm to output bounding boxes to all objects in an image.} 
                 and the Fast R-CNN\footnote{A main CNN with multiple convolutional layers is taking the entire image as input instead of using a CNN for each region proposals (R-CNN).} model.
@@ -374,7 +377,7 @@
                     \end{figure} 
 
                 \subsection{Single-Shot Detector (SSD)}
-                \paragraph{}
+                 
                     Unlike Faster R-CNN which perform regional proposals 
                     and region classifications in two steps. SSD does the two in a "single shot"
                     jointly predict the bounding box and the class while it processes the image.
@@ -407,7 +410,7 @@
 
 
                 \subsection{You Only Look Once (YOLO)}
-                \paragraph{}
+                 
                     Like SSD, YOLO directly predicts bounding boxes and class probabilities
                     with a single evaluation. The simpleness of YOLO allows real time prediction.
                     \begin{itemize}
@@ -445,13 +448,13 @@
                     \newpage
 
         \section{Voice producing}
-        \paragraph{}
+         
             After processing the image the CNN algorithm classify the gesture
             that presented in the image, the corresponding text (word, char, number)
             will be generated as voice that Simulate the human voice. 
         \bibliographystyle{apacite}
         \section{Tools}
-        \paragraph{}
+         
             The programming language in use is Python\footnote{Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991. https://www.python.org/} along side with many
             libraries such as TesorFlow\footnote{TensorFlow is an open-source software library for dataflow programming across a range of tasks. https://www.tensorflow.org/},
             Keras\footnote{Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. https://keras.io/}, 
@@ -461,7 +464,7 @@
             and Matplotlib\footnote{Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. https://matplotlib.org/}.
             The model is being trained by using Google Cloud Computing\footnote{Google Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. https://cloud.google.com/} service with Ubuntu as operating system.
         
-        \paragraph{}
+         
 
         \bibliography{scope.bib}
     \end{document}

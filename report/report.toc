@@ -20,14 +20,15 @@
 \contentsline {subsection}{\numberline {3.2.3}Bias}{17}
 \contentsline {section}{\numberline {3.3}Convolutional Neural Networks}{17}
 \contentsline {subsection}{\numberline {3.3.1}Feature Learning}{18}
-\contentsline {subsubsection}{CONV layer}{18}
-\contentsline {subsubsection}{Filter (Kernel)}{18}
-\contentsline {subsubsection}{Feature Map}{18}
-\contentsline {section}{\numberline {3.4}Image recognition}{19}
+\contentsline {subsubsection}{CONV layer:}{18}
+\contentsline {subsubsection}{ReLU layer:}{19}
+\contentsline {subsubsection}{Pool Layer:}{19}
+\contentsline {subsection}{\numberline {3.3.2}Classification}{20}
+\contentsline {subsubsection}{Fully Connected Layer(FC):}{20}
+\contentsline {section}{\numberline {3.4}Image Recognition}{20}
 \contentsline {section}{\numberline {3.5}Hand detection}{20}
-\contentsline {subsection}{\numberline {3.5.1}Faster R-CNN}{20}
+\contentsline {subsection}{\numberline {3.5.1}Faster R-CNN}{21}
 \contentsline {subsection}{\numberline {3.5.2}Single-Shot Detector (SSD)}{22}
-\contentsline {subsection}{\numberline {3.5.3}You Only Look Once (YOLO)}{23}
-\contentsline {section}{\numberline {3.6}Voice producing}{25}
-\contentsline {section}{\numberline {3.7}Tools}{25}
-\contentsline {chapter}{References}{26}
+\contentsline {subsection}{\numberline {3.5.3}You Only Look Once (YOLO)}{24}
+\contentsline {section}{\numberline {3.6}Voice producing}{26}
+\contentsline {section}{\numberline {3.7}Tools}{26}

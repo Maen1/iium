@@ -13,8 +13,9 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sigmoid Function\relax }}{15}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Tanh Function\relax }}{16}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces ReLU Function\relax }}{16}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces AI hierarchy\relax }}{19}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces One sliding window location. Retrieved from https://towardsdatascience.com\relax }}{21}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Faster R-CNN. Retrieved from https://towardsdatascience.com\relax }}{21}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces SSD. Retrieved from https://www.semanticscholar.org\relax }}{23}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces YOLO. Retrieved from https://medium.com/\relax }}{24}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia\relax }}{19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces AI hierarchy\relax }}{21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces One sliding window location. Retrieved from https://towardsdatascience.com\relax }}{22}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Faster R-CNN. Retrieved from https://towardsdatascience.com\relax }}{23}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces SSD. Retrieved from https://www.semanticscholar.org\relax }}{24}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces YOLO. Retrieved from https://medium.com/\relax }}{25}

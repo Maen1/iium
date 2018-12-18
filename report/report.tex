@@ -460,23 +460,45 @@ The high level of layers will detect more complex features in order to recognize
 ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification(FC and softmax).
 
 \subsection{Feature Learning}
-\subsubsection{CONV layer}
-    The objective of a Conv layer is to extract features of the input image.
-    A part of the image is connected to the next Conv layer because if all the 
-    input pixels are connected to the Conv layer, it is too expensive to compute. 
-    Therefore we will apply dot products in all dimensions between a receptive 
-    field and a filter. The result of this operation is a single volume integer (future map).
-    Then we slide the filter through a Stride over the next receiving field of the same input 
-    image and recalculate the dot products between the new receiving field and the same filter.
-    This process is repeated until we pass the entire input image. The output is the input on the next layer.
+    \subsubsection{CONV layer:}
+        The objective of a Conv layer is to extract features of the input image.
+        A part of the image is connected to the next Conv layer because if all the 
+        input pixels are connected to the Conv layer, it is too expensive to compute. 
+        Therefore we will apply dot products in all dimensions between a receptive 
+        field and a filter. The result of this operation is a single volume integer (future map).
+        Then we slide the filter through a Stride over the next receiving field of the same input 
+        image and recalculate the dot products between the new receiving field and the same filter.
+        This process is repeated until we pass the entire input image. The output is the input on the next layer.
 
-    Some of the word that used interchangably
-\subsubsection{Filter (Kernel)}
-    A small matrix used to detect features.
-\subsubsection{Feature Map}
-    The output volume formed by sliding the filter over the image and computing the dot product.
+        Some of the word that used interchangeably:
+        \begin{itemize}
+            \item Filter (Kernel): a small matrix used to detect features.
+            \item Feature Map: the output volume formed by sliding the filter over the image and computing the dot product.
+            \item Receptive field: a local region of the input image that has the same size as the Kernel.
+            \item Depth: the number of filters.
+            \item Stride: has the objective of producing smaller output volumes spatially.
+            \item Padding: the process of adding extra pixels over around the image.
+        \end{itemize}
 
-\section{Image recognition}
+    \subsubsection{ReLU layer:}
+        Turning negative values into zeros. it has nothing to do with size of image and there are no hyperparameters.
+    \subsubsection{Pool Layer:}
+        Reduce the dimension of the input, the computational complexity of the model and 
+        controls the overfitting. There are different types of pooling such as Average pooling, Max pooling and L2-norm pooling.
+        However, the Max pooling is the most use, which takes the most important part (the pixel with the highest vule)\ref{fig:pool}. 
+        
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.8\textwidth]{./images/pool.png}
+                \caption{Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia}
+                \label{fig:pool}
+            \end{figure}
+
+    \subsection{Classification}
+        \subsubsection{Fully Connected Layer(FC):}
+
+    
+\section{Image Recognition}
 
     The ancient approach of developing machine learning and vision based algorithm
     is performing handcrafted features extraction algorithms such as histogram of oriented gradients (HOG) on an image

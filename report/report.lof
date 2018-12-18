@@ -1,0 +1,21 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture of the proposed deep CNN \relax }}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proposed Deep CNN architecture\relax }}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces VGG16 architecture. Retrieved from www.cs.toronto.edu\relax }}{8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces AlexNet architecture. Retrieved from www.saagie.com\relax }}{8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Classification results of modifiednetworks\relax }}{9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces parallel convolutional neural network\relax }}{10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System block diagram\relax }}{12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Typical deep learning model. Retrieved from www.medium.com\relax }}{13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sigmoid Function\relax }}{14}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Tanh Function\relax }}{15}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ReLU Function\relax }}{15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia\relax }}{18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Complete CNN architecture. Retrieved: medium.com\relax }}{19}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces One sliding window location. Retrieved from https://towardsdatascience.com\relax }}{20}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Faster R-CNN. Retrieved from https://towardsdatascience.com\relax }}{21}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces SSD. Retrieved from https://www.semanticscholar.org\relax }}{23}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces YOLO. Retrieved from https://medium.com/\relax }}{24}

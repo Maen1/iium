@@ -28,14 +28,7 @@
 \justifying
 \setlength{\parindent}{2em}
 
-%\setlength{\parskip}{1em}
-% \title{Sign language recognition using deep learning}
-% \author{ Name: MHD Khaled Maen\\
-%     Matric No: 1523592 \\ 
-%     [1.5cm]
-%     Supervised by\\
-%     Assoc. Prof. Dr. Amelia Ritahani \\} 
-% \date{\today} 
+
 \begin{document}
 \begin{titlepage}
     \center
@@ -130,8 +123,9 @@ assistance helping me and others by organizing weekly sessions towards writing p
 Last but not least,
 I want to thank my awesome parents for their support and time helping me reach the end of my undergraduate study, without them, I could not achieve that.
 
-\setcounter{page}{2}                    
-\tableofcontents{}
+\setcounter{page}{2} 
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
 \listoffigures
 \listoftables
 \newpage
@@ -573,7 +567,7 @@ with the highest training loss with a 3:1 ratio of negatives for positives.\cite
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.8\textwidth]{./images/ssd.png}
+    \includegraphics[width=.7\textwidth]{./images/ssd.png}
     \caption{SSD. Retrieved from https://www.semanticscholar.org}
     \label{fig:frcnn}
 \end{figure} 
@@ -607,7 +601,7 @@ The author noticed that still some false positive detected.\cite{Redmon2016}
 \bigbreak
 \bigbreak
 
-
+\clearpage
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{./images/yolo.png}
@@ -615,8 +609,8 @@ The author noticed that still some false positive detected.\cite{Redmon2016}
     \label{fig:frcnn}
 \end{figure} 
 
-
-\newpage
+\bigbreak
+\bigbreak
 
 \section{Voice producing}
 

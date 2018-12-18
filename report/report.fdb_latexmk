@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1545054966 "report.aux" "report.bbl" "report" 1545054969
+["bibtex report"] 1545106926 "report.aux" "report.bbl" "report" 1545106929
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1545054969 6538 324a14d2cb77c3a10275b2a7c7bc34f2 ""
+  "report.aux" 1545106929 6538 324a14d2cb77c3a10275b2a7c7bc34f2 ""
   "scope.bib" 1544411392 3714 ce971fc48f14546ad0aa95b6034bf6dc ""
   (generated)
   "report.blg"
   "report.bbl"
-["pdflatex"] 1545054966 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1545054969
-  "/Users/Maen/iium/report/report.tex" 1545054969 25821 8aef07e56109818b6f30238dfd6a3257 ""
+["pdflatex"] 1545106926 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1545106929
+  "/Users/Maen/iium/report/report.tex" 1545106919 25775 eb572b4f8dce089fe09c0711707cdbad ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1480098689 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -170,16 +170,16 @@
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
   "images/yolo.png" 1544409453 57181 46a8a8e01bf4362afa90a7338538ffad ""
-  "report.aux" 1545054969 6538 324a14d2cb77c3a10275b2a7c7bc34f2 ""
-  "report.bbl" 1545054966 5551 64e6354766b7ca227d333a785ba6191e "bibtex report"
-  "report.lof" 1545054969 1174 a24b3cefa2ded005252b87ca53b4172f ""
-  "report.lot" 1545054969 159 a811ae8e1cb141691728db33a912855a ""
-  "report.tex" 1545054969 25821 8aef07e56109818b6f30238dfd6a3257 ""
-  "report.toc" 1545054969 1817 d7c6e04d26a501f05c99c7b4b87797fe ""
+  "report.aux" 1545106929 6538 324a14d2cb77c3a10275b2a7c7bc34f2 ""
+  "report.bbl" 1545106926 5551 64e6354766b7ca227d333a785ba6191e "bibtex report"
+  "report.lof" 1545106929 1174 a24b3cefa2ded005252b87ca53b4172f ""
+  "report.lot" 1545106929 159 a811ae8e1cb141691728db33a912855a ""
+  "report.tex" 1545106919 25775 eb572b4f8dce089fe09c0711707cdbad ""
+  "report.toc" 1545106929 1817 d7c6e04d26a501f05c99c7b4b87797fe ""
   (generated)
   "report.pdf"
-  "report.toc"
-  "report.log"
   "report.lof"
+  "report.toc"
   "report.lot"
   "report.aux"
+  "report.log"

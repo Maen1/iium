@@ -360,12 +360,6 @@ and algorithms in this chapter.
     \label{fig:system_diagram}
 \end{figure}
 
-\clearpage
-\section{Machine Vision}
-    Machine Vision is the automatic extraction of the information from digital images.
-    Lately it been used widely instead of human inspectors because it's faster and more consistent.
-    The four basic functions of machine vision are measurement, counting, decoding and location
-
 
 \clearpage
 \section{Deep Learning}
@@ -496,24 +490,23 @@ ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification
 
     \subsection{Classification}
         \subsubsection{Fully Connected Layer(FC):}
+            Fully connected layers connect each neuron in a layer to every neuron in another layer.
+            The last connected layer uses softmax activation function.
+        \subsubsection{Softmax:}
+            Activation function generate features input image into many classes based on the dataset.  
+        
+        \bigbreak
+        \bigbreak
+        
 
-    
-\section{Image Recognition}
+            \begin{figure} [h]
+                \centering
+                \includegraphics[width=\textwidth]{./images/c_cnn.jpeg}
 
-    The ancient approach of developing machine learning and vision based algorithm
-    is performing handcrafted features extraction algorithms such as histogram of oriented gradients (HOG) on an image
-    and convert it into a vectors of values then classify it using a machine learning algorithm such as support vector machine (SVM).
-    In another way, deep learning is a subfield of machine learning, which is subfield of artificial intelligence (AI)
-    totally different approach by stacking layers on top of each others that automatically more complicated, abstract 
-    and discriminating features. Figure \ref{fig:ai_hierarchy} shows the hierarchy of AI.
-\bigbreak
-\bigbreak
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./images/ai_ml_dl.png}
-    \caption{AI hierarchy}
-    \label{fig:ai_hierarchy}
-\end{figure} 
+                \caption{Complete CNN architecture. Retrieved: medium.com}
+                \label{fig:c_cnn}
+            \end{figure}
+
 
 \section{Hand detection}
 

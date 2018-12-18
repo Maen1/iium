@@ -385,17 +385,45 @@ and algorithms in this chapter.
     \subsection{Activation Function}
     Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
     Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
-    The most well known activation functions are Sigmoid, Tanh and ReLU.
+    The most well known activation functions are Sigmoid \ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
+    Rectified Linear Unit ReLU \ref{fig:relu}.
 
     \subsubsection{Sigmoid Function:}
-    $$ A = \frac{1}{1+e^{-1}} $$
+    Non linear activation function with output in range (0,1).
+    $$ A = \frac{1}{1+e^{-x}} $$
 
     \begin{figure} [h]
         \centering
-        \includegraphics[width=.7\textwidth]{./images/sigmoid.png}
+        \includegraphics[width=.6\textwidth]{./images/sigmoid.png}
         \caption{Sigmoid Function}
-        \label{fig:deep_learining}
+        \label{fig:sigmoid}
     \end{figure}
+
+    \subsubsection{Tanh Function:}
+     it is a scaled sigmoid function, bound to range (-1, 1).
+    $$ tanh(x) = \frac{2}{1+ e^{-2x}} - 1 $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.5\textwidth]{./images/tanh.png}
+        \caption{Tanh Function}
+        \label{fig:tanh}
+    \end{figure}
+
+    \subsubsection{ReLU Function:}
+    less computationally expensive than tanh and sigmoid, it is range (-1, infinity).
+    $$ A(x) = max(0,x) $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.5\textwidth]{./images/relu.jpeg}
+        \caption{ReLU Function}
+        \label{fig:relu}
+    \end{figure}
+
+\subsection{Weights}
+When input data enters a neuron, it is multiplied by a weight value which is assigned to the input. The neuron above the university example, 
+for example, has two inputs, test scores and grades, so it has two related weights that can be individually adjusted.
 
 
 \section{Image recognition}

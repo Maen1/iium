@@ -361,6 +361,13 @@ and algorithms in this chapter.
 \end{figure}
 
 \clearpage
+\section{Machine Vision}
+    Machine Vision is the automatic extraction of the information from digital images.
+    Lately it been used widely instead of human inspectors because it's faster and more consistent.
+    The four basic functions of machine vision are measurement, counting, decoding and location
+
+
+\clearpage
 \section{Deep Learning}
     Deep learning is a machine learning subfield that deals with algorithms based 
     on the structure and function of the brain called artificial neural networks. 
@@ -424,7 +431,50 @@ and algorithms in this chapter.
 \subsection{Weights}
 When input data enters a neuron, it is multiplied by a weight value which is assigned to the input. The neuron above the university example, 
 for example, has two inputs, test scores and grades, so it has two related weights that can be individually adjusted.
+These weights start as random values and as the neural network learns more about what type of input data, 
+the weights are adjusted based on any categorization errors resulting from previous weights it can be associated as m in the original linear equation.
+$$ y = mx + b$$
 
+
+\subsection{Bias}
+Same as weights, biases are the learnable parameters of the deep learning model.
+The bias represents b in the original linear equation.
+$$ y = mx + b $$
+
+\section{Convolutional Neural Networks}
+Convolutional Neural Networks are very similar to ordinary Neural Networks, 
+they are made up of neurons that have learnable weights and biases.
+The architectures of ConvNet make the explicit assumption that 
+the inputs are images which will be encoded to certain properties in the architecture. 
+This makes the forward function more efficient to implement and reduces the number of 
+parameters in the network considerably.
+
+Convolutional Neural networks allow computers to see, 
+meaning that Convnets is used to recognize images by 
+transforming the original image into a class scoring through layers.
+CNN was inspired by the visual cortex.
+Every time we see something, a series of layers of neurons gets activated, 
+and each layer will detect a set of features such as lines, edges. 
+The high level of layers will detect more complex features in order to recognize what we saw.
+
+ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification(FC and softmax).
+
+\subsection{Feature Learning}
+\subsubsection{CONV layer}
+    The objective of a Conv layer is to extract features of the input image.
+    A part of the image is connected to the next Conv layer because if all the 
+    input pixels are connected to the Conv layer, it is too expensive to compute. 
+    Therefore we will apply dot products in all dimensions between a receptive 
+    field and a filter. The result of this operation is a single volume integer (future map).
+    Then we slide the filter through a Stride over the next receiving field of the same input 
+    image and recalculate the dot products between the new receiving field and the same filter.
+    This process is repeated until we pass the entire input image. The output is the input on the next layer.
+
+    Some of the word that used interchangably
+\subsubsection{Filter (Kernel)}
+    A small matrix used to detect features.
+\subsubsection{Feature Map}
+    The output volume formed by sliding the filter over the image and computing the dot product.
 
 \section{Image recognition}
 

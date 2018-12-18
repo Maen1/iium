@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report"] 1545121858 "report.aux" "report.bbl" "report" 1545122100
+["bibtex report"] 1545121858 "report.aux" "report.bbl" "report" 1545122340
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1545122067 6046 be0e90c9b1b5257a38e9853db621e918 ""
+  "report.aux" 1545122340 6046 be0e90c9b1b5257a38e9853db621e918 ""
   "scope.bib" 1545119676 4078 cbfaeb8ea8f743c691de4398a3edbdb7 ""
   (generated)
-  "report.blg"
   "report.bbl"
-["pdflatex"] 1545122064 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1545122100
-  "/Users/Maen/iium/report/report.tex" 1545122080 22046 9c1e86030cb784534e5aca8a853b6aff ""
+  "report.blg"
+["pdflatex"] 1545122337 "/Users/Maen/iium/report/report.tex" "report.pdf" "report" 1545122340
+  "/Users/Maen/iium/report/report.tex" 1545122337 22046 b951d928861e88600d0ddd81ad4de8c8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1480098689 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -181,16 +181,16 @@
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
   "images/yolo.png" 1544409453 57181 46a8a8e01bf4362afa90a7338538ffad ""
-  "report.aux" 1545122067 6046 be0e90c9b1b5257a38e9853db621e918 ""
+  "report.aux" 1545122340 6046 be0e90c9b1b5257a38e9853db621e918 ""
   "report.bbl" 1545121859 6357 a43306652a047d0c35909404239912b2 "bibtex report"
-  "report.lof" 1545122067 1413 c6048db9646ced12d937a8e384106a16 ""
-  "report.lot" 1545122067 183 009aaddb2f0d6341194d99765703720f ""
-  "report.tex" 1545122080 22046 9c1e86030cb784534e5aca8a853b6aff ""
-  "report.toc" 1545122067 1146 6b518b3f7f2668b7feb3098336685894 ""
+  "report.lof" 1545122340 1413 c6048db9646ced12d937a8e384106a16 ""
+  "report.lot" 1545122340 183 009aaddb2f0d6341194d99765703720f ""
+  "report.tex" 1545122337 22046 b951d928861e88600d0ddd81ad4de8c8 ""
+  "report.toc" 1545122340 1146 6b518b3f7f2668b7feb3098336685894 ""
   (generated)
-  "report.log"
-  "report.lof"
-  "report.aux"
-  "report.toc"
   "report.lot"
+  "report.log"
+  "report.aux"
   "report.pdf"
+  "report.toc"
+  "report.lof"

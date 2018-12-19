@@ -36,3 +36,15 @@
       * outpu of one S-box effect several S-Boxes in nest round.
 
       Diffusion by E, S-box and P guarantess that after round 5 every bit is a function of each key bit and each plaintext bit.
+
+
+
+   3. Hash function properties:
+
+      ![](./images/h_function.png)
+
+
+
+      1. preimage resistance: for a given output z, it is impossible to find any input x such that  h(x) = z, h(x) is one-way function.
+      2. second preimage resistance: given x1 and h(x1), it is computationally infeasible to find x2 such that h(x1) =h(x2).
+      3. Collision resistance : it is computationally infeasible to find any pairs x != x2 such that h(x1) = h(x2).

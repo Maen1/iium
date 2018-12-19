@@ -64,15 +64,36 @@
 ## Practical
 
 1. Caser Cipher: 
+
    * C = (p + k ) mod 26
    * P = (c - k ) mod 26
+
 2. Playfiar:
+
    * key is 5x5 matrix choose a word then complete from the plain text if there is double occurance inner x.
    * ecnryption:
      * if both letter on the same row shift rigt
      * same column shift below.
      * not either take rectangle.
+
 3. Polyalphabetic:
+
    * multiple cipher alphabetic.
    * Vegener cipher: multiple casear cipher.
    * key is the row and plain is the column.
+
+4. One time pad:
+
+   * Truly random key as long as message.
+   * key used only once.
+
+5. Transpostion cipher:
+
+   * rearranging the letter order
+
+6. Row transpostion cipher:
+
+   * make matrix.
+   * wirte the plain text
+   * record the column to some key.
+   * write the cipher in column wise.

@@ -72,4 +72,7 @@
      * if both letter on the same row shift rigt
      * same column shift below.
      * not either take rectangle.
-3. 
+3. Polyalphabetic:
+   * multiple cipher alphabetic.
+   * Vegener cipher: multiple casear cipher.
+   * key is the row and plain is the column.

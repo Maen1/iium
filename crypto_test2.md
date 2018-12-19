@@ -58,3 +58,18 @@
    * the signture must change for every document.
    * the signature is realzed as a function with the message x and private key as input.
    * the public key and the message x are the inputs to verfication.
+
+
+
+## Practical
+
+1. Caser Cipher: 
+   * C = (p + k ) mod 26
+   * P = (c - k ) mod 26
+2. Playfiar:
+   * key is 5x5 matrix choose a word then complete from the plain text if there is double occurance inner x.
+   * ecnryption:
+     * if both letter on the same row shift rigt
+     * same column shift below.
+     * not either take rectangle.
+3. 

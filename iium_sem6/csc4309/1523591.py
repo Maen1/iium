@@ -9,8 +9,8 @@ def italianRecipes():
 
     # split the content into words
     words = temp.split()
-
-
+    #close input file
+    f.close()
     # create result file
     result = open("result.txt",'w') 
 
@@ -31,7 +31,7 @@ def italianRecipes():
       # words end with ly
       if word.endswith("ly"):
           ly.append(word)
-          result.write(str(word)+'\n')
+          
 
       
     print(dic) 
@@ -39,7 +39,8 @@ def italianRecipes():
     print(ly)
     result.write(str(dic)+'\n\n')
     result.write("the word of has occured "+ str(count)+'\n\n')
-
+    result.write(str(ly)+'\n')
+    #close result
     result.close() 
         
 

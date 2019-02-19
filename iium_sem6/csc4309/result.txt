@@ -1,5 +1,0 @@
-{'all': 1, 'over': 1, '(No.': 1, 'soften': 1, 'pane': 1, 'left': 1, 'carefully': 1, 'crumbs.': 1, 'WITH': 1, 'ground': 1, '54)': 1, 'side-dish,': 1, 'into': 2, 'then': 1, 'good': 1, '(Pesce': 1, 'bread': 2, 'fine.': 1, 'remove': 1, 'fine;': 1, 'served': 1, 'crumbs': 1, 'fish': 2, 'some': 1, 'fireproof': 1, 'dried': 1, 'enough': 1, 'above': 1, 'can': 1, 'be': 1, 'grease': 1, 'water': 1, 'CRUMBS': 1, 'put': 2, 'of': 3, 'pieces,': 1, 'col': 1, 'chopped': 1, 'cheese': 1, 'Cut': 1, 'FISH': 1, 'mushrooms': 2, 'Finally': 1, 'butter,': 1, 'quality': 1, 'little': 1, 'grated': 1, 'a': 4, 'first.': 1, 'season': 1, 'serve': 1, 'This,': 1, '=balsamella=': 1, 'with': 4, 'made': 1, 'pour': 1, 'bones,': 1, 'thin': 1, 'hot.': 1, 'grattato)': 1, 'piece': 1, 'BREAD': 1, 'and': 5, 'over.': 1, 'layer': 1, 'brown': 1, 'is': 1, 'it': 4, 'as': 2, 'have': 1, 'in': 3, 'Then': 1, 'oven': 1, 'when': 1, 'also': 1, 'take': 1, 'which': 1, 'you': 1, 'salt,': 1, 'boiled': 1, 'prepared': 1, 'dust': 1, 'butter': 1, 'especially': 1, 'plate,': 1, 'cover': 1, 'the': 4, 'If': 1, 'evenly': 1}
-
-the word of has occured 3
-
-['especially', 'carefully', 'evenly', 'Finally']

@@ -1,0 +1,12 @@
+Example Test Question on RE (Programming)
+Assume that you are a system analyst in a company that helps maintain the database of client information. Your General Manager has requested that you quickly extract some important information from a document that contains company profiles of important clients using a script.  Given the file "clients.dat", use your knowledge in "regular expression" to filter the document and extract only the following information:
+
+1) The company website of the client (check for strings looking like website addresses) 
+2) The company email address of the client (search for something with @)
+3) The company contact no of the client (search for strings looking like phone numbers with -)
+
+Print your output in an external file named "track.log" and indicate each type of info.  Your output file shall look like the following (sample output):
+
+Company website			Email address		Contact No
+http://www.slb.com/    		info@slb.com 		+603-2166 7788
+http://www.panasonic.com/my/	ccc@my.panasonic.com	+603-5891 3777

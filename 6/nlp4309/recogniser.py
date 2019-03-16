@@ -1,6 +1,5 @@
 # example that uses the nltk_contrib FST class
-import nltk
-from nltk_contrib.fst.fst import *
+from nltk.nltk_contrib.fst.fst import *
 
 class myFST(FST):    
     def recognize(self, iput, oput):
@@ -66,4 +65,4 @@ if f.recognize(inp, outp):
 else:    
     print("reject")
 
-disp = FSTDisplay(f)
+FSTDisplay(f)

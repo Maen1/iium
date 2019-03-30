@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1553845270 "/Users/Maen/iium/tech_report/tech_report.tex" "/Users/Maen/iium/tech_report/tech_report.pdf" "tech_report" 1553845270
-  "/Users/Maen/iium/tech_report/tech_report.aux" 1553845270 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/Maen/iium/tech_report/tech_report.tex" 1553845268 15283 c0d9337fc04fbdebe880cf8b6c976752 ""
+["pdflatex"] 1553845924 "/Users/Maen/iium/tech_report/tech_report.tex" "/Users/Maen/iium/tech_report/tech_report.pdf" "tech_report" 1553845924
+  "/Users/Maen/iium/tech_report/tech_report.aux" 1553845924 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/Maen/iium/tech_report/tech_report.tex" 1553845923 15311 537e679230186a35630bb9589afe9fab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -97,10 +97,10 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "fig1.png" 0 -1 0 ""
   "tech_report.aux" 0 -1 0 ""
-  "tech_report.tex" 1553845268 15283 c0d9337fc04fbdebe880cf8b6c976752 ""
+  "tech_report.tex" 1553845923 15311 537e679230186a35630bb9589afe9fab ""
   (generated)
-  "tech_report.log"
-  "/Users/Maen/iium/tech_report/tech_report.log"
-  "/Users/Maen/iium/tech_report/tech_report.pdf"
   "tech_report.pdf"
+  "/Users/Maen/iium/tech_report/tech_report.log"
   "tech_report.aux"
+  "/Users/Maen/iium/tech_report/tech_report.pdf"
+  "tech_report.log"

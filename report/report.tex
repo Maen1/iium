@@ -98,17 +98,19 @@ International Islamic University Malaysia
     \LARGE ABSTRACT
 \end{center}
 
-Communication is an essential part of our life.
-Unfortunately, some of us were born in various types of disability such as deaf,
-since hearing impaired people can't listen they can't learn to speak so they developed 
-a new communication way to interact with other people by using distinct hand gestures, 
-which wasn't enough to overcome this issue, even now with all technologies and tools still challenging problem to solve.
-For the mentioned reason, 
-the intention of the proposed research is to improve an ordinary model to translate the hand gestures of the sign language into voice.
-In that, Deep learning is remarkably serviceable for this mission, 
-firstly by identifying the hand in the video frame by using Convolutional
-Neural Network algorithm then states the sound that matches the sign.The accuracy achieved for detect hand gesture using initial CNN model 92 \text{\%} for MNIST
-dataset and 82\text{\%} for regular dataset.
+    Communication is an essential part of our life. 
+    Unfortunately, some of us were born in various types 
+    of disability such as deaf, since hearing impaired people 
+    cannot listen they loosed the ability to learn how to speak so 
+    they developed a new communication way to interact with other people 
+    by using distinct hand gestures, which was not enough  to overcome this 
+    issue since most of hearing people do not understand sign language, even 
+    now with all technologies and tools it is remain a challenging problem to solve. 
+    For the mentioned reason, the intention of this paper is to improve the ordinary model 
+    to translate the sign language gestures into a voice. In that, Deep learning is remarkably 
+    serviceable for this mission, first by detecting a hand in a video frame using Convolutional 
+    Neural Network (CNN) algorithm followed by recognizing the letter and state the matching sound. 
+    The accuracy achieved for a hand gesture detection using CNN model MobileNet-SSD is more than 90 \text{\%} for all the proposed signs.
 
 
 \newpage
@@ -207,64 +209,64 @@ to recognize hand gestures. These researches will help to grasp the knowledge
 to achieve the project's objectives. 
 
 \section{Deep Learning}
-    Deep learning is a machine learning subfield that deals with algorithms based 
-    on the structure and function of the brain called artificial neural networks. 
-    In other words, it mirrors the brain's functioning.Deep learning algorithms are similar to the structure of 
-    the nervous system in which each neuron connects and passes information.
-    Deep learning models work in the layers and three layers of a typical model at least \ref{fig:deep_learining}. 
-    Each layer accepts and passes the information from the previous layer to the next layer.
+Deep learning is a machine learning subfield that deals with algorithms based 
+on the structure and function of the brain called artificial neural networks. 
+In other words, it mirrors the brain's functioning.Deep learning algorithms are similar to the structure of 
+the nervous system in which each neuron connects and passes information.
+Deep learning models work in the layers and three layers of a typical model at least \ref{fig:deep_learining}. 
+Each layer accepts and passes the information from the previous layer to the next layer.
 
-    \begin{figure} [h]
-        \centering
-        \includegraphics[width=\textwidth]{./images/deep_learning.png}
-        \caption{Typical deep learning model. Retrieved from www.medium.com}
-        \label{fig:deep_learining}
-    \end{figure}
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=\textwidth]{./images/deep_learning.png}
+    \caption{Typical deep learning model. Retrieved from www.medium.com}
+    \label{fig:deep_learining}
+\end{figure}
 
-    Deep learning models tend to perform well with quantity of data while old machine 
-    learning models do not improve after a saturation.
+Deep learning models tend to perform well with quantity of data while old machine 
+learning models do not improve after a saturation.
 
-    One of differences between machine learning and deep learning model is on the feature extraction area. 
-    Feature extraction is done by human in machine learning whereas deep learning model figure out by itself.
+One of differences between machine learning and deep learning model is on the feature extraction area. 
+Feature extraction is done by human in machine learning whereas deep learning model figure out by itself.
 
-    \subsection{Activation Function}
-    Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
-    Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
-    The most well known activation functions are Sigmoid \ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
-    Rectified Linear Unit ReLU \ref{fig:relu}.
+\subsection{Activation Function}
+Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
+Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
+The most well known activation functions are Sigmoid \ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
+Rectified Linear Unit ReLU \ref{fig:relu}.
 
-    \subsubsection{Sigmoid Function:}
-    Non linear activation function with output in range (0,1).
-    $$ A = \frac{1}{1+e^{-x}} $$
+\subsubsection{Sigmoid Function:}
+Non linear activation function with output in range (0,1).
+$$ A = \frac{1}{1+e^{-x}} $$
 
-    \begin{figure} [h]
-        \centering
-        \includegraphics[width=.6\textwidth]{./images/sigmoid.png}
-        \caption{Sigmoid Function}
-        \label{fig:sigmoid}
-    \end{figure}
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=.6\textwidth]{./images/sigmoid.png}
+    \caption{Sigmoid Function}
+    \label{fig:sigmoid}
+\end{figure}
 
-    \subsubsection{Tanh Function:}
-     it is a scaled sigmoid function, bound to range (-1, 1).
-    $$ tanh(x) = \frac{2}{1+ e^{-2x}} - 1 $$
+\subsubsection{Tanh Function:}
+it is a scaled sigmoid function, bound to range (-1, 1).
+$$ tanh(x) = \frac{2}{1+ e^{-2x}} - 1 $$
 
-    \begin{figure} [h]
-        \centering
-        \includegraphics[width=.5\textwidth]{./images/tanh.png}
-        \caption{Tanh Function}
-        \label{fig:tanh}
-    \end{figure}
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=.5\textwidth]{./images/tanh.png}
+    \caption{Tanh Function}
+    \label{fig:tanh}
+\end{figure}
 
-    \subsubsection{ReLU Function:}
-    less computationally expensive than tanh and sigmoid, it is range (-1, infinity).
-    $$ A(x) = max(0,x) $$
+\subsubsection{ReLU Function:}
+less computationally expensive than tanh and sigmoid, it is range (-1, infinity).
+$$ A(x) = max(0,x) $$
 
-    \begin{figure} [h]
-        \centering
-        \includegraphics[width=.5\textwidth]{./images/relu.jpeg}
-        \caption{ReLU Function}
-        \label{fig:relu}
-    \end{figure}
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=.5\textwidth]{./images/relu.jpeg}
+    \caption{ReLU Function}
+    \label{fig:relu}
+\end{figure}
 
 \subsection{Weights}
 When input data enters a neuron, it is multiplied by a weight value which is assigned to the input. The neuron above the university example, 
@@ -298,58 +300,58 @@ The high level of layers will detect more complex features in order to recognize
 ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification(FC and softmax).
 
 \subsection{Feature Learning}
-    \subsubsection{CONV layer:}
-        The objective of a Conv layer is to extract features of the input image.
-        A part of the image is connected to the next Conv layer because if all the 
-        input pixels are connected to the Conv layer, it is too expensive to compute. 
-        Therefore we will apply dot products in all dimensions between a receptive 
-        field and a filter. The result of this operation is a single volume integer (future map).
-        Then we slide the filter through a Stride over the next receiving field of the same input 
-        image and recalculate the dot products between the new receiving field and the same filter.
-        This process is repeated until we pass the entire input image. The output is the input on the next layer.
+\subsubsection{CONV layer:}
+The objective of a Conv layer is to extract features of the input image.
+A part of the image is connected to the next Conv layer because if all the 
+input pixels are connected to the Conv layer, it is too expensive to compute. 
+Therefore we will apply dot products in all dimensions between a receptive 
+field and a filter. The result of this operation is a single volume integer (future map).
+Then we slide the filter through a Stride over the next receiving field of the same input 
+image and recalculate the dot products between the new receiving field and the same filter.
+This process is repeated until we pass the entire input image. The output is the input on the next layer.
 
-        Some of the word that used interchangeably:
-        \begin{itemize}
-            \item Filter (Kernel): a small matrix used to detect features.
-            \item Feature Map: the output volume formed by sliding the filter over the image and computing the dot product.
-            \item Receptive field: a local region of the input image that has the same size as the Kernel.
-            \item Depth: the number of filters.
-            \item Stride: has the objective of producing smaller output volumes spatially.
-            \item Padding: the process of adding extra pixels over around the image.
-        \end{itemize}
+Some of the word that used interchangeably:
+\begin{itemize}
+    \item Filter (Kernel): a small matrix used to detect features.
+    \item Feature Map: the output volume formed by sliding the filter over the image and computing the dot product.
+    \item Receptive field: a local region of the input image that has the same size as the Kernel.
+    \item Depth: the number of filters.
+    \item Stride: has the objective of producing smaller output volumes spatially.
+    \item Padding: the process of adding extra pixels over around the image.
+\end{itemize}
 
-    \subsubsection{ReLU layer:}
-        Turning negative values into zeros. it has nothing to do with size of image and there are no hyperparameters.
-    \subsubsection{Pool Layer:}
-        Reduce the dimension of the input, the computational complexity of the model and 
-        controls the overfitting. There are different types of pooling such as Average pooling, Max pooling and L2-norm pooling.
-        However, the Max pooling is the most use, which takes the most important part (the pixel with the highest vule)\ref{fig:pool}. 
-        
-            \begin{figure}[h]
-                \centering
-                \includegraphics[width=.8\textwidth]{./images/pool.png}
-                \caption{Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia}
-                \label{fig:pool}
-            \end{figure}
+\subsubsection{ReLU layer:}
+Turning negative values into zeros. it has nothing to do with size of image and there are no hyperparameters.
+\subsubsection{Pool Layer:}
+Reduce the dimension of the input, the computational complexity of the model and 
+controls the overfitting. There are different types of pooling such as Average pooling, Max pooling and L2-norm pooling.
+However, the Max pooling is the most use, which takes the most important part (the pixel with the highest vule)\ref{fig:pool}. 
 
-    \subsection{Classification}
-        \subsubsection{Fully Connected Layer(FC):}
-            Fully connected layers connect each neuron in a layer to every neuron in another layer.
-            The last connected layer uses softmax activation function.
-        \subsubsection{Softmax:}
-            Activation function generate features input image into many classes based on the dataset.  
-        
-        \bigbreak
-        \bigbreak
-        
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{./images/pool.png}
+    \caption{Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia}
+    \label{fig:pool}
+\end{figure}
 
-            \begin{figure} [h]
-                \centering
-                \includegraphics[width=\textwidth]{./images/c_cnn.jpeg}
+\subsection{Classification}
+\subsubsection{Fully Connected Layer(FC):}
+Fully connected layers connect each neuron in a layer to every neuron in another layer.
+The last connected layer uses softmax activation function.
+\subsubsection{Softmax:}
+Activation function generate features input image into many classes based on the dataset.  
 
-                \caption{Complete CNN architecture. Retrieved: medium.com}
-                \label{fig:c_cnn}
-            \end{figure}
+\bigbreak
+\bigbreak
+
+
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=\textwidth]{./images/c_cnn.jpeg}
+    
+    \caption{Complete CNN architecture. Retrieved: medium.com}
+    \label{fig:c_cnn}
+\end{figure}
 
 
 
@@ -423,12 +425,12 @@ need to be improved as well.
 
 \clearpage
 
-    \cite{Pyo2016}, introduced a depth-based hand data with convolution
-    neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D images in
-    each of 12 labels. In all, there are approximately 60,000
-    training images, 1S,000 validation images, and 12,000 training images.
-    each time they were increasing the number of layers and testing the accuracy \ref{fig:depth_cnn}.
-    They came with result that more number of layers, does not guarantee the increase of accuracy.
+\cite{Pyo2016}, introduced a depth-based hand data with convolution
+neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D images in
+each of 12 labels. In all, there are approximately 60,000
+training images, 1S,000 validation images, and 12,000 training images.
+each time they were increasing the number of layers and testing the accuracy \ref{fig:depth_cnn}.
+They came with result that more number of layers, does not guarantee the increase of accuracy.
 \bigbreak
 
 \begin{figure}[h]
@@ -439,21 +441,21 @@ need to be improved as well.
 \end{figure}
 
 \bigbreak
-    \cite{Devineau2018}, introduced a 3D hand gesture recognition approach based on a deep learning model 
-    using Convolutional Neural Network (CNN). The proposed model only uses hand-skeletal 
-    data and no depth image.
-    The model produced by  multi-channel convolutional neural network
-    with two feature extraction modules and a residual
-    branch per channel \ref{fig:m_cnn}.
-    The achieved accuracy was a 91.28\text{\%} classification accuracy for the 14 gesture
-    classes case and an 84.35\text{\%} classification accuracy for the 28
-    gesture classes case.
-    \begin{figure}[h]
+\cite{Devineau2018}, introduced a 3D hand gesture recognition approach based on a deep learning model 
+using Convolutional Neural Network (CNN). The proposed model only uses hand-skeletal 
+data and no depth image.
+The model produced by  multi-channel convolutional neural network
+with two feature extraction modules and a residual
+branch per channel \ref{fig:m_cnn}.
+The achieved accuracy was a 91.28\text{\%} classification accuracy for the 14 gesture
+classes case and an 84.35\text{\%} classification accuracy for the 28
+gesture classes case.
+\begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{images/m_cnn.png}
     \caption{parallel convolutional neural network}
     \label{fig:m_cnn}
-    \end{figure}
+\end{figure}
 
 
 \clearpage
@@ -509,7 +511,7 @@ and algorithms in this chapter.
 The problem of hand recognition that hand occupied usually less than 25 percent of the image.
 To overcome this issue the model should be provided with high accurate detection algorithm,
 Right now there are so many good algorithms for object detection which can be utilize to 
-detect a human hand We are going to concentrate on the most three famous (Faster R-CNN, SSD and YOLO)
+detect a human hand.
 
 \subsection{Faster R-CNN}
 

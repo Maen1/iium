@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report"] 1554560176 "report.aux" "report.bbl" "report" 1554560492
+["bibtex report"] 1554561359 "report.aux" "report.bbl" "report" 1554561370
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1480098433 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "report.aux" 1554560491 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
+  "report.aux" 1554561362 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
   "scope.bib" 1545122740 5101 eded75992c018ac972e82c6391152a4f ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1554560488 "/Users/Maen/iium/report/report.tex" "/Users/Maen/iium/report/report.pdf" "report" 1554560492
-  "/Users/Maen/iium/report/report.aux" 1554560491 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
-  "/Users/Maen/iium/report/report.tex" 1554560487 28432 c6055e30ca3b917713fc8176ee556be1 ""
+["pdflatex"] 1554561359 "/Users/Maen/iium/report/report.tex" "/Users/Maen/iium/report/report.pdf" "report" 1554561370
+  "/Users/Maen/iium/report/report.aux" 1554561362 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
+  "/Users/Maen/iium/report/report.tex" 1554561370 27820 b6baf7c2d8d873468ccee46284582984 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -193,18 +193,18 @@
   "images/tiny_b.png" 1540018999 250199 1f8dcb54f4f49d634bbdc30a97068fdf ""
   "images/vgg16.png" 1540095228 46325 dfe4eaaa4450e2b58b38c5fe82f918c0 ""
   "images/yolo.png" 1544409453 57181 46a8a8e01bf4362afa90a7338538ffad ""
-  "report.aux" 1554560491 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
-  "report.bbl" 1554560177 7228 34d2758b2efba3ab6bab32d508c0be8d "bibtex report"
-  "report.lof" 1554560491 1962 73bbcc67c2dc3a1931fa8979ef39c98d ""
-  "report.lot" 1554560491 183 96413b8416d01a8391f9b022f8192da5 ""
-  "report.tex" 1554560487 28432 c6055e30ca3b917713fc8176ee556be1 ""
-  "report.toc" 1554560491 1928 b0b4c4ea1373d55b4aea312475751985 ""
+  "report.aux" 1554561362 8138 92ad2fdf1625faf51d3ca47015c30fdb ""
+  "report.bbl" 1554561359 7228 34d2758b2efba3ab6bab32d508c0be8d "bibtex report"
+  "report.lof" 1554561362 1962 73bbcc67c2dc3a1931fa8979ef39c98d ""
+  "report.lot" 1554561362 183 96413b8416d01a8391f9b022f8192da5 ""
+  "report.tex" 1554561370 27820 b6baf7c2d8d873468ccee46284582984 ""
+  "report.toc" 1554561362 1928 b0b4c4ea1373d55b4aea312475751985 ""
   (generated)
-  "report.toc"
   "report.lot"
-  "report.log"
-  "/Users/Maen/iium/report/report.log"
-  "report.pdf"
   "report.lof"
   "/Users/Maen/iium/report/report.pdf"
+  "/Users/Maen/iium/report/report.log"
+  "report.log"
   "report.aux"
+  "report.pdf"
+  "report.toc"

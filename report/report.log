@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  6 APR 2019 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  6 APR 2019 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,9 +615,9 @@ Package pdftex.def Info: ./images/iium.png  used on input line 35.
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>] [1] [2] [3] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
  (/Users/Maen/iium/report/report.toc
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -660,22 +660,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 170.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 172.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
  [2] [3]
 Chapter 2.
 <./images/deep_learning.png, id=49, 516.93124pt x 397.485pt>
 File: ./images/deep_learning.png Graphic file (type png)
 <use ./images/deep_learning.png>
-Package pdftex.def Info: ./images/deep_learning.png  used on input line 219.
+Package pdftex.def Info: ./images/deep_learning.png  used on input line 221.
 (pdftex.def)             Requested size: 452.9679pt x 348.31406pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -684,17 +684,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 232.
  [5 <./images/deep_learning.png (PNG copy)>]
 <./images/sigmoid.png, id=57, 602.25pt x 401.5pt>
 File: ./images/sigmoid.png Graphic file (type png)
 <use ./images/sigmoid.png>
-Package pdftex.def Info: ./images/sigmoid.png  used on input line 242.
+Package pdftex.def Info: ./images/sigmoid.png  used on input line 244.
 (pdftex.def)             Requested size: 271.7835pt x 181.19406pt.
 <./images/tanh.png, id=58, 401.5pt x 301.125pt>
 File: ./images/tanh.png Graphic file (type png)
 <use ./images/tanh.png>
-Package pdftex.def Info: ./images/tanh.png  used on input line 253.
+Package pdftex.def Info: ./images/tanh.png  used on input line 255.
 (pdftex.def)             Requested size: 226.48395pt x 169.86484pt.
 
 
@@ -703,7 +703,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/relu.jpeg, id=59, 312.16624pt x 210.7875pt>
 File: ./images/relu.jpeg Graphic file (type jpg)
 <use ./images/relu.jpeg>
-Package pdftex.def Info: ./images/relu.jpeg  used on input line 264.
+Package pdftex.def Info: ./images/relu.jpeg  used on input line 266.
 (pdftex.def)             Requested size: 226.48395pt x 152.93442pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -712,12 +712,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/pool.png, id=76, 572.1375pt x 331.2375pt>
 File: ./images/pool.png Graphic file (type png)
 <use ./images/pool.png>
-Package pdftex.def Info: ./images/pool.png  used on input line 330.
+Package pdftex.def Info: ./images/pool.png  used on input line 332.
 (pdftex.def)             Requested size: 362.37569pt x 209.79771pt.
 <./images/c_cnn.jpeg, id=77, 1259.70625pt x 425.59pt>
 File: ./images/c_cnn.jpeg Graphic file (type jpg)
 <use ./images/c_cnn.jpeg>
-Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 348.
+Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 350.
 (pdftex.def)             Requested size: 452.9679pt x 153.03044pt.
 
 
@@ -727,7 +727,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tiny_a.png, id=82, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
-Package pdftex.def Info: ./images/tiny_a.png  used on input line 372.
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 374.
 (pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
 
 
@@ -736,18 +736,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/tiny_b.png, id=83, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 377.
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 379.
 (pdftex.def)             Requested size: 452.9679pt x 455.565pt.
 [11 <./images/c_cnn.jpeg>] [12 <./images/tiny_a.png>] [13 <./images/tiny_b.png>]
 <./images/selfie.png, id=95, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
-Package pdftex.def Info: ./images/selfie.png  used on input line 393.
+Package pdftex.def Info: ./images/selfie.png  used on input line 395.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
 <images/vgg16.png, id=96, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
-Package pdftex.def Info: images/vgg16.png  used on input line 412.
+Package pdftex.def Info: images/vgg16.png  used on input line 414.
 (pdftex.def)             Requested size: 407.66833pt x 239.39948pt.
 
 
@@ -756,7 +756,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/alexnet.png, id=97, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
-Package pdftex.def Info: images/alexnet.png  used on input line 418.
+Package pdftex.def Info: images/alexnet.png  used on input line 420.
 (pdftex.def)             Requested size: 362.37569pt x 149.7261pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -767,12 +767,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/depth_cnn.png, id=105, 1042.89626pt x 396.48125pt>
 File: images/depth_cnn.png Graphic file (type png)
 <use images/depth_cnn.png>
-Package pdftex.def Info: images/depth_cnn.png  used on input line 436.
+Package pdftex.def Info: images/depth_cnn.png  used on input line 438.
 (pdftex.def)             Requested size: 452.9679pt x 172.2078pt.
 <images/m_cnn.png, id=106, 804.00375pt x 398.48875pt>
 File: images/m_cnn.png Graphic file (type png)
 <use images/m_cnn.png>
-Package pdftex.def Info: images/m_cnn.png  used on input line 453.
+Package pdftex.def Info: images/m_cnn.png  used on input line 455.
 (pdftex.def)             Requested size: 452.9679pt x 224.50203pt.
 
 
@@ -787,21 +787,21 @@ Chapter 3.
 <./images/system_diagram.png, id=119, 1310.8975pt x 467.7475pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
-Package pdftex.def Info: ./images/system_diagram.png  used on input line 499.
+Package pdftex.def Info: ./images/system_diagram.png  used on input line 501.
 (pdftex.def)             Requested size: 452.9679pt x 161.62285pt.
 [19
 
  <./images/system_diagram.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 517.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 517.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 519.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 517.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 519.
 <./images/cfm.png, id=124, 889.3225pt x 524.96124pt>
 File: ./images/cfm.png Graphic file (type png)
 <use ./images/cfm.png>
-Package pdftex.def Info: ./images/cfm.png  used on input line 527.
+Package pdftex.def Info: ./images/cfm.png  used on input line 529.
 (pdftex.def)             Requested size: 271.7835pt x 160.42935pt.
 
 
@@ -810,7 +810,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/frcnn.png, id=125, 682.55pt x 589.20125pt>
 File: ./images/frcnn.png Graphic file (type png)
 <use ./images/frcnn.png>
-Package pdftex.def Info: ./images/frcnn.png  used on input line 541.
+Package pdftex.def Info: ./images/frcnn.png  used on input line 543.
 (pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
 [20
 
@@ -818,7 +818,7 @@ Package pdftex.def Info: ./images/frcnn.png  used on input line 541.
 <./images/ssd.png, id=132, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 572.
+Package pdftex.def Info: ./images/ssd.png  used on input line 574.
 (pdftex.def)             Requested size: 317.07614pt x 232.7806pt.
 
 
@@ -828,10 +828,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./images/yolo.png, id=143, 1113.15875pt x 472.76625pt>
 File: ./images/yolo.png Graphic file (type png)
 <use ./images/yolo.png>
-Package pdftex.def Info: ./images/yolo.png  used on input line 609.
+Package pdftex.def Info: ./images/yolo.png  used on input line 611.
 (pdftex.def)             Requested size: 452.9679pt x 192.37822pt.
 
-Underfull \hbox (badness 1342) in paragraph at lines 626--626
+Underfull \hbox (badness 1342) in paragraph at lines 628--628
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
@@ -853,7 +853,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Maen/iium/report/report.pdf (37 pages, 2620043 bytes).
+Output written on /Users/Maen/iium/report/report.pdf (37 pages, 2620042 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

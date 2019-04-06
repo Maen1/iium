@@ -98,19 +98,21 @@ International Islamic University Malaysia
     \LARGE ABSTRACT
 \end{center}
 
-    Communication is an essential part of our life. 
-    Unfortunately, some of us were born in various types 
-    of disability such as deaf, since hearing impaired people 
-    cannot listen they loosed the ability to learn how to speak so 
-    they developed a new communication way to interact with other people 
-    by using distinct hand gestures, which was not enough  to overcome this 
-    issue since most of hearing people do not understand sign language, even 
-    now with all technologies and tools it is remain a challenging problem to solve. 
-    For the mentioned reason, the intention of this paper is to improve the ordinary model 
-    to translate the sign language gestures into a voice. In that, Deep learning is remarkably 
-    serviceable for this mission, first by detecting a hand in a video frame using Convolutional 
-    Neural Network (CNN) algorithm followed by recognizing the letter and state the matching sound. 
-    The accuracy achieved for a hand gesture detection using CNN model MobileNet-SSD is more than 90 \text{\%} for all the proposed signs.
+    Communication is an essential part of our life. Unfortunately, 
+    some of us were born in various types of disability such as deaf, 
+    since hearing impaired people cannot listen they loosed the ability 
+    to learn how to speak so they developed a new communication way to 
+    interact with other people by using distinct hand gestures, which was 
+    not enough  to overcome this issue since most of hearing people do not 
+    understand sign language, even now with all technologies and tools it 
+    is remain a challenging problem to solve. For the mentioned reason, 
+    the intention of this paper is to improve the ordinary model to translate
+    the sign language gestures into a voice. In that, Deep learning is remarkably 
+    serviceable for this mission, first by detecting a hand in a video frame using
+    Convolutional Neural Network (CNN) algorithm followed by recognizing the 
+    letter and state the matching sound. The accuracy achieved for a hand gesture
+    detection using CNN model MobileNet-SSD is more than 90 \text{\%} for all the
+    proposed signs.
 
 
 \newpage
@@ -139,33 +141,38 @@ helping me reach the end of my undergraduate study, without them, I could not ac
 
 \section{Background}
 Communication is a process of sending and receiving data among individuals. 
-People communicate with each other's by a considerable measure of ways yet the best way is eye to eye correspondence.
-Numerous individuals trust that the significance of communication 
-is like the importance of breathing. Indeed, communication facilitates the spread of knowledge
-and structures connections between individuals. 
+People communicate with each other's by a considerable measure of ways yet 
+the best way is eye to eye correspondence. Numerous individuals trust that 
+the significance of communication is like the importance of breathing. Indeed, 
+communication facilitates the spread of knowledge and structures connections 
+between individuals. 
 
-Deep learning added an immense lift to the already rapidly developing field of computer vision.
-With deep learning, a lot of new utilization of computer vision techniques have been presented
-and they are currently ending up some portion of our regular day to day existence.
+Deep learning added an immense lift to the already rapidly developing field 
+of computer vision. With deep learning, a lot of new utilization of computer
+vision techniques have been presented and they are currently ending up some 
+portion of our regular day to day existence.
 
-Alongside with the intensity of the present computers, there are now various algorithms that were developed 
-to empower the computers to perform tasks such as object tracking and pattern recognition. 
+Alongside with the intensity of the present computers, there are now various 
+algorithms that were developed to empower the computers to perform tasks such 
+as object tracking and pattern recognition. 
 
-In this study, the attention will be on hand gestures detection and make an interpretation of them into voice.
+In this study, the attention will be on hand gestures detection and make an 
+interpretation of them into voice.
 
 \section{Problem Statement}
 Communication difficulties arising from damage to hearing
-directly have an effect on the standard of life. Difficulties in communication could
-end in deviations within the emotional and social development which
-will have a major impact on the standard of lifetime of every one.
-It is well recognized that hearing is crucial to speech and language development, communication, and learning.
-Folks with listening difficulties due to hearing loss or auditory processing problems
-continue to be an under-identified and under-served population. The
-earlier the matter is known and intervention began, the less
+directly have an effect on the standard of life. Difficulties in 
+communication could end in deviations within the emotional and 
+social development which will have a major impact on the standard of
+lifetime of every one. It is well recognized that hearing is crucial 
+to speech and language development, communication, and learning. People
+with listening difficulties due to hearing loss or auditory processing 
+problems continue to be an under-identified and under-served population.
+The earlier the matter is known and intervention began, the less
 serious the ultimate impact \cite{AFrajtag12017}.
 
-The communication between hearing-impaired and other individuals is a colossal gab 
-need to be filled up. In order to overcome this challenge 
+The communication between hearing-impaired and other individuals is a 
+colossal gab need to be filled up. In order to overcome this challenge 
 many researches and products have been developed to solve this problem, 
 but there is a lot to be enhanced.
 
@@ -213,10 +220,11 @@ to achieve the project's objectives.
 \section{Deep Learning}
 Deep learning is a machine learning subfield that deals with algorithms based 
 on the structure and function of the brain called artificial neural networks. 
-In other words, it mirrors the brain's functioning.Deep learning algorithms are similar to the structure of 
-the nervous system in which each neuron connects and passes information.
-Deep learning models work in the layers and three layers of a typical model at least \ref{fig:deep_learining}. 
-Each layer accepts and passes the information from the previous layer to the next layer.
+In other words, it mirrors the brain's functioning.Deep learning algorithms 
+are similar to the structure of the nervous system in which each neuron connects
+and passes information. Deep learning models work in the layers and three layers 
+of a typical model at least \ref{fig:deep_learining}. Each layer accepts and passes
+the information from the previous layer to the next layer.
 
 \begin{figure} [h]
     \centering
@@ -225,16 +233,20 @@ Each layer accepts and passes the information from the previous layer to the nex
     \label{fig:deep_learining}
 \end{figure}
 
-Deep learning models tend to perform well with quantity of data while old machine 
-learning models do not improve after a saturation.
+Deep learning models tend to perform well with quantity of data while 
+old machine learning models do not improve after a saturation.
 
-One of differences between machine learning and deep learning model is on the feature extraction area. 
-Feature extraction is done by human in machine learning whereas deep learning model figure out by itself.
+One of differences between machine learning and deep learning model 
+is on the feature extraction area. Feature extraction is done by human
+in machine learning whereas deep learning model figure out by itself.
 
 \subsection{Activation Function}
-Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
-Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
-The most well known activation functions are Sigmoid \ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
+Activation functions are functions that decide what the output of 
+the node should be given the inputs into the node? 
+Since the activation function determines the actual output, 
+the outputs of a layer are often referred to as "activations."
+The most well known activation functions are Sigmoid
+\ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
 Rectified Linear Unit ReLU \ref{fig:relu}.
 
 \subsubsection{Sigmoid Function:}
@@ -271,10 +283,14 @@ $$ A(x) = max(0,x) $$
 \end{figure}
 
 \subsection{Weights}
-When input data enters a neuron, it is multiplied by a weight value which is assigned to the input. The neuron above the university example, 
-for example, has two inputs, test scores and grades, so it has two related weights that can be individually adjusted.
-These weights start as random values and as the neural network learns more about what type of input data, 
-the weights are adjusted based on any categorization errors resulting from previous weights it can be associated as m in the original linear equation.
+When input data enters a neuron, it is multiplied by a weight value 
+which is assigned to the input. The neuron above the university example, 
+for example, has two inputs, test scores and grades, so it has two related
+weights that can be individually adjusted.
+These weights start as random values and as the neural network learns more 
+about what type of input data, the weights are adjusted based on any categorization
+errors resulting from previous weights it can be associated as m in the original 
+linear equation.
 $$ y = mx + b$$
 
 
@@ -297,9 +313,11 @@ transforming the original image into a class scoring through layers.
 CNN was inspired by the visual cortex.
 Every time we see something, a series of layers of neurons gets activated, 
 and each layer will detect a set of features such as lines, edges. 
-The high level of layers will detect more complex features in order to recognize what we saw.
+The high level of layers will detect more complex features in order to
+ recognize what we saw.
 
-ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification(FC and softmax).
+ConvNet has two parts: feature learning (Conv, Relu,and Pool) and 
+classification(FC and softmax).
 
 \subsection{Feature Learning}
 \subsubsection{CONV layer:}
@@ -307,27 +325,34 @@ The objective of a Conv layer is to extract features of the input image.
 A part of the image is connected to the next Conv layer because if all the 
 input pixels are connected to the Conv layer, it is too expensive to compute. 
 Therefore we will apply dot products in all dimensions between a receptive 
-field and a filter. The result of this operation is a single volume integer (future map).
-Then we slide the filter through a Stride over the next receiving field of the same input 
-image and recalculate the dot products between the new receiving field and the same filter.
-This process is repeated until we pass the entire input image. The output is the input on the next layer.
+field and a filter. The result of this operation is a single volume integer 
+(future map).
+Then we slide the filter through a Stride over the next receiving field of 
+the same input image and recalculate the dot products between the new receiving
+field and the same filter. This process is repeated until we pass the entire 
+input image. The output is the input on the next layer.
 
 Some of the word that used interchangeably:
 \begin{itemize}
     \item Filter (Kernel): a small matrix used to detect features.
-    \item Feature Map: the output volume formed by sliding the filter over the image and computing the dot product.
-    \item Receptive field: a local region of the input image that has the same size as the Kernel.
+    \item Feature Map: the output volume formed by sliding the filter 
+    over the image and computing the dot product.
+    \item Receptive field: a local region of the input image that has 
+    the same size as the Kernel.
     \item Depth: the number of filters.
     \item Stride: has the objective of producing smaller output volumes spatially.
     \item Padding: the process of adding extra pixels over around the image.
 \end{itemize}
 
 \subsubsection{ReLU layer:}
-Turning negative values into zeros. it has nothing to do with size of image and there are no hyperparameters.
+Turning negative values into zeros. it has nothing to do with 
+size of image and there are no hyperparameters.
 \subsubsection{Pool Layer:}
-Reduce the dimension of the input, the computational complexity of the model and 
-controls the overfitting. There are different types of pooling such as Average pooling, Max pooling and L2-norm pooling.
-However, the Max pooling is the most use, which takes the most important part (the pixel with the highest vule)\ref{fig:pool}. 
+Reduce the dimension of the input, the computational complexity of 
+the model and controls the overfitting. There are different types of
+pooling such as Average pooling, Max pooling and L2-norm pooling.
+However, the Max pooling is the most use, which takes the most important
+part (the pixel with the highest vule)\ref{fig:pool}. 
 
 \begin{figure}[h]
     \centering
@@ -338,10 +363,11 @@ However, the Max pooling is the most use, which takes the most important part (t
 
 \subsection{Classification}
 \subsubsection{Fully Connected Layer(FC):}
-Fully connected layers connect each neuron in a layer to every neuron in another layer.
-The last connected layer uses softmax activation function.
+Fully connected layers connect each neuron in a layer to every neuron 
+in another layer. The last connected layer uses softmax activation function.
 \subsubsection{Softmax:}
-Activation function generate features input image into many classes based on the dataset.  
+Activation function generate features input image into many 
+classes based on the dataset.  
 
 \bigbreak
 \bigbreak
@@ -384,13 +410,18 @@ and it tends to have bad accuracy with complex backgrounds.
 
 \clearpage
 
-\cite{Rao2018}, proposed a CNN architecture for classifying selfie sign language gestures. 
-The CNN architecture is designed with four convolutional layers. Each convolutional 
-layer with different filtering window sizes as shown in figure \ref{fig:selfie}  
-They had a dataset with five different subjects performing 200 signs in 5 different viewing angles 
-under various background environments. Each sign occupied for 60 frames or images in a video.
-The proposed model performed training on 3 batches to test the robustness of different training mode 
-using caffe deep learning framework. However, the result accuracy was 92.88\% need more training and improvements. 
+\cite{Rao2018}, proposed a CNN architecture for classifying selfie sign 
+language gestures. 
+The CNN architecture is designed with four convolutional layers. 
+Each convolutional layer with different filtering window sizes 
+as shown in figure \ref{fig:selfie}  
+They had a dataset with five different subjects performing 200 
+signs in 5 different viewing angles under various background environments.
+Each sign occupied for 60 frames or images in a video.
+The proposed model performed training on 3 batches to 
+test the robustness of different training mode 
+using caffe deep learning framework. However, the result accuracy 
+was 92.88\% need more training and improvements. 
 
 \begin{figure}[h]
     \centering
@@ -402,9 +433,10 @@ using caffe deep learning framework. However, the result accuracy was 92.88\% ne
 
 
 
-\cite{Hussain2017}, introduced a CNN based classifier  trained through the process of transfer learning
-over a pretrained convolutional neural network which is trained on a large dataset.
-We are using VGG16 figure \ref{fig:vgg16} as the pretrained model.
+\cite{Hussain2017}, introduced a CNN based classifier  trained through 
+the process of transfer learning
+over a pretrained convolutional neural network which is trained on a 
+large dataset. We are using VGG16 figure \ref{fig:vgg16} as the pretrained model.
 The According to the paper the accuracy was 93.09\%,while using AlexNet 
 figure \ref{fig:alexnet} was 76.96\%. the same problem here with the other papers 
 which is the small number of sign that begin trained on 7 signs, and the accuracy
@@ -428,30 +460,34 @@ need to be improved as well.
 \clearpage
 
 \cite{Pyo2016}, introduced a depth-based hand data with convolution
-neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D images in
-each of 12 labels. In all, there are approximately 60,000
+neural networks (CNNs).The hand gesture dataset has roughly 6,000 RGB-D 
+images in each of 12 labels. In all, there are approximately 60,000
 training images, 1S,000 validation images, and 12,000 training images.
-each time they were increasing the number of layers and testing the accuracy \ref{fig:depth_cnn}.
-They came with result that more number of layers, does not guarantee the increase of accuracy.
+each time they were increasing the number of layers and testing the 
+accuracy \ref{fig:depth_cnn}.
+They came with result that more number of layers, does not guarantee 
+the increase of accuracy.
 \bigbreak
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{images/depth_cnn.png}
-    \caption{Classification results of  modifiednetworks}
+    \caption{Classification results of modified networks}
     \label{fig:depth_cnn}
 \end{figure}
 
 \bigbreak
-\cite{Devineau2018}, introduced a 3D hand gesture recognition approach based on a deep learning model 
-using Convolutional Neural Network (CNN). The proposed model only uses hand-skeletal 
+\cite{Devineau2018}, introduced a 3D hand gesture recognition 
+approach based on a deep learning model using Convolutional 
+Neural Network (CNN). The proposed model only uses hand-skeletal 
 data and no depth image.
 The model produced by  multi-channel convolutional neural network
 with two feature extraction modules and a residual
 branch per channel \ref{fig:m_cnn}.
-The achieved accuracy was a 91.28\text{\%} classification accuracy for the 14 gesture
-classes case and an 84.35\text{\%} classification accuracy for the 28
-gesture classes case.
+The achieved accuracy was a 91.28\text{\%} 
+classification accuracy for the 14 gesture
+classes case and an 84.35\text{\%} classification 
+accuracy for the 28 gesture classes case.
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{images/m_cnn.png}
@@ -475,15 +511,19 @@ Table \ref{table:summary} shows the summary of the literature review.
             \hline
             Title & Year & Accuracy & Software\\
             \hline
-            Tiny Hand Gesture Recognition without Localization via a Deep Convolutional Network & 2017 & 97.1\%& CNN \\
+            Tiny Hand Gesture Recognition without Localization via a 
+            Deep Convolutional Network & 2017 & 97.1\%& CNN \\
             \hline
-            Deep Convolutional Neural Networks for Sign Language Recognition & 2018 & 92.88\% & CNN \\
+            Deep Convolutional Neural Networks for Sign Language 
+            Recognition & 2018 & 92.88\% & CNN \\
             \hline
             Hand Gesture Recognition Using Deep Learning & 2017 & 93.09\% & CNN VGG16 \\
             \hline
-            Depth-based Hand Gesture Recognition using Convolutional Neural Networks & 2016 & 95.57\% & CNN \\
+            Depth-based Hand Gesture Recognition using 
+            Convolutional Neural Networks & 2016 & 95.57\% & CNN \\
             \hline
-            Deep Learning for Hand Gesture Recognition on Skeletal Data & 2018 & 91.28\% & MC-DCNN \\
+            Deep Learning for Hand Gesture Recognition on Skeletal 
+            Data & 2018 & 91.28\% & MC-DCNN \\
             \hline
         \end{tabular}
         \label{table:summary}
@@ -493,9 +533,10 @@ Table \ref{table:summary} shows the summary of the literature review.
 
 \chapter{Methodology}
 
-Image recognition, voice producing, system design block diagram figure \ref{fig:system_diagram} 
-and the flowchart of the research is presented in details alongside with the tools
-and algorithms in this chapter.
+Image recognition, voice producing, 
+system design block diagram figure \ref{fig:system_diagram} 
+and the flowchart of the research is presented in details 
+alongside with the tools and algorithms in this chapter.
 
 
 \begin{figure}[h]
@@ -518,8 +559,11 @@ detect a human hand.
 \subsection{Faster R-CNN}
 
 The Faster Region-based Convolutional Network (Faster R-CNN) is a  mixture among  
-the Region Proposal Network(RPN)\footnote{algorithm to output bounding boxes to all objects in an image.} 
-and the Fast R-CNN\footnote{A main CNN with multiple convolutional layers is taking the entire image as input instead of using a CNN for each region proposals (R-CNN).} model.
+the Region Proposal Network(RPN)
+\footnote{algorithm to output bounding boxes to all objects in an image.} 
+and the Fast R-CNN
+\footnote{A main CNN with multiple convolutional layers is taking
+the entire image as input instead of using a CNN for each region proposals (R-CNN).} model.
 \begin{itemize}
     \item A CNN produces feature map form the input images.
     \item A 3x3 sliding window moves through feature map and and maps it into lower dimension.
@@ -555,9 +599,10 @@ jointly predict the bounding box and the class while it processes the image.
 
 how it's work?
 \begin{itemize}
-    \item Generate a set of feature maps with different scales 
-    by passing the image through sequence of convolutional layers (10x10, 6x6, 3x3 ...).
-    \item Use a 3*3 convolutional filter to evaluate bounding boxes for each location of the feature maps.
+    \item Generate a set of feature maps with different scales by passing 
+    the image through sequence of convolutional layers (10x10, 6x6, 3x3 ...).
+    \item Use a 3*3 convolutional filter to evaluate bounding boxes for each 
+    location of the feature maps.
     \item predict bounding box of set and the class probability all together.
     \item The best predicted box called as "positive" label, alongside with
     the boxes that have IoU \footnote{Intersection over Union } value $>$ 0.5 
@@ -566,10 +611,12 @@ Sense SSD skip filtering step, it generates multiple bounding box with multiple 
 and most of them are negative example.
 
 To fix this issue, SSD does two extra methods.
-First, non-maximum suppression:\footnote{Object detection methods often output multiple detections which fully or partly cover the same object in an image.}
+First, non-maximum suppression:\footnote{Object detection methods often output 
+multiple detections which fully or partly cover the same object in an image.}
 to group overlapping boxes into one box by keeping the highest confidence
-Then,hard negative mining: to balance classes during the training process; subset the negative examples 
-with the highest training loss with a 3:1 ratio of negatives for positives.\cite{Liu2016}
+Then,hard negative mining: to balance classes during the training process; 
+subset the negative examples with the highest training loss with a 3:1 ratio 
+of negatives for positives.\cite{Liu2016}
 
 \begin{figure}[h]
     \centering
@@ -587,15 +634,16 @@ with a single evaluation. The simpleness of YOLO allows real time prediction.
 \begin{itemize}
     \item The model divide the input image into SxS grid.
     \item Each cell of the grid predict B bounding boxes with a confidence score.
-    \item The score confidence is the probability of detected object multiply by the IoU between the prediction and the truth boxes.
+    \item The score confidence is the probability of detected object multiply 
+    by the IoU between the prediction and the truth boxes.
 \end{itemize}
 The CNN has 24 convolutional layers followed by 2 connected layers.
 Reduction layers with 1x1 filters followed by 3x3 convolutional layers 
 replace the initial inception modules.
 \bigbreak
 The Fast YOLO model comes with 9  convolutional layers and less number of filters.
-The final layer outputs a S*S*(C+B*5) tensor corresponding to the predictions for each cell of the grid.
-C is the number of estimated probabilities for each class.
+The final layer outputs a S*S*(C+B*5) tensor corresponding to the predictions 
+for each cell of the grid. C is the number of estimated probabilities for each class.
 
 Similar to SSD, YOLO predicts so many bounding boxes without any object,
 So it applies non-maximum suppression method at the end of the network,
@@ -626,14 +674,28 @@ will be generated as voice that Simulate the human voice.
 
 \section{Tools}
 
-The programming language in use is Python\footnote{Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991. https://www.python.org/} along side with many
-libraries such as TesorFlow\footnote{TensorFlow is an open-source software library for dataflow programming across a range of tasks. https://www.tensorflow.org/},
-Keras\footnote{Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. https://keras.io/}, 
-OpenCV\footnote{OpenCV (Open Source Computer Vision Library) is released under a BSD license and hence it’s free for both academic and commercial use. https://opencv.org/}, 
-NumPy\footnote{NumPy is the fundamental package for scientific computing with Python. http://www.numpy.org/}, 
-Pandas\footnote{Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. https://pandas.pydata.org/}
-and Matplotlib\footnote{Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. https://matplotlib.org/}.
-The model is being trained by using Google Cloud Computing\footnote{Google Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. https://cloud.google.com/} service with Ubuntu as operating system.
+The programming language in use is Python\footnote{Python is an interpreted
+high-level programming language for general-purpose programming. Created by
+Guido van Rossum and first released in 1991. https://www.python.org/} 
+along side with many
+libraries such as TesorFlow\footnote{TensorFlow is an open-source software 
+library for dataflow programming across a range of tasks. https://www.tensorflow.org/},
+Keras\footnote{Keras is a high-level neural networks API, written in Python and 
+capable of running on top of TensorFlow, CNTK, or Theano. https://keras.io/}, 
+OpenCV\footnote{OpenCV (Open Source Computer Vision Library) is released under 
+a BSD license and hence it’s free for both academic and commercial use.
+https://opencv.org/}, NumPy\footnote{NumPy is the fundamental package for 
+scientific computing with Python. http://www.numpy.org/}, 
+Pandas\footnote{Pandas is an open source, BSD-licensed library providing 
+high-performance, easy-to-use data structures and data analysis tools for 
+the Python programming language. https://pandas.pydata.org/}
+and Matplotlib\footnote{Matplotlib is a Python 2D plotting library 
+which produces publication quality figures in a variety of hardcopy 
+formats and interactive environments across platforms. https://matplotlib.org/}.
+The model is being trained by using Google Cloud Computing\footnote{Google Compute 
+Engine delivers virtual machines running in Google's innovative data centers and
+worldwide fiber network. https://cloud.google.com/} service with Ubuntu as 
+operating system.
 
 
 \renewcommand\bibname{References}            

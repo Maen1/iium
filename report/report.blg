@@ -12,45 +12,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: scope.bib
+Warning--entry type for "google_cloud" isn't style-file defined
+--line 111 of file scope.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 8 entries,
+You've used 9 entries,
             6951 wiz_defined-function locations,
-            1328 strings with 12405 characters,
-and the built_in function-call counts, 18915 in all, are:
-= -- 2420
-> -- 197
-< -- 826
-+ -- 922
-- -- 16
-* -- 1149
-:= -- 3166
-add.period$ -- 42
-call.type$ -- 8
-change.case$ -- 149
+            1331 strings with 12503 characters,
+and the built_in function-call counts, 20925 in all, are:
+= -- 2725
+> -- 207
+< -- 901
++ -- 1031
+- -- 18
+* -- 1241
+:= -- 3467
+add.period$ -- 46
+call.type$ -- 9
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 546
-empty$ -- 693
-format.name$ -- 320
-if$ -- 3646
+cite$ -- 18
+duplicate$ -- 596
+empty$ -- 761
+format.name$ -- 334
+if$ -- 4060
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 231
-num.names$ -- 64
-pop$ -- 410
+newline$ -- 253
+num.names$ -- 72
+pop$ -- 431
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 43
 quote$ -- 0
-skip$ -- 1228
+skip$ -- 1412
 stack$ -- 0
-substring$ -- 1042
-swap$ -- 318
-text.length$ -- 52
+substring$ -- 1164
+swap$ -- 333
+text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 960
+type$ -- 1112
 warning$ -- 0
-while$ -- 118
+while$ -- 122
 width$ -- 0
-write$ -- 310
+write$ -- 334
+(There was 1 warning)

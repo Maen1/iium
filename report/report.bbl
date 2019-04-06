@@ -34,6 +34,29 @@ Bao, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cloud%
+}{%
+Cloud%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+google_cloud}
+\APACinsertmetastar {%
+google_cloud}%
+\begin{APACrefauthors}%
+Cloud, C\BPBI E\BPBI I\BPBI \BPBI C\BPBI E\BPBI \BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Compute Engine - IaaS | Compute Engine | Google Cloud.}
+  {Compute engine - iaas | compute engine | google cloud.}
+\newblock
+\begin{APACrefURL} \url{https://cloud.google.com/compute/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Devineau%
 , Moutarde%
 , Xi%

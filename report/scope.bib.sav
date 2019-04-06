@@ -80,8 +80,8 @@
   title        = {Depth-based hand gesture recognition using convolutional neural networks},
   booktitle    = {Ubiquitous Robots and Ambient Intelligence (URAI), 2016 13th International Conference on},
   year         = {2016},
-  pages        = {225--227},
   organization = {IEEE},
+  pages        = {225--227},
 }
 
 @InProceedings{Devineau2018,
@@ -89,10 +89,10 @@
   title         = {Deep Learning for Hand Gesture Recognition on Skeletal Data},
   booktitle     = {Proc. 13th IEEE Int. Conf. Automatic Face Gesture Recognition (FG 2018)},
   year          = {2018},
-  pages         = {106--113},
   month         = may,
-  __markedentry = {[Maen:]},
+  pages         = {106--113},
   doi           = {10.1109/FG.2018.00025},
+  __markedentry = {[Maen:]},
   keywords      = {convolution, feedforward neural nets, gesture recognition, image classification, learning (artificial intelligence), hand-skeletal data, hand gesture recognition, deep learning model, Convolutional Neural Network, hand gesture sequence classification, hand-skeletal joints positions, Gesture recognition, Three-dimensional displays, Feature extraction, Joints, Machine learning, Computer architecture, Convolutional neural networks, Recurrent neural networks, Deep Learning, Machine Learning, Action Recognition, Gesture Recognition, Hand Gesture Recognition, Sparse Input Representation, Motion Capture Data},
 }
 
@@ -108,4 +108,10 @@
   publisher     = {Wiley Online Library},
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@WWW{google_cloud,
+  author = {Compute Engine - IaaS | Compute Engine | Google Cloud},
+  title  = {Compute Engine - IaaS | Compute Engine | Google Cloud},
+  url    = {https://cloud.google.com/compute/},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  6 APR 2019 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  6 APR 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -482,17 +482,7 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (578.15999pt) is ignored.
 
-(/Users/Maen/iium/report/report.aux
-
-LaTeX Warning: Label `fig:frcnn' multiply defined.
-
-
-LaTeX Warning: Label `fig:frcnn' multiply defined.
-
-
-LaTeX Warning: Label `fig:frcnn' multiply defined.
-
-)
+(/Users/Maen/iium/report/report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -793,70 +783,40 @@ Package pdftex.def Info: ./images/system_diagram.png  used on input line 544.
 
  <./images/system_diagram.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 563.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 573.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 563.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 573.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 563.
-<./images/cfm.png, id=124, 889.3225pt x 524.96124pt>
-File: ./images/cfm.png Graphic file (type png)
-<use ./images/cfm.png>
-Package pdftex.def Info: ./images/cfm.png  used on input line 575.
-(pdftex.def)             Requested size: 271.7835pt x 160.42935pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 573.
+ [20
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./images/frcnn.png, id=125, 682.55pt x 589.20125pt>
-File: ./images/frcnn.png Graphic file (type png)
-<use ./images/frcnn.png>
-Package pdftex.def Info: ./images/frcnn.png  used on input line 589.
-(pdftex.def)             Requested size: 317.07614pt x 273.71501pt.
-[20
-
-] [21 <./images/cfm.png (PNG copy)> <./images/frcnn.png (PNG copy)>]
-<./images/ssd.png, id=132, 1427.3325pt x 1047.915pt>
+]
+<./images/ssd.png, id=127, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 623.
+Package pdftex.def Info: ./images/ssd.png  used on input line 588.
 (pdftex.def)             Requested size: 317.07614pt x 232.7806pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22] [23 <./images/ssd.png>] [24]
-<./images/yolo.png, id=143, 1113.15875pt x 472.76625pt>
-File: ./images/yolo.png Graphic file (type png)
-<use ./images/yolo.png>
-Package pdftex.def Info: ./images/yolo.png  used on input line 661.
-(pdftex.def)             Requested size: 452.9679pt x 192.37822pt.
-
-Underfull \hbox (badness 1342) in paragraph at lines 682--682
+Underfull \hbox (badness 1342) in paragraph at lines 608--608
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
-[25
+[21 <./images/ssd.png>] (/Users/Maen/iium/report/report.bbl [22] [23
 
- <./images/yolo.png (PNG copy)>] (/Users/Maen/iium/report/report.bbl [26] [27
-
-]) [28] (/Users/Maen/iium/report/report.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+]) [24] (/Users/Maen/iium/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 17484 strings out of 492649
- 350429 string characters out of 6129622
- 409931 words of memory out of 5000000
- 20964 multiletter control sequences out of 15000+600000
+ 17463 strings out of 492649
+ 350072 string characters out of 6129622
+ 409644 words of memory out of 5000000
+ 20946 multiletter control sequences out of 15000+600000
  51591 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Maen/iium/report/report.pdf (37 pages, 2620090 bytes).
+Output written on /Users/Maen/iium/report/report.pdf (33 pages, 2291186 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

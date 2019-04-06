@@ -379,12 +379,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT /Users/Maen/iium/report/./images/cfm.png
-INPUT ./images/cfm.png
-INPUT ./images/cfm.png
-INPUT /Users/Maen/iium/report/./images/frcnn.png
-INPUT ./images/frcnn.png
-INPUT ./images/frcnn.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
@@ -393,9 +387,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/Maen/iium/report/./images/ssd.png
 INPUT ./images/ssd.png
 INPUT ./images/ssd.png
-INPUT /Users/Maen/iium/report/./images/yolo.png
-INPUT ./images/yolo.png
-INPUT ./images/yolo.png
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf

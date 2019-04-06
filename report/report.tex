@@ -556,41 +556,6 @@ To overcome this issue the model should be provided with high accurate detection
 Right now there are so many good algorithms for object detection which can be utilize to 
 detect a human hand.
 
-\subsection{Faster R-CNN}
-
-The Faster Region-based Convolutional Network (Faster R-CNN) is a  mixture among  
-the Region Proposal Network(RPN)
-\footnote{algorithm to output bounding boxes to all objects in an image.} 
-and the Fast R-CNN
-\footnote{A main CNN with multiple convolutional layers is taking
-the entire image as input instead of using a CNN for each region proposals (R-CNN).} model.
-\begin{itemize}
-    \item A CNN produces feature map form the input images.
-    \item A 3x3 sliding window moves through feature map and and maps it into lower dimension.
-    \item Every sliding window, produces multiple regions based on fixed ration (anchor boxes).
-    \item Each region contain an objectness score and it's bounding box coordinates.
-\end{itemize}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{./images/cfm.png}
-    \caption{One sliding window location. Retrieved from https://towardsdatascience.com}
-    \label{fig:frcnn}
-\end{figure} 
-The 2k scores represent the softmax probability of each of the k bounding boxes being on “object.”
-If an anchor box has an “objectness” score above a certain threshold, that box’s coordinates (4k coordinates) get passed forward as a region proposal.
-Then the region proposals are being fed into a Fast R-CNN, followed by a pooling layer, several fully-connected layers
-and softmax classification layer with bounding box regoessor.
-Faster R-CNN uses RPN to avoid the 
-selective search method \footnote{ Region Proposal algorithm based on grouping of similar region based on color, size, texture and shape compatibility.}, 
-it accelerates the training and testing 
-processes, and improve the performances. \cite{Ren2017a}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./images/frcnn.png}
-    \caption{Faster R-CNN. Retrieved from https://towardsdatascience.com}
-    \label{fig:frcnn}
-\end{figure} 
-
 \subsection{Single-Shot Detector (SSD)}
 
 Unlike Faster R-CNN which perform regional proposals 
@@ -626,45 +591,6 @@ of negatives for positives.\cite{Liu2016}
 \end{figure} 
 
 
-
-\subsection{You Only Look Once (YOLO)}
-
-Like SSD, YOLO directly predicts bounding boxes and class probabilities
-with a single evaluation. The simpleness of YOLO allows real time prediction.
-\begin{itemize}
-    \item The model divide the input image into SxS grid.
-    \item Each cell of the grid predict B bounding boxes with a confidence score.
-    \item The score confidence is the probability of detected object multiply 
-    by the IoU between the prediction and the truth boxes.
-\end{itemize}
-The CNN has 24 convolutional layers followed by 2 connected layers.
-Reduction layers with 1x1 filters followed by 3x3 convolutional layers 
-replace the initial inception modules.
-\bigbreak
-The Fast YOLO model comes with 9  convolutional layers and less number of filters.
-The final layer outputs a S*S*(C+B*5) tensor corresponding to the predictions 
-for each cell of the grid. C is the number of estimated probabilities for each class.
-
-Similar to SSD, YOLO predicts so many bounding boxes without any object,
-So it applies non-maximum suppression method at the end of the network,
-to merge high overlapping bounding boxes of the same boxes into a single one.
-The author noticed that still some false positive detected.\cite{Redmon2016}
-
-
-\bigbreak
-\bigbreak
-\bigbreak
-
-\clearpage
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{./images/yolo.png}
-    \caption{YOLO. Retrieved from https://medium.com/}
-    \label{fig:frcnn}
-\end{figure} 
-
-\bigbreak
-\bigbreak
 
 \section{Voice producing}
 

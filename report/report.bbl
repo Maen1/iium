@@ -1,6 +1,29 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+ASL-Alphabet%
+}{%
+ASL-Alphabet%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kaggle_dataset}
+\APACinsertmetastar {%
+kaggle_dataset}%
+\begin{APACrefauthors}%
+ASL-Alphabet, K\BPBI .%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Kaggle | ASL-Alphabet.} {Kaggle | asl-alphabet.}
+\newblock
+\begin{APACrefURL} \url{https://www.kaggle.com/grassknoted/asl-alphabet}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bao%
 , Maqueda%
 , del Blanco%

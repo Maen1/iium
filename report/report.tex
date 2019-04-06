@@ -584,7 +584,40 @@ The VM instance of choice  run on an Ubuntu operating system version
 (GPUs) of type NVIDIA Tesla K80  which engineered to boost throughput in 
 real-world applications by 5-10x times, compared to Central Processing Unit (CPU).
 
+\section{Data set}
+The data set is a collection of images for American Sign Language (ASL) alphabet,
+contained of 87,000 images of 200x200 pixels frame size as shown in Figure 3. 
+There are 29 classes, the first 26 classes are the letters A to Z and the last
+three classes are space delete and empty signs \cite{kaggle_dataset}.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{./images/letter_k.jpg}
+    \caption{The letter K in American Sign language}
+    \label{fig:letter_k}
+\end{figure}
+
+\newpage
+\section{Image processing}
+In order to extract useful information from an image, 
+some methods need to be implemented:
+\subsection{Image annotation}
+The process of annotating and labeling every object in 
+the image in this case the sign has been labeled, 
+so the machine can identify the important part of the 
+image which has the object and the characteristics of it.
+The data of annotated image saved in eXtensible Mark-up 
+Language (XML) file such as object class and the bounding 
+box coordination Figure \ref{fig:annotation}.
+\newline
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=.6\textwidth]{./images/annotation.png}
+    \caption{XML file for letter A}
+    \label{fig:annotation}
+\end{figure}
+
+\newpage
 \section{Hand detection}
 
 The problem of hand recognition that hand occupied usually less than 25 percent of the image.

@@ -114,4 +114,10 @@
   url    = {https://cloud.google.com/compute/},
 }
 
+@WWW{kaggle_dataset,
+  author = {Kaggle | ASL-Alphabet},
+  title  = {Kaggle | ASL-Alphabet},
+  url    = {https://www.kaggle.com/grassknoted/asl-alphabet},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

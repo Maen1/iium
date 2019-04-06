@@ -681,3 +681,131 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 <./images/sigmoid.png, id=61, 602.25pt x 401.5pt>
 File: ./images/sigmoid.png Graphic file (type png)
 <use ./images/sigmoid.png>
+Package pdftex.def Info: ./images/sigmoid.png  used on input line 275.
+(pdftex.def)             Requested size: 271.7835pt x 181.19406pt.
+ [7 <./images/sigmoid.png>]
+<./images/tanh.png, id=68, 401.5pt x 301.125pt>
+File: ./images/tanh.png Graphic file (type png)
+<use ./images/tanh.png>
+Package pdftex.def Info: ./images/tanh.png  used on input line 286.
+(pdftex.def)             Requested size: 226.48395pt x 169.86484pt.
+<./images/relu.jpeg, id=69, 312.16624pt x 210.7875pt>
+File: ./images/relu.jpeg Graphic file (type jpg)
+<use ./images/relu.jpeg>
+Package pdftex.def Info: ./images/relu.jpeg  used on input line 297.
+(pdftex.def)             Requested size: 226.48395pt x 152.93442pt.
+ [8 <./images/tanh.png (PNG copy)> <./images/relu.jpeg>] [9] [10]
+<./images/pool.png, id=81, 572.1375pt x 331.2375pt>
+File: ./images/pool.png Graphic file (type png)
+<use ./images/pool.png>
+Package pdftex.def Info: ./images/pool.png  used on input line 376.
+(pdftex.def)             Requested size: 362.37569pt x 209.79771pt.
+ [11 <./images/pool.png (PNG copy)>]
+<./images/c_cnn.jpeg, id=85, 1259.70625pt x 425.59pt>
+File: ./images/c_cnn.jpeg Graphic file (type jpg)
+<use ./images/c_cnn.jpeg>
+Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 395.
+(pdftex.def)             Requested size: 452.9679pt x 153.03044pt.
+ [12 <./images/c_cnn.jpeg>]
+<./images/tiny_a.png, id=89, 539.01375pt x 670.505pt>
+File: ./images/tiny_a.png Graphic file (type png)
+<use ./images/tiny_a.png>
+Package pdftex.def Info: ./images/tiny_a.png  used on input line 422.
+(pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
+<./images/tiny_b.png, id=90, 439.14063pt x 441.65pt>
+File: ./images/tiny_b.png Graphic file (type png)
+<use ./images/tiny_b.png>
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 427.
+(pdftex.def)             Requested size: 452.9679pt x 455.565pt.
+ [13 <./images/tiny_a.png>] [14 <./images/tiny_b.png>]
+<./images/selfie.png, id=99, 1083.04625pt x 338.26375pt>
+File: ./images/selfie.png Graphic file (type png)
+<use ./images/selfie.png>
+Package pdftex.def Info: ./images/selfie.png  used on input line 448.
+(pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
+<images/vgg16.png, id=100, 471.7625pt x 277.035pt>
+File: images/vgg16.png Graphic file (type png)
+<use images/vgg16.png>
+Package pdftex.def Info: images/vgg16.png  used on input line 468.
+(pdftex.def)             Requested size: 407.66833pt x 239.39948pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/alexnet.png, id=101, 123.3408pt x 50.95035pt>
+File: images/alexnet.png Graphic file (type png)
+<use images/alexnet.png>
+Package pdftex.def Info: images/alexnet.png  used on input line 474.
+(pdftex.def)             Requested size: 362.37569pt x 149.7261pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15
+
+ <./images/selfie.png>] [16 </Users/Maen/iium/report/images/vgg16.png (PNG copy)> </Users/Maen/iium/report/images/alexnet.png>]
+<images/depth_cnn.png, id=110, 1042.89626pt x 396.48125pt>
+File: images/depth_cnn.png Graphic file (type png)
+<use images/depth_cnn.png>
+Package pdftex.def Info: images/depth_cnn.png  used on input line 494.
+(pdftex.def)             Requested size: 452.9679pt x 172.2078pt.
+<images/m_cnn.png, id=111, 804.00375pt x 398.48875pt>
+File: images/m_cnn.png Graphic file (type png)
+<use images/m_cnn.png>
+Package pdftex.def Info: images/m_cnn.png  used on input line 513.
+(pdftex.def)             Requested size: 452.9679pt x 224.50203pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+ </Users/Maen/iium/report/images/depth_cnn.png>] [18 </Users/Maen/iium/report/images/m_cnn.png>] [19
+
+]
+Chapter 3.
+<./images/system_diagram.png, id=123, 1310.8975pt x 467.7475pt>
+File: ./images/system_diagram.png Graphic file (type png)
+<use ./images/system_diagram.png>
+Package pdftex.def Info: ./images/system_diagram.png  used on input line 564.
+(pdftex.def)             Requested size: 452.9679pt x 161.62285pt.
+[20
+
+ <./images/system_diagram.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 593.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 593.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 593.
+ [21
+
+]
+<./images/ssd.png, id=131, 1427.3325pt x 1047.915pt>
+File: ./images/ssd.png Graphic file (type png)
+<use ./images/ssd.png>
+Package pdftex.def Info: ./images/ssd.png  used on input line 608.
+(pdftex.def)             Requested size: 317.07614pt x 232.7806pt.
+
+Underfull \hbox (badness 1342) in paragraph at lines 628--628
+[][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
+ []
+
+[22 <./images/ssd.png>] (/Users/Maen/iium/report/report.bbl [23] [24
+
+]) [25] (/Users/Maen/iium/report/report.aux) ) 
+Here is how much of TeX's memory you used:
+ 17472 strings out of 492649
+ 350276 string characters out of 6129622
+ 409776 words of memory out of 5000000
+ 20954 multiletter control sequences out of 15000+600000
+ 51591 words of font info for 96 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/Maen/iium/report/report.pdf (34 pages, 4053624 bytes).
+PDF statistics:
+ 167 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+

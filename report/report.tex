@@ -206,6 +206,153 @@ and their proposed methods they used in implementing deep learning
 to recognize hand gestures. These researches will help to grasp the knowledge
 to achieve the project's objectives. 
 
+\section{Deep Learning}
+    Deep learning is a machine learning subfield that deals with algorithms based 
+    on the structure and function of the brain called artificial neural networks. 
+    In other words, it mirrors the brain's functioning.Deep learning algorithms are similar to the structure of 
+    the nervous system in which each neuron connects and passes information.
+    Deep learning models work in the layers and three layers of a typical model at least \ref{fig:deep_learining}. 
+    Each layer accepts and passes the information from the previous layer to the next layer.
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=\textwidth]{./images/deep_learning.png}
+        \caption{Typical deep learning model. Retrieved from www.medium.com}
+        \label{fig:deep_learining}
+    \end{figure}
+
+    Deep learning models tend to perform well with quantity of data while old machine 
+    learning models do not improve after a saturation.
+
+    One of differences between machine learning and deep learning model is on the feature extraction area. 
+    Feature extraction is done by human in machine learning whereas deep learning model figure out by itself.
+
+    \subsection{Activation Function}
+    Activation functions are functions that decide what the output of the node should be given the inputs into the node? 
+    Since the activation function determines the actual output, the outputs of a layer are often referred to as "activations."
+    The most well known activation functions are Sigmoid \ref{fig:sigmoid}, Tanh \ref{fig:tanh} and
+    Rectified Linear Unit ReLU \ref{fig:relu}.
+
+    \subsubsection{Sigmoid Function:}
+    Non linear activation function with output in range (0,1).
+    $$ A = \frac{1}{1+e^{-x}} $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.6\textwidth]{./images/sigmoid.png}
+        \caption{Sigmoid Function}
+        \label{fig:sigmoid}
+    \end{figure}
+
+    \subsubsection{Tanh Function:}
+     it is a scaled sigmoid function, bound to range (-1, 1).
+    $$ tanh(x) = \frac{2}{1+ e^{-2x}} - 1 $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.5\textwidth]{./images/tanh.png}
+        \caption{Tanh Function}
+        \label{fig:tanh}
+    \end{figure}
+
+    \subsubsection{ReLU Function:}
+    less computationally expensive than tanh and sigmoid, it is range (-1, infinity).
+    $$ A(x) = max(0,x) $$
+
+    \begin{figure} [h]
+        \centering
+        \includegraphics[width=.5\textwidth]{./images/relu.jpeg}
+        \caption{ReLU Function}
+        \label{fig:relu}
+    \end{figure}
+
+\subsection{Weights}
+When input data enters a neuron, it is multiplied by a weight value which is assigned to the input. The neuron above the university example, 
+for example, has two inputs, test scores and grades, so it has two related weights that can be individually adjusted.
+These weights start as random values and as the neural network learns more about what type of input data, 
+the weights are adjusted based on any categorization errors resulting from previous weights it can be associated as m in the original linear equation.
+$$ y = mx + b$$
+
+
+\subsection{Bias}
+Same as weights, biases are the learnable parameters of the deep learning model.
+The bias represents b in the original linear equation.
+$$ y = mx + b $$
+
+\section{Convolutional Neural Networks}
+Convolutional Neural Networks are very similar to ordinary Neural Networks, 
+they are made up of neurons that have learnable weights and biases.
+The architectures of ConvNet make the explicit assumption that 
+the inputs are images which will be encoded to certain properties in the architecture. 
+This makes the forward function more efficient to implement and reduces the number of 
+parameters in the network considerably.
+
+Convolutional Neural networks allow computers to see, 
+meaning that Convnets is used to recognize images by 
+transforming the original image into a class scoring through layers.
+CNN was inspired by the visual cortex.
+Every time we see something, a series of layers of neurons gets activated, 
+and each layer will detect a set of features such as lines, edges. 
+The high level of layers will detect more complex features in order to recognize what we saw.
+
+ConvNet has two parts: feature learning (Conv, Relu,and Pool) and classification(FC and softmax).
+
+\subsection{Feature Learning}
+    \subsubsection{CONV layer:}
+        The objective of a Conv layer is to extract features of the input image.
+        A part of the image is connected to the next Conv layer because if all the 
+        input pixels are connected to the Conv layer, it is too expensive to compute. 
+        Therefore we will apply dot products in all dimensions between a receptive 
+        field and a filter. The result of this operation is a single volume integer (future map).
+        Then we slide the filter through a Stride over the next receiving field of the same input 
+        image and recalculate the dot products between the new receiving field and the same filter.
+        This process is repeated until we pass the entire input image. The output is the input on the next layer.
+
+        Some of the word that used interchangeably:
+        \begin{itemize}
+            \item Filter (Kernel): a small matrix used to detect features.
+            \item Feature Map: the output volume formed by sliding the filter over the image and computing the dot product.
+            \item Receptive field: a local region of the input image that has the same size as the Kernel.
+            \item Depth: the number of filters.
+            \item Stride: has the objective of producing smaller output volumes spatially.
+            \item Padding: the process of adding extra pixels over around the image.
+        \end{itemize}
+
+    \subsubsection{ReLU layer:}
+        Turning negative values into zeros. it has nothing to do with size of image and there are no hyperparameters.
+    \subsubsection{Pool Layer:}
+        Reduce the dimension of the input, the computational complexity of the model and 
+        controls the overfitting. There are different types of pooling such as Average pooling, Max pooling and L2-norm pooling.
+        However, the Max pooling is the most use, which takes the most important part (the pixel with the highest vule)\ref{fig:pool}. 
+        
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=.8\textwidth]{./images/pool.png}
+                \caption{Max pooling with 2x2 filter and stride = 2. Retrieved: Wikipedia}
+                \label{fig:pool}
+            \end{figure}
+
+    \subsection{Classification}
+        \subsubsection{Fully Connected Layer(FC):}
+            Fully connected layers connect each neuron in a layer to every neuron in another layer.
+            The last connected layer uses softmax activation function.
+        \subsubsection{Softmax:}
+            Activation function generate features input image into many classes based on the dataset.  
+        
+        \bigbreak
+        \bigbreak
+        
+
+            \begin{figure} [h]
+                \centering
+                \includegraphics[width=\textwidth]{./images/c_cnn.jpeg}
+
+                \caption{Complete CNN architecture. Retrieved: medium.com}
+                \label{fig:c_cnn}
+            \end{figure}
+
+
+
 \section{Previous works}
 
 \cite{Bao2017}, proposed a Deep convolutional neural network algorithm for hand-gesture 

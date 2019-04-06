@@ -7,28 +7,43 @@
 \contentsline {section}{\numberline {1.5}Significance}{3}
 \contentsline {section}{\numberline {1.6}Timeline}{3}
 \contentsline {chapter}{\numberline {2}Literature review}{4}
-\contentsline {section}{\numberline {2.1}Previous works}{4}
-\contentsline {section}{\numberline {2.2}Summary}{11}
-\contentsline {chapter}{\numberline {3}Methodology}{12}
-\contentsline {section}{\numberline {3.1}Deep Learning}{13}
-\contentsline {subsection}{\numberline {3.1.1}Activation Function}{14}
-\contentsline {subsubsection}{Sigmoid Function:}{14}
-\contentsline {subsubsection}{Tanh Function:}{15}
-\contentsline {subsubsection}{ReLU Function:}{15}
-\contentsline {subsection}{\numberline {3.1.2}Weights}{16}
-\contentsline {subsection}{\numberline {3.1.3}Bias}{16}
-\contentsline {section}{\numberline {3.2}Convolutional Neural Networks}{16}
-\contentsline {subsection}{\numberline {3.2.1}Feature Learning}{17}
-\contentsline {subsubsection}{CONV layer:}{17}
-\contentsline {subsubsection}{ReLU layer:}{18}
-\contentsline {subsubsection}{Pool Layer:}{18}
-\contentsline {subsection}{\numberline {3.2.2}Classification}{19}
-\contentsline {subsubsection}{Fully Connected Layer(FC):}{19}
-\contentsline {subsubsection}{Softmax:}{19}
-\contentsline {section}{\numberline {3.3}Hand detection}{19}
-\contentsline {subsection}{\numberline {3.3.1}Faster R-CNN}{20}
-\contentsline {subsection}{\numberline {3.3.2}Single-Shot Detector (SSD)}{21}
-\contentsline {subsection}{\numberline {3.3.3}You Only Look Once (YOLO)}{23}
-\contentsline {section}{\numberline {3.4}Voice producing}{24}
-\contentsline {section}{\numberline {3.5}Tools}{25}
-\contentsline {chapter}{References}{26}
+\contentsline {section}{\numberline {2.1}Deep Learning}{4}
+\contentsline {subsection}{\numberline {2.1.1}Activation Function}{5}
+\contentsline {subsubsection}{Sigmoid Function:}{6}
+\contentsline {subsubsection}{Tanh Function:}{6}
+\contentsline {subsubsection}{ReLU Function:}{6}
+\contentsline {subsection}{\numberline {2.1.2}Weights}{7}
+\contentsline {subsection}{\numberline {2.1.3}Bias}{8}
+\contentsline {section}{\numberline {2.2}Convolutional Neural Networks}{8}
+\contentsline {subsection}{\numberline {2.2.1}Feature Learning}{9}
+\contentsline {subsubsection}{CONV layer:}{9}
+\contentsline {subsubsection}{ReLU layer:}{9}
+\contentsline {subsubsection}{Pool Layer:}{10}
+\contentsline {subsection}{\numberline {2.2.2}Classification}{10}
+\contentsline {subsubsection}{Fully Connected Layer(FC):}{10}
+\contentsline {subsubsection}{Softmax:}{10}
+\contentsline {section}{\numberline {2.3}Previous works}{11}
+\contentsline {section}{\numberline {2.4}Summary}{18}
+\contentsline {chapter}{\numberline {3}Methodology}{19}
+\contentsline {section}{\numberline {3.1}Deep Learning}{20}
+\contentsline {subsection}{\numberline {3.1.1}Activation Function}{21}
+\contentsline {subsubsection}{Sigmoid Function:}{21}
+\contentsline {subsubsection}{Tanh Function:}{22}
+\contentsline {subsubsection}{ReLU Function:}{22}
+\contentsline {subsection}{\numberline {3.1.2}Weights}{23}
+\contentsline {subsection}{\numberline {3.1.3}Bias}{23}
+\contentsline {section}{\numberline {3.2}Convolutional Neural Networks}{23}
+\contentsline {subsection}{\numberline {3.2.1}Feature Learning}{24}
+\contentsline {subsubsection}{CONV layer:}{24}
+\contentsline {subsubsection}{ReLU layer:}{25}
+\contentsline {subsubsection}{Pool Layer:}{25}
+\contentsline {subsection}{\numberline {3.2.2}Classification}{26}
+\contentsline {subsubsection}{Fully Connected Layer(FC):}{26}
+\contentsline {subsubsection}{Softmax:}{26}
+\contentsline {section}{\numberline {3.3}Hand detection}{26}
+\contentsline {subsection}{\numberline {3.3.1}Faster R-CNN}{27}
+\contentsline {subsection}{\numberline {3.3.2}Single-Shot Detector (SSD)}{28}
+\contentsline {subsection}{\numberline {3.3.3}You Only Look Once (YOLO)}{30}
+\contentsline {section}{\numberline {3.4}Voice producing}{31}
+\contentsline {section}{\numberline {3.5}Tools}{32}
+\contentsline {chapter}{References}{33}

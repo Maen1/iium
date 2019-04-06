@@ -128,6 +128,33 @@ Hussain, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ishizaka%
+\ \BBA {} Flanagan%
+}{%
+Ishizaka%
+\ \BBA {} Flanagan%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+Ishizaka1972}
+\APACinsertmetastar {%
+Ishizaka1972}%
+\begin{APACrefauthors}%
+Ishizaka, K.%
+\BCBT {}\ \BBA {} Flanagan, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Synthesis of voiced sounds from a two-mass model of the
+  vocal cords} {Synthesis of voiced sounds from a two-mass model of the vocal
+  cords}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bell system technical journal}{51}{6}{1233--1268}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Liu%
 \ \protect \BOthers {.}}{%
 Liu%

@@ -1,0 +1,324 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+API%
+}{%
+API%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+tf_od_api}
+\APACinsertmetastar {%
+tf_od_api}%
+\begin{APACrefauthors}%
+API, T\BPBI \BPBI O\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {TensorFlow | Object Detection API.} {Tensorflow | object
+  detection api.}
+\newblock
+\begin{APACrefURL}
+  \url{https://github.com/tensorflow/models/tree/master/research/object_detection}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+ASL-Alphabet%
+}{%
+ASL-Alphabet%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kaggle_dataset}
+\APACinsertmetastar {%
+kaggle_dataset}%
+\begin{APACrefauthors}%
+ASL-Alphabet, K\BPBI .%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Kaggle | ASL-Alphabet.} {Kaggle | asl-alphabet.}
+\newblock
+\begin{APACrefURL} \url{https://www.kaggle.com/grassknoted/asl-alphabet}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bao%
+, Maqueda%
+, del Blanco%
+\BCBL {}\ \BBA {} García%
+}{%
+Bao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Bao2017}
+\APACinsertmetastar {%
+Bao2017}%
+\begin{APACrefauthors}%
+Bao, P.%
+, Maqueda, A\BPBI I.%
+, del Blanco, C\BPBI R.%
+\BCBL {}\ \BBA {} García, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tiny hand gesture recognition without localization via a
+  deep convolutional network} {Tiny hand gesture recognition without
+  localization via a deep convolutional network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Consumer
+  Electronics}{63}{3}{251--257}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TCE.2017.014971} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cloud%
+}{%
+Cloud%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+google_cloud}
+\APACinsertmetastar {%
+google_cloud}%
+\begin{APACrefauthors}%
+Cloud, C\BPBI E\BPBI I\BPBI \BPBI C\BPBI E\BPBI \BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Compute Engine - IaaS | Compute Engine | Google Cloud.}
+  {Compute engine - iaas | compute engine | google cloud.}
+\newblock
+\begin{APACrefURL} \url{https://cloud.google.com/compute/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Devineau%
+, Moutarde%
+, Xi%
+\BCBL {}\ \BBA {} Yang%
+}{%
+Devineau%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Devineau2018}
+\APACinsertmetastar {%
+Devineau2018}%
+\begin{APACrefauthors}%
+Devineau, G.%
+, Moutarde, F.%
+, Xi, W.%
+\BCBL {}\ \BBA {} Yang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep Learning for Hand Gesture Recognition on Skeletal
+  Data} {Deep learning for hand gesture recognition on skeletal data}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. 13th IEEE Int. Conf. Automatic Face Gesture
+  Recognition (FG 2018)} {Proc. 13th ieee int. conf. automatic face gesture
+  recognition (fg 2018)}\ (\BPGS\ 106--113).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/FG.2018.00025} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Frajtag1%
+\ \BBA {} Jelinic2%
+}{%
+Frajtag1%
+\ \BBA {} Jelinic2%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+AFrajtag12017}
+\APACinsertmetastar {%
+AFrajtag12017}%
+\begin{APACrefauthors}%
+Frajtag1, J\BPBI B.%
+\BCBT {}\ \BBA {} Jelinic2, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Communication Problems and Quality of Life People with
+  Hearing Loss} {Communication problems and quality of life people with hearing
+  loss}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Glob J Otolaryngol}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hussain%
+, Saxena%
+, Han%
+, Khan%
+\BCBL {}\ \BBA {} Shin%
+}{%
+Hussain%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Hussain2017}
+\APACinsertmetastar {%
+Hussain2017}%
+\begin{APACrefauthors}%
+Hussain, S.%
+, Saxena, R.%
+, Han, X.%
+, Khan, J\BPBI A.%
+\BCBL {}\ \BBA {} Shin, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hand gesture recognition using deep learning} {Hand
+  gesture recognition using deep learning}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. Int. SoC Design Conf. (ISOCC)} {Proc. int. soc
+  design conf. (isocc)}\ (\BPGS\ 48--49).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ISOCC.2017.8368821} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ishizaka%
+\ \BBA {} Flanagan%
+}{%
+Ishizaka%
+\ \BBA {} Flanagan%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+Ishizaka1972}
+\APACinsertmetastar {%
+Ishizaka1972}%
+\begin{APACrefauthors}%
+Ishizaka, K.%
+\BCBT {}\ \BBA {} Flanagan, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Synthesis of voiced sounds from a two-mass model of the
+  vocal cords} {Synthesis of voiced sounds from a two-mass model of the vocal
+  cords}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bell system technical journal}{51}{6}{1233--1268}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+\ \protect \BOthers {.}}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Liu2016}
+\APACinsertmetastar {%
+Liu2016}%
+\begin{APACrefauthors}%
+Liu, W.%
+, Anguelov, D.%
+, Erhan, D.%
+, Szegedy, C.%
+, Reed, S.%
+, Fu, C\BHBI Y.%
+\BCBL {}\ \BBA {} Berg, A\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ssd: Single shot multibox detector} {Ssd: Single shot
+  multibox detector}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {European conference on computer vision} {European
+  conference on computer vision}\ (\BPGS\ 21--37).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pyo%
+, Ji%
+, You%
+\BCBL {}\ \BBA {} Kuc%
+}{%
+Pyo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Pyo2016}
+\APACinsertmetastar {%
+Pyo2016}%
+\begin{APACrefauthors}%
+Pyo, J.%
+, Ji, S.%
+, You, S.%
+\BCBL {}\ \BBA {} Kuc, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Depth-based hand gesture recognition using convolutional
+  neural networks} {Depth-based hand gesture recognition using convolutional
+  neural networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Ubiquitous Robots and Ambient Intelligence (URAI), 2016
+  13th International Conference on} {Ubiquitous robots and ambient intelligence
+  (urai), 2016 13th international conference on}\ (\BPGS\ 225--227).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rao%
+, Syamala%
+, Kishore%
+\BCBL {}\ \BBA {} Sastry%
+}{%
+Rao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Rao2018}
+\APACinsertmetastar {%
+Rao2018}%
+\begin{APACrefauthors}%
+Rao, G\BPBI A.%
+, Syamala, K.%
+, Kishore, P\BPBI V\BPBI V.%
+\BCBL {}\ \BBA {} Sastry, A\BPBI S\BPBI C\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep convolutional neural networks for sign language
+  recognition} {Deep convolutional neural networks for sign language
+  recognition}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. Conf. Signal Processing And Communication
+  Engineering Systems (SPACES)} {Proc. conf. signal processing and
+  communication engineering systems (spaces)}\ (\BPGS\ 194--197).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/SPACES.2018.8316344} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

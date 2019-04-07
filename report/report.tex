@@ -217,7 +217,6 @@ This chapter includes reviews of other previous researcher
 and their proposed methods they used in implementing deep learning
 to recognize hand gestures. These researches will help to grasp the knowledge
 to achieve the project's objectives. 
-
 \section{Sign Language}
 In spoken languages words being pronounced by vocal cords which produce sound
 wave can be heard, however for deaf people this sounds are not heard \cite{Ishizaka1972}, 
@@ -405,6 +404,8 @@ Following the same path many previous attempts has been conducted
 to find a solution for this problem, marvelous work has been done, 
 but most of them was just a prove of concept were the authors concentrate 
 on a few signs to be detected.
+
+
 \cite{Bao2017}, proposed a Deep convolutional neural network algorithm for hand-gesture 
 recognition without hand localisation, since the hands only occupy about 10\% of 
 the image. They used a combination of 9 convolution layers, 3 fully connected layers, 
@@ -621,8 +622,7 @@ box coordination Figure \ref{fig:annotation}.
 \subsection{XML to Comma Separated Values (CSV)}
 The goal of this process is to convert the semi-structured data 
 stored in the XML files into structured data stored in one file 
-CSV so it can be transferred into TensorFlow(TF)Records .
-
+CSV so it can be transferred into TensorFlow(TF)Records Figure \ref{fig:csv}.
 \newline
 \begin{figure} [h]
     \centering
@@ -630,6 +630,11 @@ CSV so it can be transferred into TensorFlow(TF)Records .
     \caption{CSV file for image test data}
     \label{fig:csv}
 \end{figure}
+
+\section{TensorFlow Object Detection API}
+Open source framework built on top of TensorFlow in order to help 
+researchers to construct, train and deploy object detection models \cite{tf_od_api}. 
+
 \section{Hand detection}
 
 The problem of hand recognition that hand occupied usually less than 25 percent of the image.

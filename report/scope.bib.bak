@@ -120,4 +120,10 @@
   url    = {https://www.kaggle.com/grassknoted/asl-alphabet},
 }
 
+@WWW{tf_od_api,
+  author = {TensorFlow | Object Detection},
+  title  = {TensorFlow | Object Detection API},
+  url    = {https://github.com/tensorflow/models/tree/master/research/object_detection},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

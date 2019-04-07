@@ -635,6 +635,29 @@ CSV so it can be transferred into TensorFlow(TF)Records Figure \ref{fig:csv}.
 Open source framework built on top of TensorFlow in order to help 
 researchers to construct, train and deploy object detection models \cite{tf_od_api}. 
 
+\section{algorithm}
+The algorithm used in this experiment is MobileNet-SSD as shown 
+in Figure \ref{fig:mobilenetssd}; MobileNet is a base network which use depth-wise 
+separable convolutions to build light weight deep neural networks 
+provide high level features for classification or detection [9], 
+after removing the fully connected layer at the end of the network 
+and replace it with Single Shot Multibox Detector (SSD) one of 
+the most popular algorithm in object detections [10]. 
+SSD generates a box with score of presence of each object category 
+and adjusts the box to better match the object shape. In addition SSD 
+eliminates proposal generation and feature resampling stage by 
+encapsulates all computation in a single network, alongside with 
+the ability to combines predictions from multiple features maps 
+with different resolutions to naturally handle objects of various sizes.
+
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=\textwidth]{./images/mobilenetssdh.png}
+    \caption{MobileNet-SSD  Retrieved from https://hey-yahei.cn/2018/08/08/MobileNets-SSD/}
+    \label{fig:csv}
+\end{figure}
+
+
 \section{Hand detection}
 
 The problem of hand recognition that hand occupied usually less than 25 percent of the image.

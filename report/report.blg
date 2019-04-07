@@ -22,35 +22,35 @@ apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 11 entries,
             6951 wiz_defined-function locations,
             1337 strings with 12701 characters,
-and the built_in function-call counts, 24032 in all, are:
-= -- 3191
+and the built_in function-call counts, 23886 in all, are:
+= -- 3163
 > -- 227
-< -- 993
-+ -- 1125
+< -- 981
++ -- 1109
 - -- 22
-* -- 1370
-:= -- 3868
+* -- 1366
+:= -- 3854
 add.period$ -- 54
 call.type$ -- 11
 change.case$ -- 161
 chr.to.int$ -- 0
 cite$ -- 22
-duplicate$ -- 674
+duplicate$ -- 668
 empty$ -- 897
 format.name$ -- 362
-if$ -- 4754
+if$ -- 4718
 int.to.chr$ -- 0
 int.to.str$ -- 33
 missing$ -- 0
 newline$ -- 297
 num.names$ -- 88
-pop$ -- 474
+pop$ -- 471
 preamble$ -- 1
 purify$ -- 49
 quote$ -- 0
-skip$ -- 1742
+skip$ -- 1735
 stack$ -- 0
-substring$ -- 1270
+substring$ -- 1250
 swap$ -- 363
 text.length$ -- 55
 text.prefix$ -- 0

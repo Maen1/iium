@@ -1,31 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-API%
-}{%
-API%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-tf_od_api}
-\APACinsertmetastar {%
-tf_od_api}%
-\begin{APACrefauthors}%
-API, T\BPBI \BPBI O\BPBI D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {TensorFlow | Object Detection API.} {Tensorflow | object
-  detection api.}
-\newblock
-\begin{APACrefURL}
-  \url{https://github.com/tensorflow/models/tree/master/research/object_detection}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 ASL-Alphabet%
 }{%
 ASL-Alphabet%
@@ -253,6 +228,31 @@ Liu, W.%
 \newblock
 \BIn{} \APACrefbtitle {European conference on computer vision} {European
   conference on computer vision}\ (\BPGS\ 21--37).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Object-Detection-API%
+}{%
+Object-Detection-API%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+tf_od_api}
+\APACinsertmetastar {%
+tf_od_api}%
+\begin{APACrefauthors}%
+Object-Detection-API, T\BPBI .%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {TensorFlow | Object-Detection-API.} {Tensorflow |
+  object-detection-api.}
+\newblock
+\begin{APACrefURL}
+  \url{https://github.com/tensorflow/models/tree/master/research/object_detection}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -32,8 +32,9 @@
 \contentsline {subsection}{\numberline {3.3.1}Image annotation}{23}
 \contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{24}
 \contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{24}
-\contentsline {section}{\numberline {3.5}Hand detection}{24}
-\contentsline {subsection}{\numberline {3.5.1}Single-Shot Detector (SSD)}{25}
-\contentsline {section}{\numberline {3.6}Voice producing}{26}
-\contentsline {section}{\numberline {3.7}Tools}{27}
-\contentsline {chapter}{References}{28}
+\contentsline {section}{\numberline {3.5}algorithm}{24}
+\contentsline {section}{\numberline {3.6}Hand detection}{26}
+\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{26}
+\contentsline {section}{\numberline {3.7}Voice producing}{27}
+\contentsline {section}{\numberline {3.8}Tools}{28}
+\contentsline {chapter}{References}{29}

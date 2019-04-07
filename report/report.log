@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  7 APR 2019 02:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  7 APR 2019 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,49 +608,34 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
- (/Users/Maen/iium/report/report.toc
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 3.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 3.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
- [3
 
-])
+No file report.toc.
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [4] (/Users/Maen/iium/report/report.lof)
+[3
+
+]
+No file report.lof.
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [5
+[4
 
-] (/Users/Maen/iium/report/report.lot)
+]
+No file report.lot.
 \tf@lot=\write6
 \openout6 = `report.lot'.
 
- [6
+[5
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+
+LaTeX Warning: Citation `AFrajtag12017' undefined on input line 172.
+
 [1
 
 ]
@@ -660,9 +645,19 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
- [2] [3]
+ [2]
+
+Package pgfgantt Warning: Gantt chart expansion may have changed. Rerun to get expansion right on input line 201.
+
+[3]
 Chapter 2.
-<./images/sign_language.png, id=49, 2559.5625pt x 3312.375pt>
+
+LaTeX Warning: Citation `Ishizaka1972' undefined on input line 223.
+
+
+LaTeX Warning: Reference `fig:sign_language' on page 4 undefined on input line 227.
+
+<./images/sign_language.png, id=46, 2559.5625pt x 3312.375pt>
 File: ./images/sign_language.png Graphic file (type png)
 <use ./images/sign_language.png>
 Package pdftex.def Info: ./images/sign_language.png  used on input line 231.
@@ -670,69 +665,126 @@ Package pdftex.def Info: ./images/sign_language.png  used on input line 231.
 [4
 
 ] [5 <./images/sign_language.png (PNG copy)>]
-<./images/deep_learning.png, id=57, 516.93124pt x 397.485pt>
+
+LaTeX Warning: Reference `fig:deep_learining' on page 6 undefined on input line 243.
+
+<./images/deep_learning.png, id=54, 516.93124pt x 397.485pt>
 File: ./images/deep_learning.png Graphic file (type png)
 <use ./images/deep_learning.png>
 Package pdftex.def Info: ./images/deep_learning.png  used on input line 248.
 (pdftex.def)             Requested size: 452.9679pt x 348.31406pt.
- [6 <./images/deep_learning.png (PNG copy)>]
+[6 <./images/deep_learning.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
-<./images/sigmoid.png, id=61, 602.25pt x 401.5pt>
+
+
+LaTeX Warning: Reference `fig:sigmoid' on page 7 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:tanh' on page 7 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:relu' on page 7 undefined on input line 267.
+
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 271.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 271.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 271.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 271.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 271.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 271.
+<./images/sigmoid.png, id=58, 602.25pt x 401.5pt>
 File: ./images/sigmoid.png Graphic file (type png)
 <use ./images/sigmoid.png>
 Package pdftex.def Info: ./images/sigmoid.png  used on input line 275.
 (pdftex.def)             Requested size: 271.7835pt x 181.19406pt.
  [7 <./images/sigmoid.png>]
-<./images/tanh.png, id=68, 401.5pt x 301.125pt>
+<./images/tanh.png, id=65, 401.5pt x 301.125pt>
 File: ./images/tanh.png Graphic file (type png)
 <use ./images/tanh.png>
 Package pdftex.def Info: ./images/tanh.png  used on input line 286.
 (pdftex.def)             Requested size: 226.48395pt x 169.86484pt.
-<./images/relu.jpeg, id=69, 312.16624pt x 210.7875pt>
+<./images/relu.jpeg, id=66, 312.16624pt x 210.7875pt>
 File: ./images/relu.jpeg Graphic file (type jpg)
 <use ./images/relu.jpeg>
 Package pdftex.def Info: ./images/relu.jpeg  used on input line 297.
 (pdftex.def)             Requested size: 226.48395pt x 152.93442pt.
  [8 <./images/tanh.png (PNG copy)> <./images/relu.jpeg>] [9] [10]
-<./images/pool.png, id=81, 572.1375pt x 331.2375pt>
+
+LaTeX Warning: Reference `fig:pool' on page 11 undefined on input line 372.
+
+<./images/pool.png, id=77, 572.1375pt x 331.2375pt>
 File: ./images/pool.png Graphic file (type png)
 <use ./images/pool.png>
 Package pdftex.def Info: ./images/pool.png  used on input line 376.
 (pdftex.def)             Requested size: 362.37569pt x 209.79771pt.
- [11 <./images/pool.png (PNG copy)>]
-<./images/c_cnn.jpeg, id=85, 1259.70625pt x 425.59pt>
+[11 <./images/pool.png (PNG copy)>]
+<./images/c_cnn.jpeg, id=82, 1259.70625pt x 425.59pt>
 File: ./images/c_cnn.jpeg Graphic file (type jpg)
 <use ./images/c_cnn.jpeg>
 Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 395.
 (pdftex.def)             Requested size: 452.9679pt x 153.03044pt.
- [12 <./images/c_cnn.jpeg>]
-<./images/tiny_a.png, id=89, 539.01375pt x 670.505pt>
+
+
+LaTeX Warning: Citation `Bao2017' undefined on input line 408.
+
+
+LaTeX Warning: Reference `fig:tiny_architecture' on page 12 undefined on input line 412.
+
+[12 <./images/c_cnn.jpeg>]
+<./images/tiny_a.png, id=86, 539.01375pt x 670.505pt>
 File: ./images/tiny_a.png Graphic file (type png)
 <use ./images/tiny_a.png>
 Package pdftex.def Info: ./images/tiny_a.png  used on input line 422.
 (pdftex.def)             Requested size: 362.37569pt x 450.78091pt.
-<./images/tiny_b.png, id=90, 439.14063pt x 441.65pt>
+<./images/tiny_b.png, id=87, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
 Package pdftex.def Info: ./images/tiny_b.png  used on input line 427.
 (pdftex.def)             Requested size: 452.9679pt x 455.565pt.
  [13 <./images/tiny_a.png>] [14 <./images/tiny_b.png>]
-<./images/selfie.png, id=99, 1083.04625pt x 338.26375pt>
+
+LaTeX Warning: Citation `Rao2018' undefined on input line 433.
+
+
+LaTeX Warning: Reference `fig:selfie' on page 15 undefined on input line 437.
+
+<./images/selfie.png, id=96, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
 Package pdftex.def Info: ./images/selfie.png  used on input line 448.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
-<images/vgg16.png, id=100, 471.7625pt x 277.035pt>
+
+LaTeX Warning: Citation `Hussain2017' undefined on input line 456.
+
+
+LaTeX Warning: Reference `fig:vgg16' on page 15 undefined on input line 459.
+
+
+LaTeX Warning: Reference `fig:alexnet' on page 15 undefined on input line 461.
+
+<images/vgg16.png, id=97, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
 Package pdftex.def Info: images/vgg16.png  used on input line 468.
 (pdftex.def)             Requested size: 407.66833pt x 239.39948pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/alexnet.png, id=101, 123.3408pt x 50.95035pt>
+<images/alexnet.png, id=98, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
 Package pdftex.def Info: images/alexnet.png  used on input line 474.
@@ -743,27 +795,50 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15
 
  <./images/selfie.png>] [16 </Users/Maen/iium/report/images/vgg16.png (PNG copy)> </Users/Maen/iium/report/images/alexnet.png>]
-<images/depth_cnn.png, id=110, 1042.89626pt x 396.48125pt>
+
+LaTeX Warning: Citation `Pyo2016' undefined on input line 482.
+
+
+LaTeX Warning: Reference `fig:depth_cnn' on page 17 undefined on input line 487.
+
+<images/depth_cnn.png, id=106, 1042.89626pt x 396.48125pt>
 File: images/depth_cnn.png Graphic file (type png)
 <use images/depth_cnn.png>
 Package pdftex.def Info: images/depth_cnn.png  used on input line 494.
 (pdftex.def)             Requested size: 452.9679pt x 172.2078pt.
-<images/m_cnn.png, id=111, 804.00375pt x 398.48875pt>
+
+LaTeX Warning: Citation `Devineau2018' undefined on input line 500.
+
+
+LaTeX Warning: Reference `fig:m_cnn' on page 17 undefined on input line 506.
+
+<images/m_cnn.png, id=107, 804.00375pt x 398.48875pt>
 File: images/m_cnn.png Graphic file (type png)
 <use images/m_cnn.png>
 Package pdftex.def Info: images/m_cnn.png  used on input line 513.
 (pdftex.def)             Requested size: 452.9679pt x 224.50203pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17
 
- </Users/Maen/iium/report/images/depth_cnn.png>] [18 </Users/Maen/iium/report/images/m_cnn.png>] [19
+ </Users/Maen/iium/report/images/depth_cnn.png>] [18 </Users/Maen/iium/report/images/m_cnn.png>]
+
+LaTeX Warning: Reference `table:summary' on page 19 undefined on input line 525.
+
+[19
 
 ]
 Chapter 3.
-<./images/system_diagram.png, id=123, 1310.8975pt x 467.7475pt>
+
+LaTeX Warning: Reference `fig:system_diagram' on page 20 undefined on input line 557.
+
+
+Overfull \hbox (10.90445pt too wide) in paragraph at lines 556--560
+[]\OT1/ptm/m/n/12 Image recog-ni-tion, voice pro-duc-ing, sys-tem de-sign block di-a-gram fig-ure [] and the flowchart
+ []
+
+<./images/system_diagram.png, id=120, 1310.8975pt x 467.7475pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
 Package pdftex.def Info: ./images/system_diagram.png  used on input line 564.
@@ -771,53 +846,90 @@ Package pdftex.def Info: ./images/system_diagram.png  used on input line 564.
 [20
 
  <./images/system_diagram.png>]
-<./images/letter_k.jpg, id=128, 200.75pt x 200.75pt>
+
+LaTeX Warning: Citation `google_cloud' undefined on input line 581.
+
+
+LaTeX Warning: Citation `kaggle_dataset' undefined on input line 591.
+
+<./images/letter_k.jpg, id=125, 200.75pt x 200.75pt>
 File: ./images/letter_k.jpg Graphic file (type jpg)
 <use ./images/letter_k.jpg>
 Package pdftex.def Info: ./images/letter_k.jpg  used on input line 595.
 (pdftex.def)             Requested size: 452.9679pt x 453.03723pt.
- [21
+[21
 
 ] [22 <./images/letter_k.jpg>]
-<./images/annotation.png, id=136, 626.34pt x 741.77126pt>
+
+LaTeX Warning: Reference `fig:annotation' on page 23 undefined on input line 611.
+
+<./images/annotation.png, id=132, 626.34pt x 741.77126pt>
 File: ./images/annotation.png Graphic file (type png)
 <use ./images/annotation.png>
 Package pdftex.def Info: ./images/annotation.png  used on input line 615.
 (pdftex.def)             Requested size: 271.7835pt x 321.8756pt.
- [23 <./images/annotation.png>]
+[23 <./images/annotation.png>]
+
+/Users/Maen/iium/report/report.tex:626: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.626 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./images/csv.png, id=138, 575.14874pt x 234.8775pt>
+File: ./images/csv.png Graphic file (type png)
+<use ./images/csv.png>
+Package pdftex.def Info: ./images/csv.png  used on input line 629.
+(pdftex.def)             Requested size: 271.7835pt x 110.99095pt.
+[24 <./images/csv.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 647.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 647.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 647.
- [24]
-<./images/ssd.png, id=144, 1427.3325pt x 1047.915pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 654.
+
+
+LaTeX Warning: Citation `Liu2016' undefined on input line 665.
+
+<./images/ssd.png, id=143, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 662.
+Package pdftex.def Info: ./images/ssd.png  used on input line 669.
 (pdftex.def)             Requested size: 317.07614pt x 232.7806pt.
- [25 <./images/ssd.png>]
-Underfull \hbox (badness 1342) in paragraph at lines 682--682
+[25 <./images/ssd.png>]
+Underfull \hbox (badness 1342) in paragraph at lines 689--689
 [][]\OT1/ptm/m/n/10 TensorFlow is an open-source soft-ware li-brary for dataflow pro-gram-ming across a range of tasks.
  []
 
-(/Users/Maen/iium/report/report.bbl [26] [27
+No file report.bbl.
+[26] (/Users/Maen/iium/report/report.aux)
 
-]) [28] (/Users/Maen/iium/report/report.aux) ) 
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17493 strings out of 492649
- 350667 string characters out of 6129622
- 409943 words of memory out of 5000000
- 20971 multiletter control sequences out of 15000+600000
- 51760 words of font info for 97 fonts, out of 8000000 for 9000
+ 17475 strings out of 492649
+ 350211 string characters out of 6129622
+ 408696 words of memory out of 5000000
+ 20961 multiletter control sequences out of 15000+600000
+ 51591 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Maen/iium/report/report.pdf (37 pages, 4175568 bytes).
+ 62i,10n,66p,450b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/Maen/iium/report/report.pdf (34 pages, 4197500 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

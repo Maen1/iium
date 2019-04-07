@@ -33,6 +33,5 @@
 \contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{24}
 \contentsline {section}{\numberline {3.4}Hand detection}{24}
 \contentsline {subsection}{\numberline {3.4.1}Single-Shot Detector (SSD)}{24}
-\contentsline {section}{\numberline {3.5}Voice producing}{25}
+\contentsline {section}{\numberline {3.5}Voice producing}{26}
 \contentsline {section}{\numberline {3.6}Tools}{26}
-\contentsline {chapter}{References}{27}

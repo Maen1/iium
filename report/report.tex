@@ -639,10 +639,10 @@ researchers to construct, train and deploy object detection models \cite{tf_od_a
 The algorithm used in this experiment is MobileNet-SSD as shown 
 in Figure \ref{fig:mobilenetssd}; MobileNet is a base network which use depth-wise 
 separable convolutions to build light weight deep neural networks 
-provide high level features for classification or detection [9], 
+provide high level features for classification or detection, 
 after removing the fully connected layer at the end of the network 
 and replace it with Single Shot Multibox Detector (SSD) one of 
-the most popular algorithm in object detections [10]. 
+the most popular algorithm in object detections \cite{Liu2016}. 
 SSD generates a box with score of presence of each object category 
 and adjusts the box to better match the object shape. In addition SSD 
 eliminates proposal generation and feature resampling stage by 
@@ -654,12 +654,11 @@ with different resolutions to naturally handle objects of various sizes.
     \centering
     \includegraphics[width=\textwidth]{./images/mobilenetssdh.png}
     \caption{MobileNet-SSD  Retrieved from https://hey-yahei.cn/2018/08/08/MobileNets-SSD/}
-    \label{fig:csv}
+    \label{fig:mobilenetssd}
 \end{figure}
 
 
 \section{Hand detection}
-
 The problem of hand recognition that hand occupied usually less than 25 percent of the image.
 To overcome this issue the model should be provided with high accurate detection algorithm,
 Right now there are so many good algorithms for object detection which can be utilize to 

@@ -45,5 +45,7 @@ Google keyboard mechanism to facilitate entry of emoji
 
 ### 5.4 Results
 
-
+* over all performance is adequate.
+* users miss the emoji 19% of the time
+* 16% of the trials jump to a different category more than twice 
 

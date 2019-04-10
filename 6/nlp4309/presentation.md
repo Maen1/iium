@@ -34,3 +34,16 @@ Google keyboard mechanism to facilitate entry of emoji
   * 4:  agreed.
   * 3: strongly agreed.
   * 4: didn't lean either way.
+
+### 4.3 Procedure
+
+* participant we given time to try out the google keyboard before the experiment.
+* participant were shown emoji to enter that are not part of evaluation set.
+* reset google keyboard category state.
+* after entering 10 emoji, the paricipant consederd to be sufficiently familiar with the interface.
+* if participant more than 1 minuite to find an emoji the trail will be aborted. long seach time frustrated the participants.
+
+### 5.4 Results
+
+
+

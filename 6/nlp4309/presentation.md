@@ -10,11 +10,12 @@ Google keyboard mechanism to facilitate entry of emoji
 
 ### 4.1 Challenges when testing emoji keyboards
 
-* the number of emojis is 845  (lv 1 emo)  
-* testing the most common ones, can bias the results.
-* Longitudial study:
-  *  chatting behaviour: only small number of emoji are being typed 
-  * emojys being typed  are dependent with user mode.
+* Problems:
+  * the number of emojis is 845  (lv 1 emo)  
+  * testing the most common ones, can bias the results.
+  * Longitudial study:
+    *  chatting behaviour: only small number of emoji are being typed 
+    * emojys being typed  are dependent with user mode.
 * Solution:
   * Game foramt that allows for control of the task, while still engaging users.
 * Chosing data approach:
@@ -22,3 +23,14 @@ Google keyboard mechanism to facilitate entry of emoji
   * keep only emoji and store how often they occured
     * 502 different emoji
   * log transform the emoji frequency to boot the likelihood for rare appearing emoji.
+
+
+
+### 4.2 Participants
+
+* 12 participant between 21-41.
+* ask the participant whether they often use emoji on their phones on a five-point likert scale:
+  * 1:  strongly disagree.
+  * 4:  agreed.
+  * 3: strongly agreed.
+  * 4: didn't lean either way.

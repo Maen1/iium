@@ -1,3 +1,5 @@
+
+
 | ID   | ONION | POATATO | BURGER | MILK | BEER |
 | ---- | ----- | ------- | ------ | ---- | ---- |
 | t2   | 1     | 1       | 1      | 0    | 0    |
@@ -38,5 +40,9 @@ lift = 1 => no association
 
  
 
+delete values under threshold
+
 use combinatioin to get number of pais = $ \frac{n!}{r!(n-r)!}​$
+
+then delete values under threshold
 

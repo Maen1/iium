@@ -17,7 +17,7 @@ Google keyboard mechanism to facilitate entry of emoji
     *  chatting behaviour: only small number of emoji are being typed 
     * emojys being typed  are dependent with user mode.
 * Solution:
-  * Game foramt that allows for control of the task, while still engaging users.
+  * Game format that allows for control of the task, while still engaging users.
 * Chosing data approach:
   * 10 k tweets contain emoji present on google keyboard (822) emoji.
   * keep only emoji and store how often they occured
@@ -41,7 +41,7 @@ Google keyboard mechanism to facilitate entry of emoji
 * participant were shown emoji to enter that are not part of evaluation set.
 * reset google keyboard category state.
 * after entering 10 emoji, the paricipant consederd to be sufficiently familiar with the interface.
-* if participant more than 1 minuite to find an emoji the trail will be aborted. long seach time frustrated the participants.
+* if participant took more than 1 minuite to find an emoji the trail will be aborted. long seach time frustrated the participants.
 
 ### 5.4 Results
 

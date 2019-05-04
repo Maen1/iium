@@ -402,6 +402,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Users/Maen/iium/report/./images/d_eval.png
+INPUT ./images/d_eval.png
+INPUT ./images/d_eval.png
+INPUT /Users/Maen/iium/report/./images/loss.png
+INPUT ./images/loss.png
+INPUT ./images/loss.png
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm

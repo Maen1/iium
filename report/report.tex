@@ -731,7 +731,37 @@ Engine delivers virtual machines running in Google's innovative data centers and
 worldwide fiber network. https://cloud.google.com/} service with Ubuntu as 
 operating system.
 
+\chapter{Results and analysis}
+According to the results obtained after training the deep learning model for 13587 steps,
+the model being able to detect and identify each and every sign of the 29 signs including 
+the empty one with classification loss 0.143 and localization loss 0.0327
+as shown in figure \ref{fig:d_eval} and figure \ref{fig:loss}
+\bigbreak
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.6\textwidth]{./images/d_eval.png}
+    \caption{Prediction of letter D}
+    \label{fig:d_eval}
+\end{figure} 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{./images/loss.png}
+    \caption{Loss graphs}
+    \label{fig:loss}
+\end{figure}
+
+\chapter{Conclusion and Future Work}
+The ability of Communication is the base Right to each individual in society,
+and it's our responsibility to help and interact with hearing-impaired people,
+so they can feel that they are an important part in the world.
+This model improves the interaction between the hearing-impaired people 
+and the healthy people by recognition the hand gestures of American Sign Language (ASL)
+then pronouncing it as sound in real time. Future work will focus on 
+further improvement of the deep learning model by increasing the training time 
+and the used dataset size and quality, alongside with adding gestures for numbers 
+and complete words.
 \renewcommand\bibname{References}            
 \bibliography{scope.bib}
 \bibliographystyle{apacite}

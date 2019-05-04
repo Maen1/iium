@@ -34,9 +34,8 @@
 \contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{23}
 \contentsline {section}{\numberline {3.5}algorithm}{23}
 \contentsline {section}{\numberline {3.6}Hand detection}{24}
-\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{24}
-\contentsline {section}{\numberline {3.7}Voice producing}{25}
-\contentsline {section}{\numberline {3.8}Tools}{26}
-\contentsline {chapter}{\numberline {4}Results and analysis}{28}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{30}
-\contentsline {chapter}{References}{31}
+\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{25}
+\contentsline {section}{\numberline {3.7}Voice producing}{26}
+\contentsline {chapter}{\numberline {4}Results and analysis}{27}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{29}
+\contentsline {chapter}{References}{30}

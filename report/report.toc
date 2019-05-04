@@ -24,19 +24,19 @@
 \contentsline {subsubsection}{Fully Connected Layer(FC):}{12}
 \contentsline {subsubsection}{Softmax:}{12}
 \contentsline {section}{\numberline {2.4}Previous works}{12}
-\contentsline {section}{\numberline {2.5}Summary}{19}
-\contentsline {chapter}{\numberline {3}Methodology}{20}
-\contentsline {section}{\numberline {3.1}Environment}{21}
-\contentsline {section}{\numberline {3.2}Data set}{21}
-\contentsline {section}{\numberline {3.3}Image processing}{23}
-\contentsline {subsection}{\numberline {3.3.1}Image annotation}{23}
-\contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{24}
-\contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{24}
-\contentsline {section}{\numberline {3.5}algorithm}{24}
-\contentsline {section}{\numberline {3.6}Hand detection}{25}
-\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{25}
-\contentsline {section}{\numberline {3.7}Voice producing}{26}
-\contentsline {section}{\numberline {3.8}Tools}{27}
-\contentsline {chapter}{\numberline {4}Results and analysis}{29}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{31}
-\contentsline {chapter}{References}{32}
+\contentsline {section}{\numberline {2.5}Summary}{18}
+\contentsline {chapter}{\numberline {3}Methodology}{19}
+\contentsline {section}{\numberline {3.1}Environment}{20}
+\contentsline {section}{\numberline {3.2}Data set}{20}
+\contentsline {section}{\numberline {3.3}Image processing}{22}
+\contentsline {subsection}{\numberline {3.3.1}Image annotation}{22}
+\contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{23}
+\contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{23}
+\contentsline {section}{\numberline {3.5}algorithm}{23}
+\contentsline {section}{\numberline {3.6}Hand detection}{24}
+\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{24}
+\contentsline {section}{\numberline {3.7}Voice producing}{25}
+\contentsline {section}{\numberline {3.8}Tools}{26}
+\contentsline {chapter}{\numberline {4}Results and analysis}{28}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{30}
+\contentsline {chapter}{References}{31}

@@ -337,9 +337,6 @@ INPUT ./images/pool.png
 INPUT /Users/Maen/iium/report/./images/c_cnn.jpeg
 INPUT ./images/c_cnn.jpeg
 INPUT ./images/c_cnn.jpeg
-INPUT /Users/Maen/iium/report/./images/tiny_a.png
-INPUT ./images/tiny_a.png
-INPUT ./images/tiny_a.png
 INPUT /Users/Maen/iium/report/./images/tiny_b.png
 INPUT ./images/tiny_b.png
 INPUT ./images/tiny_b.png

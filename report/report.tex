@@ -32,16 +32,24 @@
 
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 
+\usepackage{enumitem}
+\let\svitem\item%
+\def\mybox#1{\makebox[2cm][l]{\bfseries#1}}
+\newenvironment{leftitemize}
+{\renewcommand\item[1][$\bullet$]{\svitem[\mybox{##1}]}%
+  \begin{itemize}[leftmargin=\dimexpr2cm+\labelsep]}{\end{itemize}}
+
 \begin{document}
 \begin{titlepage}
     \center
     \includegraphics[width = 15 cm]{./images/iium.png}
     \textsc{\LARGE }\\[1 cm]
-    \textsc{\LARGE kulliyyah of information and}\\[.1 cm]
-    \textsc{\LARGE communication technology}\\[1 cm]
-    \textsc{\Large department of computer science}\\ [ .2 cm]
-    \textsc{\large FINAL YEAR PROJECT REPORT}\\ [1.5 cm]
-    \textsc{\Large sign language recognition using deep learning}\\ [1.5 cm]
+    \textsc{\huge {\textbf{kulliyyah of information and}}}\\[.1 cm]
+    \textsc{\huge {\textbf{communication technology}}}\\[.5 cm]
+    \textsc{\huge {\textbf{department of computer science}}}\\ [ 1.5 cm]
+    \textsc{\large FINAL YEAR PROJECT REPORT}\\ [1 cm]
+    \textsc{\Large {\textbf{sign language recognition using deep learning}}}\\ [1.5 cm]
+
     
     \textsc{\large mhd khaled maen}\\[.1 cm]
     \textsc{1523591}\\ [1 cm]
@@ -50,16 +58,16 @@
     \textsc{\large supervised by}\\[.1 cm]
     \textsc{\large assoc. prof. dr. amelia ritahani}\\[2 cm]
     
-    \textsc{\large may} 2019\\ [.2 cm]
+    \textsc{\large may} 2019\\
     \textsc{\large semester} 2, 2018 / 2019 \\
     
 \end{titlepage}
 
 \begin{titlepage}
     \center
-    \textsc{\Huge FINAL YEAR PROJECT REPORT}\\ [1.5 cm]
+    \textsc{\huge {\textbf{FINAL YEAR PROJECT REPORT}}}\\ [1.5 cm]
   
-    \textsc{\LARGE sign language recognition using deep learning}\\ [1 cm]
+    \textsc{\LARGE {\textbf{sign language recognition using deep learning}}}\\ [1 cm]
     
     {\large By}\\ [1 cm]
     
@@ -85,7 +93,8 @@
 \pagenumbering{roman}
 % \maketitle
 \begin{center}
-    \LARGE DECLARATION
+    \huge {\textbf{DECLARATION}}    
+
 \end{center}   
 
 I hear by declare that this report is the result of my own investigations,
@@ -158,7 +167,6 @@ Last but not least, I want to thank my awesome parents for their support and tim
 helping me reach the end of my undergraduate study, without them, I could not achieve that.
 
 
-\setcounter{page}{2} 
 \renewcommand{\contentsname}{TABLE OF CONTENTS}
 \tableofcontents
 \renewcommand*\listtablename{LIST OF TABLES} 
@@ -166,33 +174,36 @@ helping me reach the end of my undergraduate study, without them, I could not ac
 \renewcommand*\listfigurename{LIST OF FIGURES} 
 \listoffigures
 \newpage
-\newpage
 \begin{center}
-    \huge{\textbf{LIST OF ABBREVIATIONS}}
+    \huge{\textbf{LIST OF ABBREVIATIONS}} 
+    \newline
 \end{center} 
 
-\textbf{FYP }   \tab(Final Year Project) \par
-\textbf{CNN }   \tab(Convolutional Neural Network) \par 
-\textbf{ASL }   \tab(American Sign Language) \par 
-\textbf{DP}     \tab(Deep Learning) \par 
-\textbf{ReLU}   \tab (Rectified Linear Unit) \par 
-\textbf{FC}     \tab (Fully Connected Layer) \par 
-\textbf{MC}     \tab (Multi Channel ) \par 
-\textbf{GCP}    \tab (Google Cloud Platform) \par 
-\textbf{GCE}    \tab (Google Compute Engine) \par 
-\textbf{VM}     \tab (Virtual Machine) \par 
-\textbf{Iaas}   \tab (Infrastructure as a Service) \par 
-\textbf{CLI}    \tab (command Line interface) \par 
-\textbf{API}    \tab (Application Programming Interface) \par
-\textbf{GPU}    \tab (Graphics Processing Unit) \par
-\textbf{CPU}    \tab (Central Processing Unit) \par
-\textbf{XML}    \tab (eXtensible Mark-up Language) \par
-\textbf{CSV}    \tab (Comma Separated Values) \par
-\textbf{SSD}    \tab (Single Shot Detection) \par
+
+\begin{leftitemize}
+    \item[CNN]       (Convolutional Neural Network)  
+    \item[FYP]       (Final Year Project) 
+    \item[ASL]       (American Sign Language)  
+    \item[DP]        (Deep Learning) 
+    \item[ReLU]      (Rectified Linear Unit)  
+    \item[MC]        (Multi Channel ) 
+    \item[FC]        (Fully Connected Layer) 
+    \item[GCP]       (Google Cloud Platform)  
+    \item[GCE]       (Google Compute Engine)  
+    \item[VM]        (Virtual Machine) 
+    \item[IaaS]      (Infrastructure as a Service) 
+    \item[CLI]       (command Line interface) 
+    \item[API]       (Application Programming Interface) 
+    \item[GPU]       (Graphics Processing Unit) 
+    \item[CPU]       (Central Processing Unit) 
+    \item[XML]       (eXtensible Mark-up Language) 
+    \item[CSV]       (Comma Separated Values) 
+    \item[SSD]       (Single Shot Detection) 
+\end{leftitemize}
+\newpage
 
 
-
-
+% \setcounter{page}{1} 
 \pagenumbering{arabic}
 \chapter{Introduction} 
 

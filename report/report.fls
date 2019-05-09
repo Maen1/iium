@@ -157,10 +157,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.c
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
@@ -240,6 +242,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
@@ -298,7 +306,6 @@ INPUT ./images/sign_language.png
 INPUT /Users/Maen/iium/report/./images/deep_learning.png
 INPUT ./images/deep_learning.png
 INPUT ./images/deep_learning.png
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /Users/Maen/iium/report/./images/sigmoid.png
 INPUT ./images/sigmoid.png
@@ -405,6 +412,9 @@ INPUT ./images/d_eval.png
 INPUT /Users/Maen/iium/report/./images/loss.png
 INPUT ./images/loss.png
 INPUT ./images/loss.png
+INPUT /Users/Maen/iium/report/./images/github.png
+INPUT ./images/github.png
+INPUT ./images/github.png
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /Users/Maen/iium/report/report.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm

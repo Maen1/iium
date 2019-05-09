@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  10 MAY 2019 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.4)  10 MAY 2019 01:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,12 +388,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count139
+\c@@ppsavesec=\count140
+\c@@ppsaveapp=\count141
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count139
-\c@subtable=\count140
+\c@subfigure=\count142
+\c@subtable=\count143
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks32
@@ -406,10 +411,10 @@ File: switch.def 2018/02/14 3.18 Babel switching mechanism
 Language: english 2017/06/06 v3.3r English support from the babel system
  (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count141
+\babel@savecnt=\count144
 \U@D=\dimen168
  (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count142
+\bbl@dirlevel=\count145
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -450,9 +455,9 @@ Package ifvtex Info: VTeX not detected.
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count143
-\Gm@cntv=\count144
-\c@Gm@tempcnt=\count145
+\Gm@cnth=\count146
+\Gm@cntv=\count147
+\c@Gm@tempcnt=\count148
 \Gm@bindingoffset=\dimen169
 \Gm@wd@mp=\dimen170
 \Gm@odd@mp=\dimen171
@@ -485,33 +490,33 @@ Package geometry Warning: Over-specification in `v'-direction.
 (/Users/Maen/iium/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
+\scratchcounter=\count149
 \scratchdimen=\dimen182
 \scratchbox=\box42
-\nofMPsegments=\count147
-\nofMParguments=\count148
+\nofMPsegments=\count150
+\nofMParguments=\count151
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count149
+\MPscratchCnt=\count152
 \MPscratchDim=\dimen183
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
+\MPnumerator=\count153
+\makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -551,7 +556,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@maskedRefs=\count152
+\c@maskedRefs=\count155
  (/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -560,7 +565,7 @@ LaTeX Info: Redefining \BHBI on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 32.
+LaTeX Info: Redefining \selectfont on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -599,15 +604,15 @@ LaTeX Info: Redefining \selectfont on input line 32.
 <./images/iium.png, id=4, 642.7212pt x 160.9212pt>
 File: ./images/iium.png Graphic file (type png)
 <use ./images/iium.png>
-Package pdftex.def Info: ./images/iium.png  used on input line 35.
+Package pdftex.def Info: ./images/iium.png  used on input line 36.
 (pdftex.def)             Requested size: 426.79134pt x 106.85655pt.
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>] [1] [2] [3] [2]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/iium.png>] [1] [1] [2] [3] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
  (/Users/Maen/iium/report/report.toc
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -650,87 +655,87 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 179.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 207.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
  [2] [3]
 Chapter 2.
-<./images/sign_language.png, id=53, 2559.5625pt x 3312.375pt>
+<./images/sign_language.png, id=56, 2559.5625pt x 3312.375pt>
 File: ./images/sign_language.png Graphic file (type png)
 <use ./images/sign_language.png>
-Package pdftex.def Info: ./images/sign_language.png  used on input line 228.
+Package pdftex.def Info: ./images/sign_language.png  used on input line 256.
 (pdftex.def)             Requested size: 452.9679pt x 586.19434pt.
 [4
 
 ] [5 <./images/sign_language.png (PNG copy)>]
-<./images/deep_learning.png, id=60, 516.93124pt x 397.485pt>
+<./images/deep_learning.png, id=63, 516.93124pt x 397.485pt>
 File: ./images/deep_learning.png Graphic file (type png)
 <use ./images/deep_learning.png>
-Package pdftex.def Info: ./images/deep_learning.png  used on input line 245.
+Package pdftex.def Info: ./images/deep_learning.png  used on input line 273.
 (pdftex.def)             Requested size: 452.9679pt x 348.31406pt.
  [6 <./images/deep_learning.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 257.
-<./images/sigmoid.png, id=64, 602.25pt x 401.5pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 285.
+<./images/sigmoid.png, id=67, 602.25pt x 401.5pt>
 File: ./images/sigmoid.png Graphic file (type png)
 <use ./images/sigmoid.png>
-Package pdftex.def Info: ./images/sigmoid.png  used on input line 272.
+Package pdftex.def Info: ./images/sigmoid.png  used on input line 300.
 (pdftex.def)             Requested size: 271.7835pt x 181.19406pt.
  [7 <./images/sigmoid.png>]
-<./images/tanh.png, id=71, 401.5pt x 301.125pt>
+<./images/tanh.png, id=74, 401.5pt x 301.125pt>
 File: ./images/tanh.png Graphic file (type png)
 <use ./images/tanh.png>
-Package pdftex.def Info: ./images/tanh.png  used on input line 283.
+Package pdftex.def Info: ./images/tanh.png  used on input line 311.
 (pdftex.def)             Requested size: 226.48395pt x 169.86484pt.
-<./images/relu.jpeg, id=72, 312.16624pt x 210.7875pt>
+<./images/relu.jpeg, id=75, 312.16624pt x 210.7875pt>
 File: ./images/relu.jpeg Graphic file (type jpg)
 <use ./images/relu.jpeg>
-Package pdftex.def Info: ./images/relu.jpeg  used on input line 294.
+Package pdftex.def Info: ./images/relu.jpeg  used on input line 322.
 (pdftex.def)             Requested size: 226.48395pt x 152.93442pt.
  [8 <./images/tanh.png (PNG copy)> <./images/relu.jpeg>] [9] [10]
-<./images/pool.png, id=84, 572.1375pt x 331.2375pt>
+<./images/pool.png, id=87, 572.1375pt x 331.2375pt>
 File: ./images/pool.png Graphic file (type png)
 <use ./images/pool.png>
-Package pdftex.def Info: ./images/pool.png  used on input line 373.
+Package pdftex.def Info: ./images/pool.png  used on input line 401.
 (pdftex.def)             Requested size: 362.37569pt x 209.79771pt.
  [11 <./images/pool.png (PNG copy)>]
-<./images/c_cnn.jpeg, id=88, 1259.70625pt x 425.59pt>
+<./images/c_cnn.jpeg, id=91, 1259.70625pt x 425.59pt>
 File: ./images/c_cnn.jpeg Graphic file (type jpg)
 <use ./images/c_cnn.jpeg>
-Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 392.
+Package pdftex.def Info: ./images/c_cnn.jpeg  used on input line 420.
 (pdftex.def)             Requested size: 452.9679pt x 153.03044pt.
  [12 <./images/c_cnn.jpeg>]
-<./images/tiny_b.png, id=92, 439.14063pt x 441.65pt>
+<./images/tiny_b.png, id=95, 439.14063pt x 441.65pt>
 File: ./images/tiny_b.png Graphic file (type png)
 <use ./images/tiny_b.png>
-Package pdftex.def Info: ./images/tiny_b.png  used on input line 421.
+Package pdftex.def Info: ./images/tiny_b.png  used on input line 449.
 (pdftex.def)             Requested size: 362.37569pt x 364.45334pt.
  [13 <./images/tiny_b.png>]
-<./images/selfie.png, id=97, 1083.04625pt x 338.26375pt>
+<./images/selfie.png, id=100, 1083.04625pt x 338.26375pt>
 File: ./images/selfie.png Graphic file (type png)
 <use ./images/selfie.png>
-Package pdftex.def Info: ./images/selfie.png  used on input line 442.
+Package pdftex.def Info: ./images/selfie.png  used on input line 470.
 (pdftex.def)             Requested size: 452.9679pt x 141.47107pt.
-<images/vgg16.png, id=98, 471.7625pt x 277.035pt>
+<images/vgg16.png, id=101, 471.7625pt x 277.035pt>
 File: images/vgg16.png Graphic file (type png)
 <use images/vgg16.png>
-Package pdftex.def Info: images/vgg16.png  used on input line 462.
+Package pdftex.def Info: images/vgg16.png  used on input line 490.
 (pdftex.def)             Requested size: 407.66833pt x 239.39948pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/alexnet.png, id=99, 123.3408pt x 50.95035pt>
+<images/alexnet.png, id=102, 123.3408pt x 50.95035pt>
 File: images/alexnet.png Graphic file (type png)
 <use images/alexnet.png>
-Package pdftex.def Info: images/alexnet.png  used on input line 468.
+Package pdftex.def Info: images/alexnet.png  used on input line 496.
 (pdftex.def)             Requested size: 362.37569pt x 149.7261pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -738,15 +743,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [14
 
  <./images/selfie.png>] [15 </Users/Maen/iium/report/images/vgg16.png (PNG copy)> </Users/Maen/iium/report/images/alexnet.png>]
-<images/depth_cnn.png, id=108, 1042.89626pt x 396.48125pt>
+<images/depth_cnn.png, id=111, 1042.89626pt x 396.48125pt>
 File: images/depth_cnn.png Graphic file (type png)
 <use images/depth_cnn.png>
-Package pdftex.def Info: images/depth_cnn.png  used on input line 488.
+Package pdftex.def Info: images/depth_cnn.png  used on input line 516.
 (pdftex.def)             Requested size: 452.9679pt x 172.2078pt.
-<images/m_cnn.png, id=109, 804.00375pt x 398.48875pt>
+<images/m_cnn.png, id=112, 804.00375pt x 398.48875pt>
 File: images/m_cnn.png Graphic file (type png)
 <use images/m_cnn.png>
-Package pdftex.def Info: images/m_cnn.png  used on input line 507.
+Package pdftex.def Info: images/m_cnn.png  used on input line 535.
 (pdftex.def)             Requested size: 452.9679pt x 224.50203pt.
 
 
@@ -758,50 +763,50 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Chapter 3.
-<./images/system_diagram.png, id=121, 1310.8975pt x 467.7475pt>
+<./images/system_diagram.png, id=124, 1310.8975pt x 467.7475pt>
 File: ./images/system_diagram.png Graphic file (type png)
 <use ./images/system_diagram.png>
-Package pdftex.def Info: ./images/system_diagram.png  used on input line 558.
+Package pdftex.def Info: ./images/system_diagram.png  used on input line 586.
 (pdftex.def)             Requested size: 452.9679pt x 161.62285pt.
 [19
 
  <./images/system_diagram.png>]
-<./images/letter_k.jpg, id=126, 200.75pt x 200.75pt>
+<./images/letter_k.jpg, id=129, 200.75pt x 200.75pt>
 File: ./images/letter_k.jpg Graphic file (type jpg)
 <use ./images/letter_k.jpg>
-Package pdftex.def Info: ./images/letter_k.jpg  used on input line 589.
+Package pdftex.def Info: ./images/letter_k.jpg  used on input line 617.
 (pdftex.def)             Requested size: 452.9679pt x 453.03723pt.
  [20
 
 ] [21 <./images/letter_k.jpg>]
-<./images/annotation.png, id=134, 626.34pt x 741.77126pt>
+<./images/annotation.png, id=137, 626.34pt x 741.77126pt>
 File: ./images/annotation.png Graphic file (type png)
 <use ./images/annotation.png>
-Package pdftex.def Info: ./images/annotation.png  used on input line 609.
+Package pdftex.def Info: ./images/annotation.png  used on input line 637.
 (pdftex.def)             Requested size: 271.7835pt x 321.8756pt.
  [22 <./images/annotation.png>]
-<./images/csv.png, id=139, 575.14874pt x 234.8775pt>
+<./images/csv.png, id=142, 575.14874pt x 234.8775pt>
 File: ./images/csv.png Graphic file (type png)
 <use ./images/csv.png>
-Package pdftex.def Info: ./images/csv.png  used on input line 622.
+Package pdftex.def Info: ./images/csv.png  used on input line 650.
 (pdftex.def)             Requested size: 362.37569pt x 147.99152pt.
  [23 <./images/csv.png>]
-<./images/mobilenetssdh.png, id=144, 1762.585pt x 710.655pt>
+<./images/mobilenetssdh.png, id=147, 1762.585pt x 710.655pt>
 File: ./images/mobilenetssdh.png Graphic file (type png)
 <use ./images/mobilenetssdh.png>
-Package pdftex.def Info: ./images/mobilenetssdh.png  used on input line 648.
+Package pdftex.def Info: ./images/mobilenetssdh.png  used on input line 676.
 (pdftex.def)             Requested size: 452.9679pt x 182.62973pt.
  [24 <./images/mobilenetssdh.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 674.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 702.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 674.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 702.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 674.
-<./images/ssd.png, id=149, 1427.3325pt x 1047.915pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 702.
+<./images/ssd.png, id=152, 1427.3325pt x 1047.915pt>
 File: ./images/ssd.png Graphic file (type png)
 <use ./images/ssd.png>
-Package pdftex.def Info: ./images/ssd.png  used on input line 689.
+Package pdftex.def Info: ./images/ssd.png  used on input line 717.
 (pdftex.def)             Requested size: 452.9679pt x 332.5574pt.
 
 
@@ -809,23 +814,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25] [26 <./images/ssd.png>]
 Chapter 4.
-<./images/d_eval.png, id=156, 200.75pt x 200.75pt>
+<./images/d_eval.png, id=160, 200.75pt x 200.75pt>
 File: ./images/d_eval.png Graphic file (type png)
 <use ./images/d_eval.png>
-Package pdftex.def Info: ./images/d_eval.png  used on input line 711.
+Package pdftex.def Info: ./images/d_eval.png  used on input line 739.
 (pdftex.def)             Requested size: 271.7835pt x 271.82478pt.
-<./images/loss.png, id=157, 719.18687pt x 626.84187pt>
+<./images/loss.png, id=161, 719.18687pt x 626.84187pt>
 File: ./images/loss.png Graphic file (type png)
 <use ./images/loss.png>
-Package pdftex.def Info: ./images/loss.png  used on input line 718.
+Package pdftex.def Info: ./images/loss.png  used on input line 746.
 (pdftex.def)             Requested size: 452.9679pt x 394.81682pt.
 [27
 
  <./images/d_eval.png (PNG copy)>] [28 <./images/loss.png>]
 Chapter 5.
-(/Users/Maen/iium/report/report.bbl [29
+[29
 
-] [30
+]
+<./images/github.png, id=172, 1280.785pt x 676.5275pt>
+File: ./images/github.png Graphic file (type png)
+<use ./images/github.png>
+Package pdftex.def Info: ./images/github.png  used on input line 769.
+(pdftex.def)             Requested size: 452.9679pt x 239.25536pt.
+ (/Users/Maen/iium/report/report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 764--1
+\OT1/ptm/m/n/12 open-source com-mu-nity.
+ []
+
+[30
+
+ <./images/github.png>] [31
 
 ]
 Underfull \hbox (badness 5119) in paragraph at lines 244--257
@@ -837,20 +855,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--257
 \OT1/ptm/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// github [] .com / tensorflow / models / tree / master / research /
  []
 
-) [31] (/Users/Maen/iium/report/report.aux) ) 
+) [32] (/Users/Maen/iium/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 17520 strings out of 492649
- 351133 string characters out of 6129622
- 410105 words of memory out of 5000000
- 20993 multiletter control sequences out of 15000+600000
- 52095 words of font info for 99 fonts, out of 8000000 for 9000
+ 17624 strings out of 492649
+ 352672 string characters out of 6129622
+ 411518 words of memory out of 5000000
+ 21091 multiletter control sequences out of 15000+600000
+ 54897 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,66p,450b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/Maen/iium/report/report.pdf (41 pages, 4442878 bytes).
+Output written on /Users/Maen/iium/report/report.pdf (43 pages, 4855739 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

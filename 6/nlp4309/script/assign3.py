@@ -13,10 +13,10 @@ def percentage (part , whole ) :
 
 
 #  here for authantication 
-consumerKey="CiJYoV4Vk0MZRuBzaTBEQEz49"
-consumerSecret="eQKooUE7LYnIoA61Ir68sRYAEFRcrBG9CAaFgrSXDkLEzoAmQ1"
-acessToken="1001593687-850KKqeexTib7YpeXqnLWzIUpzfktFhDetwQw2i"
-acessTokenSecret="D1VzWnS9sdoMA3VSivVzGh2kub5ozRxKXnPhmuUJP8N52"
+consumerKey="#"
+consumerSecret="#"
+acessToken="#"
+acessTokenSecret="#"
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(acessToken, acessTokenSecret)
 api = tweepy.API(auth)

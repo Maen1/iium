@@ -1,42 +1,42 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Background}{1}
-\contentsline {section}{\numberline {1.2}Problem Statement}{2}
-\contentsline {section}{\numberline {1.3}Objectives}{2}
-\contentsline {section}{\numberline {1.4}Scope}{2}
-\contentsline {section}{\numberline {1.5}Significance}{3}
-\contentsline {section}{\numberline {1.6}Timeline}{3}
-\contentsline {chapter}{\numberline {2}Literature review}{4}
-\contentsline {section}{\numberline {2.1}Sign Language}{4}
-\contentsline {section}{\numberline {2.2}Deep Learning}{6}
-\contentsline {subsection}{\numberline {2.2.1}Activation Function}{7}
-\contentsline {subsubsection}{Sigmoid Function:}{7}
-\contentsline {subsubsection}{Tanh Function:}{8}
-\contentsline {subsubsection}{ReLU Function:}{8}
-\contentsline {subsection}{\numberline {2.2.2}Weights}{9}
-\contentsline {subsection}{\numberline {2.2.3}Bias}{9}
-\contentsline {section}{\numberline {2.3}Convolutional Neural Networks}{9}
-\contentsline {subsection}{\numberline {2.3.1}Feature Learning}{10}
-\contentsline {subsubsection}{CONV layer:}{10}
-\contentsline {subsubsection}{ReLU layer:}{11}
-\contentsline {subsubsection}{Pool Layer:}{11}
-\contentsline {subsection}{\numberline {2.3.2}Classification}{12}
-\contentsline {subsubsection}{Fully Connected Layer(FC):}{12}
-\contentsline {subsubsection}{Softmax:}{12}
-\contentsline {section}{\numberline {2.4}Previous works}{12}
-\contentsline {section}{\numberline {2.5}Summary}{18}
-\contentsline {chapter}{\numberline {3}Methodology}{19}
-\contentsline {section}{\numberline {3.1}Environment}{20}
-\contentsline {section}{\numberline {3.2}Data set}{20}
-\contentsline {section}{\numberline {3.3}Image processing}{22}
-\contentsline {subsection}{\numberline {3.3.1}Image annotation}{22}
-\contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{23}
-\contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{23}
-\contentsline {section}{\numberline {3.5}algorithm}{23}
-\contentsline {section}{\numberline {3.6}Hand detection}{24}
-\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{25}
-\contentsline {section}{\numberline {3.7}Voice producing}{26}
-\contentsline {chapter}{\numberline {4}Results and analysis}{27}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{29}
-\contentsline {chapter}{APPENDIX I}{30}
-\contentsline {chapter}{References}{31}
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Background}{2}
+\contentsline {section}{\numberline {1.2}Problem Statement}{3}
+\contentsline {section}{\numberline {1.3}Objectives}{3}
+\contentsline {section}{\numberline {1.4}Scope}{3}
+\contentsline {section}{\numberline {1.5}Significance}{4}
+\contentsline {section}{\numberline {1.6}Timeline}{4}
+\contentsline {chapter}{\numberline {2}Literature review}{5}
+\contentsline {section}{\numberline {2.1}Sign Language}{5}
+\contentsline {section}{\numberline {2.2}Deep Learning}{7}
+\contentsline {subsection}{\numberline {2.2.1}Activation Function}{8}
+\contentsline {subsubsection}{Sigmoid Function:}{8}
+\contentsline {subsubsection}{Tanh Function:}{9}
+\contentsline {subsubsection}{ReLU Function:}{9}
+\contentsline {subsection}{\numberline {2.2.2}Weights}{10}
+\contentsline {subsection}{\numberline {2.2.3}Bias}{10}
+\contentsline {section}{\numberline {2.3}Convolutional Neural Networks}{10}
+\contentsline {subsection}{\numberline {2.3.1}Feature Learning}{11}
+\contentsline {subsubsection}{CONV layer:}{11}
+\contentsline {subsubsection}{ReLU layer:}{12}
+\contentsline {subsubsection}{Pool Layer:}{12}
+\contentsline {subsection}{\numberline {2.3.2}Classification}{13}
+\contentsline {subsubsection}{Fully Connected Layer(FC):}{13}
+\contentsline {subsubsection}{Softmax:}{13}
+\contentsline {section}{\numberline {2.4}Previous works}{13}
+\contentsline {section}{\numberline {2.5}Summary}{19}
+\contentsline {chapter}{\numberline {3}Methodology}{20}
+\contentsline {section}{\numberline {3.1}Environment}{21}
+\contentsline {section}{\numberline {3.2}Data set}{21}
+\contentsline {section}{\numberline {3.3}Image processing}{23}
+\contentsline {subsection}{\numberline {3.3.1}Image annotation}{23}
+\contentsline {subsection}{\numberline {3.3.2}XML to Comma Separated Values (CSV)}{24}
+\contentsline {section}{\numberline {3.4}TensorFlow Object Detection API}{24}
+\contentsline {section}{\numberline {3.5}algorithm}{24}
+\contentsline {section}{\numberline {3.6}Hand detection}{25}
+\contentsline {subsection}{\numberline {3.6.1}Single-Shot Detector (SSD)}{26}
+\contentsline {section}{\numberline {3.7}Voice producing}{27}
+\contentsline {chapter}{\numberline {4}Results and analysis}{28}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{30}
+\contentsline {chapter}{APPENDIX I}{31}
+\contentsline {chapter}{References}{32}

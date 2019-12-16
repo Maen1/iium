@@ -1,4 +1,4 @@
-### FIT
+### Fit
 
 1. Problem-solution fit: have evidence that customers care about certain jobs, pain and gain
    * Documenting  plan A: Reasonably smart people can rationalize anything but entrepreneurs are especially gifted at this.
@@ -6,7 +6,7 @@
      * BM: single digram of business
      * BP: document investors make you write that they dont read.
    * formulate an implementation strategy.("facebook focus on strategy not vision")
-   * Hone in the early adapters first: early adapters define teh business model.
+   * Hone in the early adapters first: early adapters define the business model.
    * Build an Minimum varibale product (MVP): the smallest solution that delives customer value.
 2. Early Traction:  Have I built something people want?
    * In God we trust, all others bring data "W. Edwards Deming"
@@ -35,16 +35,14 @@ Some business models work only with a combination of several value propositions 
 
 1. Intermediary: 
 
-   When a business sells a product or service through an intermediary, it effectively needs to cater to two customers: the end customer and the intermediary itself. Without a clear value proposition to the intermediary, the offer might not reach the end customer at all, or at least not with the same
-
-   impact.
+   When a business sells a product or service through an intermediary, it effectively needs to cater to two customers: the end customer and the intermediary itself. Without a clear value proposition to the intermediary, the offer might not reach the end customer at all, or at least not with the same impact.
 
 2. Platforms:
 
-   Platforms function only when two or more actors interact and draw value
+   Platforms function only when two or more actors interact and draw value within the same interdependent business model. Platforms are called doublesided when there are two such actors and multisided when there are more thantwo. A platform exists only when all sides are present in the model.
+   
+3. Business to Business:
 
-   within the same interdependent business model. Platforms are called doublesided
+   Organizations are customers that are composed of different stakeholders who all have different jobs, pains and gains. Consider making Value Proposition Canvas for each one.
 
-   when there are two such actors and multisided when there are more than
-
-   two. A platform exists only when all sides are present in the model.
+   (Decision makers, Economic buyers, Recommenders, Influencers, End users)
